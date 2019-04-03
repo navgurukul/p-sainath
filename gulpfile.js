@@ -90,14 +90,14 @@ gulp.task('media', function () {
 
 // Places font files in the dist folder
 gulp.task('font', function () {
-    return gulp.src('src/assets/fonts/**/*.+(eot|woff|ttf|otf)')
+    return gulp.src('src/assets/fonts/*.+(eot|woff|ttf|otf|woff2)')
         .pipe(gulp.dest("dist/assets/fonts"))
         .pipe(browserSync.stream());
 });
 
 // Concatenating js files
 gulp.task('scripts', function () {
-    return gulp.src('src/assets/js/app.js')
+    return gulp.src('src/assets/js/*.js')
         .pipe(sourcemaps.init())
         //If concatenating more than one JS file
         //.pipe(concat('app.js'))

@@ -108,7 +108,8 @@ p {
 	margin-top:15px;
 }
 .bg-primary {
-	background-color:#f05f40;
+    background-color:#f05f40 !important;
+    color: white;
 }
 .bg-dark {
 	color:#ccc;
@@ -142,6 +143,16 @@ aside {
 	-webkit-transition:all .35s;
 	-moz-transition:all .35s;
 	transition:all .35s;
+}
+.navbar {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #222;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f05f40 !important;
 }
 .navbar-default .navbar-header .navbar-brand {
 	/*text-transform:uppercase;*/
