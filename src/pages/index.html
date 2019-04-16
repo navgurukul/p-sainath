@@ -1,7 +1,7 @@
 <!-- Section Intro Slider
 ================================================== -->
-<img data-video="dLVT1fJeWHI" alt="Play this video" src="{{root}}assets/img/coverbg.jpg">
-<div style="display: hidden;" id="videoP"></div>
+<img data-video="dLVT1fJeWHI" alt="Play this video" style="background:url({{root}}assets/img/coverbg.jpg); position:relative; min-height:450px; min-width:100%; max-width: 100%; cursor: pointer;" id="imageP">
+<img src="{{root}}assets/img/playicon.png" style="position:absolute; top:80px; left: 20px; width: 90px; cursor: pointer;"/>
 <!-- <div id="carousel-example-generic" class="carousel intro slide">
         <div class="carousel-inner" role="listbox">
             <div class="item active" style="background-image:url({{root}}assets/img/coverbg.jpg)">
@@ -26,26 +26,37 @@
         <div class="col-12 text-center box bg-darkgray pt-3 pb-2">
         </div>
     </div> -->
+    <div class="container-fluid">
     <div class="row equal-heights w-middle">
         <div class="col-md-4 bg-gray">
             <div class="box text-center">
-                <h5>Intensive program without any fees during the course at par with B.Tech (CS or IT) degree with better placements</h5>
+                <h5 class="wow flipInX">Intensive program without any fees during the course at par with B.Tech (CS or IT) degree with better placements</h5>
             </div>
         </div>
         <div class="col-md-4 bg-darkgray">
             <div class="box text-center">
-                <h4>Call our helpline number - <b>011 4084 6385</b> now to join.</h4>
+                <h4 class="wow flipInX">Call our helpline number - <b>011 4084 6385</b> now to join.</h4>
                 <!-- <h5>One year residential program leading to high-growth careers.</h5> -->
             </div>
         </div>
         <div class="col-md-4 bg-gray">
             <div class="box text-center">
-                <h5>
+                <h5 class="wow flipInX">
                     Creating local problem solvers with the right tools &amp; understanding.
                 </h5>
             </div>
         </div>
     </div>
+    </div>
+
+    <div style="display: hidden;" class="videoP"></div>
+    <div style="display: hidden;" class="videoP"></div>
+    <div style="display: hidden;" class="videoP"></div>
+    <div style="display: hidden;" class="videoP"></div>
+    <div style="display: hidden;" class="videoP"></div>
+    <div style="display: hidden;" class="videoP"></div>
+    <div style="display: hidden;" class="videoP"></div>
+    <div style="display: hidden;" class="videoP"></div>
     
     <!-- Section Team
     ================================================== -->
@@ -89,6 +100,7 @@
             </div>
         </div>
     
+    <div class="container-fluid">
     <div class="equal-heights w-middle row">
         <div class="col-md-4 bg-primary">
             <div class="box">
@@ -108,6 +120,7 @@
                     Our students use their skills to solve the problems that are plaguing their communities. From making simple apps to learn english to social network for farmers, there is a big role our alumni is playing to bring technology to their communities. Our alumni will be an inspiration and examples for locals to understand how learning &amp; opportunities are getting reinvented through Internet.</p>
             </div>
         </div>
+    </div>
     </div>
     </section>
     <div class="clearfix">
@@ -197,25 +210,79 @@
     </div>
 
 <script>
+// var tag = document.createElement('script');
+// tag.src = "//www.youtube.com/iframe_api";
+// var firstScriptTag = document.getElementsByTagName('script')[0];
+// firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+var player;
+var videoId;
+
 document.addEventListener('click', function (event) {
+    // Check if clicked element is a video thumbnail
 
-// Check if clicked element is a video thumbnail
-var videoId = event.target.getAttribute('data-video');
-if (!videoId) return;
+    var videoIdN = event.target.getAttribute('data-video');
+    if (videoIdN) {
+        videoId = videoIdN;
 
-// Create iframe
-var iframe = document.createElement('div');
-iframe.innerHTML = '<p>x</p><iframe width="560" height="315" src="https://www.youtube.com/embed/' + videoId + '?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
-var video = iframe.childNodes[1];
+        // Create iframe
+        var iframe = document.createElement('div');
+        iframe.innerHTML = '<p>x</p><iframe width="0" height="0"  id="youtube_player" class="yt_player_iframe" src="https://www.youtube.com/embed/' + videoId + '?rel=0&autoplay=1&enablejsapi=1&version=3" frameborder="0" allow="autoplay; encrypted-media" allowscriptaccess="always" allowfullscreen></iframe>';
+        var video = iframe.childNodes[1];
 
-// Replace the image with the video
-event.target.parentNode.replaceChild(video, document.getElementById('videoP'));
+        // Replace the image with the video
+        event.target.parentNode.replaceChild(video, document.getElementsByClassName('videoP')[0]);
 
-// Enter fullscreen mode
-video.requestFullscreen();
+        // Enter fullscreen mode
+        video.requestFullscreen();
 
-// event.target.parentNode.replaceChild('<img data-video="dLVT1fJeWHI" alt="Play this video" src="{{root}}assets/img/coverbg.jpg">', event.target);
-// alert(230);
+        // function onYouTubePlayerAPIReady() {
+        //     player = new YT.Player('videoP', {
+        //     //   width: '640',
+        //     //   height: '390',
+        //     //   videoId: '0Bmhjf0rKe8',
+        //     //   allowfullscreen: true,
+        //     //   fullscreen: true,
+        //       events: {
+        //         // onReady: onPlayerReady,
+        //         onStateChange: onPlayerStateChange
+        //       }
+        //     });
+        // }
 
+        // autoplay video
+        // function onPlayerReady(event) {
+        //     // event.target.requestFullscreen();
+        //     event.target.playVideo();
+        // }
+
+        // when video ends
+        // var done = false;
+        // function onPlayerStateChange(event) {
+        //     console.log("HJO");
+        //     return;
+
+        //     if (event.data == YT.PlayerState.UNSTARTED) {
+        //         player.setSize(screen.width, screen.height);
+        //         $('#imageP').hide();
+        //     }
+
+        //     // player.requestFullScreen();        
+        //     if(event.data == YT.PlayerState.PLAYING && !done) {      
+        //         console.log("yeh kaha aa gaye")    
+        //         setTimeout(stopVideo, 100);
+        //         done = true;
+        //     }
+        // }
+
+        // onYouTubePlayerAPIReady();
+    }
 }, false);
-</script>
+
+// function stopVideo() {
+//     player.stopVideo();
+//     $('#videoP').hide();
+//     $('#imageP').show();
+// }
+
+</script> -->
