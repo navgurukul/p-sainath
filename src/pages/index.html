@@ -1,31 +1,51 @@
 <!-- Section Intro Slider
 ================================================== -->
-<div id="carousel-example-generic" class="carousel intro slide">
+<img data-video="dLVT1fJeWHI" alt="Play this video" src="{{root}}assets/img/coverbg.jpg">
+<div style="display: hidden;" id="videoP"></div>
+<!-- <div id="carousel-example-generic" class="carousel intro slide">
         <div class="carousel-inner" role="listbox">
             <div class="item active" style="background-image:url({{root}}assets/img/coverbg.jpg)">
                 <div class="carousel-caption">
                     <div>
                         <h2>
-                               <span class="element"><!-- data-animation="animated bounceInDown" -->Intensive program at par with B.Tech (CS or IT) degree with better placements</span>
+                               <span class="element">Intensive program at par with B.Tech (CS or IT) degree with better placements</span>
                         </h2>
                         <span>
                             <h3>
                                 Call our helpline number - <span style="font-size:30px;">011 4084 6385</span> now to join.
                             </h3>
                         </span>
-    <!-- 					<a href="#about" class="btn btn-primary btn-lg page-scroll" data-animation="animated fadeInRight">Learn More</a> -->
                     </div>
-                    <span style="display: none;">
-                        <span class="tagline">Intensive program at par with B.Tech (CS or IT) degree with better placements</span>
-                        <span class="tagline">No upfront fees. Get a job and pay later in easy instalment</span>
-                        <span class="tagline">One year residential program leading to high-growth careers</span>
-                        <span class="tagline">Creating local problem solvers with the right tools &amp; understanding</span>
-                    </span>
                 </div>
             </div>
         </div>
     </div>
-    <!-- /.carousel -->
+     -->
+
+     <!-- <div class="row">
+        <div class="col-12 text-center box bg-darkgray pt-3 pb-2">
+        </div>
+    </div> -->
+    <div class="row equal-heights w-middle">
+        <div class="col-md-4 bg-gray">
+            <div class="box text-center">
+                <h5>Intensive program without any fees during the course at par with B.Tech (CS or IT) degree with better placements</h5>
+            </div>
+        </div>
+        <div class="col-md-4 bg-darkgray">
+            <div class="box text-center">
+                <h4>Call our helpline number - <b>011 4084 6385</b> now to join.</h4>
+                <!-- <h5>One year residential program leading to high-growth careers.</h5> -->
+            </div>
+        </div>
+        <div class="col-md-4 bg-gray">
+            <div class="box text-center">
+                <h5>
+                    Creating local problem solvers with the right tools &amp; understanding.
+                </h5>
+            </div>
+        </div>
+    </div>
     
     <!-- Section Team
     ================================================== -->
@@ -175,4 +195,27 @@
     
     </div>
     </div>
-    </section>
+
+<script>
+document.addEventListener('click', function (event) {
+
+// Check if clicked element is a video thumbnail
+var videoId = event.target.getAttribute('data-video');
+if (!videoId) return;
+
+// Create iframe
+var iframe = document.createElement('div');
+iframe.innerHTML = '<p>x</p><iframe width="560" height="315" src="https://www.youtube.com/embed/' + videoId + '?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+var video = iframe.childNodes[1];
+
+// Replace the image with the video
+event.target.parentNode.replaceChild(video, document.getElementById('videoP'));
+
+// Enter fullscreen mode
+video.requestFullscreen();
+
+// event.target.parentNode.replaceChild('<img data-video="dLVT1fJeWHI" alt="Play this video" src="{{root}}assets/img/coverbg.jpg">', event.target);
+// alert(230);
+
+}, false);
+</script>
