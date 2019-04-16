@@ -39,112 +39,23 @@
         </div>
     </div>
     <div class="no-padding" style="display: flex; justify-content: center; flex-wrap: wrap;">
+        {{#each team}}
+        
         <div class="bg-primary no-padding teambox">
             <div class="team-thumb overlay-image view-overlay">
-                <img src="{{root}}assets/img/main/abhishek-gupta.jpg" alt="" class="img-fluid team">
+                <img src="{{root}}{{this.img}}" alt="" class="img-fluid team">
                 <div class="mask team_quote">
                     <div class="port-zoom-link">
-                        <p>
-                             IITD ‘13 CS Graduate. Co-founded Zumbl.com and FranklyMe. Zumbl was acquired and FranklyMe raised more than 2.6M$ from Matrix Partners and others. Was working with Education Department, Delhi Government before NavGurukul.
-                        </p>
+                        <p>{{this.about}}</p>
                     </div>
                 </div>
             </div>
-            <h2>Abhishek Gupta</h2>
+            <h2>{{this.name}}</h2>
             <div class="team-social">
-                <a target="_blank" href="http://linkedin.com/in/abhishekgupta92"><i class="fa fa-linkedin"></i></a>
-                <!-- <a target="_blank" href="http://twitter.com/abhishekgupta92"><i class="fa fa-twitter"></i></a> -->
-                <!-- <a target="_blank" href="#"><i class="fa fa-facebook"></i></a> -->
-                <!-- <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a> -->
-                <!-- <a target="_blank" href="#"><i class="fa fa-skype"></i></a> -->
+                <a target="_blank" href="{{this.linkedin}}"><i class="fa fa-linkedin"></i></a>
             </div>
         </div>
-        <div class="bg-dark no-padding teambox">
-            <div class="team-thumb overlay-image view-overlay">
-                <img src="{{root}}assets/img/main/rishabh-verma.jpg" alt="" class="img-fluid team">
-                <div class="mask team_quote">
-                    <div class="port-zoom-link">
-                        <p>
-                            A self learnt programmer, working on Education &amp; Technology. Aged 21, he was part of the founding team of Airwoot. He then took a break to spend a year travelling in the mountains. Later, Rishabh headed Technology for Grownout.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-primary">
-                <h2>Rishabh Verma</h2>
-                <div class="team-social">
-                    <!-- <a target="_blank" href="#"><i class="fa fa-twitter"></i></a> -->
-                    <a target="_blank" href="https://in.linkedin.com/in/rishmunk"><i class="fa fa-linkedin"></i></a>
-                    <!-- <a target="_blank" href="#"><i class="fa fa-facebook"></i></a> -->
-                    <!-- <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a> -->
-                    <!-- <a target="_blank" href="#"><i class="fa fa-skype"></i></a> -->
-                </div>
-            </div>
-        </div>
-    
-        <div class="bg-dark no-padding teambox">
-            <div class="team-thumb overlay-image view-overlay">
-                <img src="{{root}}assets/img/main/anuradha-daswani.jpg" alt="" class="img-fluid team">
-                <div class="mask team_quote">
-                    <div class="port-zoom-link">
-                        <p>
-                            BITS Pilani Graduate 2015. Worked as an analyst and data scientist for a little above one year, before she recognised her aspiration to learn psychology and work in the domain of learning and education. She is currently pursuing her Masters in Psychology.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-primary">
-                <h2>Anuradha Daswani</h2>
-                <div class="team-social">
-                    <!-- <a target="_blank" href="#"><i class="fa fa-twitter"></i></a> -->
-                    <a target="_blank" href="https://in.linkedin.com/in/anuradhadaswani"><i class="fa fa-linkedin"></i></a>
-                    <!-- <a target="_blank" href="#"><i class="fa fa-facebook"></i></a> -->
-                    <!-- <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a> -->
-                    <!-- <a target="_blank" href="#"><i class="fa fa-skype"></i></a> -->
-                </div>
-            </div>
-        </div>
-    
-        <!-- <div class="bg-dark no-padding teambox">
-            <div class="team-thumb overlay-image view-overlay">
-                <img src="{{root}}assets/img/main/rajeev-jha.jpg" alt="" class="img-fluid team">
-                <div class="mask team_quote">
-                    <div class="port-zoom-link">
-                        <p>
-                            Teach for India Fellow, and an Engineer by training, Rajeev is passionate about building self-learning solutions for students.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-primary">
-                <h2>Rajeev Jha</h2>
-                <div class="team-social">
-                    <a target="_blank" href="https://in.linkedin.com/in/rajeev-jha-a1b6b3119"><i class="fa fa-linkedin"></i></a>
-                </div>
-            </div>
-        </div>
-    
-        <div class="bg-dark no-padding teambox">
-            <div class="team-thumb overlay-image view-overlay">
-                <img src="{{root}}assets/img/main/shanu-khera.jpg" alt="" class="img-fluid team">
-                <div class="mask team_quote">
-                    <div class="port-zoom-link">
-                        <p>
-                            Computer Science and Engineering, B.Tech from Birla Institute. Have worked in Telecom, Game Development, IoT and Education Industry
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-primary">
-                <h2>Shanu Khera</h2>
-                <div class="team-social">
-                    <a target="_blank" href="https://in.linkedin.com/in/shanu-khera-444802133"><i class="fa fa-linkedin"></i></a>
-                </div>
-            </div>
-        </div> -->
-        <!-- <div>
-            <h3 style="line-height:1.3; text-align: center;">We clearly have a gender unbalanced team. Hence, we are looking forward to <a href="https://angel.co/navgurukul/jobs" target="_blank">hire</a> wonderful women for some of the open positions that we have. Please refer &amp; apply.</h3>
-        </div> -->
+        {{/each}}
     </div>
     </section>
     <div class="clearfix">
