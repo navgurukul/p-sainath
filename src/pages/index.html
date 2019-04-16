@@ -235,48 +235,34 @@ document.addEventListener('click', function (event) {
 
         // Enter fullscreen mode
         video.requestFullscreen();
-
-        // function onYouTubePlayerAPIReady() {
-        //     player = new YT.Player('videoP', {
-        //     //   width: '640',
-        //     //   height: '390',
-        //     //   videoId: '0Bmhjf0rKe8',
-        //     //   allowfullscreen: true,
-        //     //   fullscreen: true,
-        //       events: {
-        //         // onReady: onPlayerReady,
-        //         onStateChange: onPlayerStateChange
-        //       }
-        //     });
-        // }
-
-        // autoplay video
-        // function onPlayerReady(event) {
-        //     // event.target.requestFullscreen();
-        //     event.target.playVideo();
-        // }
-
-        // when video ends
-        // var done = false;
-        // function onPlayerStateChange(event) {
-        //     console.log("HJO");
-        //     return;
-
-        //     if (event.data == YT.PlayerState.UNSTARTED) {
-        //         player.setSize(screen.width, screen.height);
-        //         $('#imageP').hide();
-        //     }
-
-        //     // player.requestFullScreen();        
-        //     if(event.data == YT.PlayerState.PLAYING && !done) {      
-        //         console.log("yeh kaha aa gaye")    
-        //         setTimeout(stopVideo, 100);
-        //         done = true;
-        //     }
-        // }
-
-        // onYouTubePlayerAPIReady();
     }
+}, false);
+
+function removeIframes() {
+    document.querySelectorAll('iframe').forEach(
+    function(elem){
+        elem.parentNode.removeChild(elem);
+    });
+}
+
+document.addEventListener("fullscreenchange", function() {
+    console.log('hi');
+  if (!document.fullscreenElement) removeIframes();
+}, false);
+
+document.addEventListener("msfullscreenchange", function() {
+    console.log('hi2');
+  if (!document.msFullscreenElement) removeIframes();
+}, false);
+
+document.addEventListener("mozfullscreenchange", function() {
+    console.log('hi3');
+  if (!document.mozFullScreen) removeIframes();
+}, false);
+
+document.addEventListener("webkitfullscreenchange", function() {
+    console.log('hi4');
+  if (!document.webkitIsFullScreen) removeIframes();
 }, false);
 
 // function stopVideo() {
