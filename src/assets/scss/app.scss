@@ -1,14 +1,12 @@
 //Bootstrap styles 
 @import "node_modules/bootstrap/scss/bootstrap";
-
 //Custom mixins
 @import "mixins/mixins";
-
 //Custom settings --
+@import "alumni";
 @import "settings";
 @import "legacy";
 @import "animate-legacy";
 @import "font-awesome-legacy";
-
 //Component specific styles 
 @import "components/callout";

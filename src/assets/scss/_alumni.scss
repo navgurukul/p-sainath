@@ -1,0 +1,134 @@
+.alumni {
+    border-top: 1px solid #fff;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 72px;
+}
+
+.alumni .pic {
+    width: 40%;
+    border: 3px solid #fff;
+    border-radius: 60px 0;
+    margin: -72px auto 0;
+    overflow: hidden;
+    transition: all 0.20s ease 0s;
+}
+
+.alumni:hover .pic {
+    border-radius: 50%;
+    border-color: #eb3812;
+}
+
+.alumni .pic img {
+    width: 100%;
+    height: auto;
+}
+
+.alumni .team-content {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.alumni .team-title {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0 0;
+    text-transform: uppercase;
+}
+
+.alumni .post {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.alumni .description {
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+    font-family: Open Sans, 'Helvetica Neue', Arial, sans-serif;
+    padding: 0 35px;
+    line-height: 22px;
+    margin-bottom: 60px;
+}
+
+.alumni .social {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: 15%;
+    left: 85%;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 0.7s ease 0s;
+}
+
+.alumni:hover .social {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.alumni .social li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+    padding-left: 8px;
+    color: #f05f40;
+    border: 1px solid #eb3812;
+    background: #fff;
+    transform: scale(0);
+    transition: all 0.7s ease 0s;
+}
+
+.alumni:hover .social li a {
+    transform: scale(1);
+}
+
+.alumni .social li a:hover {
+    color: #fff;
+    background: #f05f40;
+}
+
+// .alumni .social-links {
+//     width: 100%;
+//     height: 20%;
+//     position: absolute;
+//     bottom: -17%;
+//     left: 0;
+//     margin: 0;
+//     padding-top: 2px;
+//     padding-left: 0;
+//     list-style: none;
+//     background: #f05f40;
+//     transition: all 0.20s linear 0s;
+// }
+// .alumni:hover .social-links {
+//     bottom: 0;
+// }
+// .alumni .social-links li {
+//     display: inline-block;
+//     margin: 0 5px;
+// }
+// .alumni .social-links li a {
+//     width: 35px;
+//     height: 35px;
+//     line-height: 40px;
+//     // border-radius: 50%;
+//     font-size: 20px;
+//     color: #fff;
+//     // border: 1px solid #fff;
+// }
+// .alumni .social-links li a:hover {
+//     text-decoration: none;
+// }
+@media only screen and (max-width: 990px) {
+    .alumni {
+        margin-top: 80px;
+    }
+}
