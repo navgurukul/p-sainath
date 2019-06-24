@@ -1,20 +1,22 @@
-[
-    {
-        "name":"Abhishek Gupta",
-        "img":"assets/img/main/abhishek-gupta.jpg",
-        "about":"IITD ‘13 CS Graduate. Co-founded Zumbl.com and FranklyMe. Zumbl was acquired and FranklyMe raised more than 2.6M$ from Matrix Partners and others. Was working with Education Department, Delhi Government before NavGurukul.",
+[{
+        "name": "Abhishek Gupta",
+        "img": "assets/img/main/abhishek-gupta.jpg",
+        "about": "IITD ‘13 CS Graduate. Co-founded Zumbl.com and FranklyMe. Zumbl was acquired and FranklyMe raised more than 2.6M$ from Matrix Partners and others. Was working with Education Department, Delhi Government before NavGurukul.",
+        "post": "CEO & Co-founder",
         "linkedin": "http://linkedin.com/in/abhishekgupta92"
     },
     {
-        "name":"Rishabh Verma",
-        "img":"assets/img/main/rishabh-verma.jpg",
-        "about":"A self learnt programmer, working on Education &amp; Technology. Aged 21, he was part of the founding team of Airwoot. He then took a break to spend a year travelling in the mountains. Later, Rishabh headed Technology for Grownout.",
+        "name": "Rishabh Verma",
+        "img": "assets/img/main/rishabh-verma.jpg",
+        "about": "A self learnt programmer, working on Education &amp; Technology. Aged 21, he was part of the founding team of Airwoot. He then took a break to spend a year travelling in the mountains. Later, Rishabh headed Technology for Grownout.",
+        "post": "CTO & Co-founder",
         "linkedin": "http://linkedin.com/in/rishmunk"
     },
     {
-        "name":"Anuradha Daswani",
-        "img":"assets/img/main/anuradha-daswani.jpg",
-        "about":"BITS Pilani Graduate 2015. Worked as an analyst and data scientist for a little above one year, before she recognised her aspiration to learn psychology and work in the domain of learning and education. She is currently pursuing her Masters in Psychology.",        
+        "name": "Anuradha Daswani",
+        "img": "assets/img/main/anuradha-daswani.jpg",
+        "about": "BITS Pilani Graduate 2015. Worked as an analyst and data scientist for a little above one year, before she recognised her aspiration to learn psychology and work in the domain of learning and education. She is currently pursuing her Masters in Psychology.",
+        "post": "Lifeskills Curriculum Lead",
         "linkedin": "http://linkedin.com/in/anuradhadaswani"
     }
 ]

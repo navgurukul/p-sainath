@@ -11,7 +11,7 @@
     <div class="row col-10 offset-1 mt-4">
         {{#each alumni}}
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6 col-12">
             <div class="alumni">
                 <div class="pic">
                     <img src="{{root}}{{this.img}}" alt="">
@@ -23,7 +23,7 @@
                 </ul>
                 <div class="team-content">
                     <h3 class="team-title">{{this.name}}</h3>
-                    <!-- <span class="post">Web Designer</span> -->
+                    <span class="post">{{this.post}}</span>
                     <p class="description">
                         {{this.about}}
                     </p>

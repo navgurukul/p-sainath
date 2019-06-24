@@ -95,38 +95,43 @@
     background: #f05f40;
 }
 
-// .alumni .social-links {
-//     width: 100%;
-//     height: 20%;
-//     position: absolute;
-//     bottom: -17%;
-//     left: 0;
-//     margin: 0;
-//     padding-top: 2px;
-//     padding-left: 0;
-//     list-style: none;
-//     background: #f05f40;
-//     transition: all 0.20s linear 0s;
-// }
-// .alumni:hover .social-links {
-//     bottom: 0;
-// }
-// .alumni .social-links li {
-//     display: inline-block;
-//     margin: 0 5px;
-// }
-// .alumni .social-links li a {
-//     width: 35px;
-//     height: 35px;
-//     line-height: 40px;
-//     // border-radius: 50%;
-//     font-size: 20px;
-//     color: #fff;
-//     // border: 1px solid #fff;
-// }
-// .alumni .social-links li a:hover {
-//     text-decoration: none;
-// }
+.alumni .social-links {
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    bottom: -39px;
+    left: 0;
+    margin: 0;
+    padding-top: 2px;
+    padding-left: 0;
+    list-style: none;
+    background: #f05f40;
+    transition: all 0.20s linear 0s;
+}
+
+.alumni:hover .social-links {
+    bottom: 0;
+}
+
+.alumni .social-links li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.alumni .social-links li a {
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+    // border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    // border: 1px solid #fff;
+}
+
+.alumni .social-links li a:hover {
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 990px) {
     .alumni {
         margin-top: 80px;
