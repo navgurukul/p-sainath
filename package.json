@@ -45,8 +45,6 @@
     "handlebars": "^4.0.10",
     "jquery": "^3.2.1",
     "mappy-breakpoints": "^0.2.3",
-    "popper.js": "^1.12.5",
-    "gulp-imagemin": "^3.4.0",
-    "sass": "^1.0.0-beta.2"
+    "popper.js": "^1.12.5"
   }
 }
