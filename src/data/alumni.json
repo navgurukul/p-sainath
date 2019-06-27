@@ -25,5 +25,12 @@
         "about": "Shivam (12th pass) was working as a helper at a local bakery and then at a call center. He is now working as a Software Developer at GamingMonk, Delhi.",
         "post": "GamingMonk, Delhi",
         "linkedin": "http://linkedin.com/in/shivam-raj-0a540b133"
+    },
+    {
+        "name": "Khushboo Pandit",
+        "img": "assets/img/alumni/khushboo.jpeg",
+        "about": "Khushboo did her schooling through the help of NEEV Foundation. She joined NavGurukul when she was 16 and can currect code well in ReactJS, Python and Node.js",
+        "post": "Impact Scout, Delhi",
+        "linkedin": "https://www.linkedin.com/in/khushboopandit/"
     }
 ]
