@@ -50,8 +50,15 @@
     {
         "name": "Vishal Gaddam",
         "img": "assets/img/alumni/vishal-gaddam.jpeg",
-        "about": "Vishal completed Bsc(IT) from Mumbai University. Joined NavGurukul in June 2018 and now I am as a Curriculum Designer",
+        "about": "Vishal Gaddam completed his graduation in B.Sc.IT from Mumbai University. He joined NavGurukul in June 2018 and now he is  working as Curriculum Designer.",
         "post": "WhiteHat Jr, Mumbai",
         "linkedin": "https://www.linkedin.com/in/vishal-gaddam-7a20b1178/"
+    },
+    {
+        "name": "Anoop Gupta",
+        "img": "assets/img/alumni/anoop-gupta.jpeg",
+        "about": "Anoop Gupta completed his graduation from Kanpur University. he started his journey as a programmer from NavGurukul. He is  working in Repup(Gurgaon) as a Software Developer",
+        "post": "Repup , Gurgaon",
+        "linkedin": "https://www.linkedin.com/in/anoop-gupta-576536168/"
     }
 ]
