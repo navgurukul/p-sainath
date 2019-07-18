@@ -1,4 +1,5 @@
-[{
+[
+    {
         "name": "Nitin Gupta",
         "img": "assets/img/alumni/nitin-gupta.png",
         "about": "Nitin was helping out his father at their recharge shop after finishing his class 12th. Now he works for CodeYug, Delhi as a Software Developer.",
@@ -64,9 +65,8 @@
     {
         "name":"Naresh Kumar Gautam",
         "img":"assets/img/alumni/naresh-gautam.jpeg",
-        "about":"Naresh(10th pass) is doing job in NCR Delhi as a software developer. Interested in sports and Art and craft.",
+        "about":"Naresh (10th pass) hails from Delhi and is currently working in Gurgaon. Interested in sports and Art and craft.",
+        "post": "FTwo, Delhi",
         "linkedin":"https://www.linkedin.com/in/naresh-kumar-1222b7183/"
     }
-
- 
 ]
