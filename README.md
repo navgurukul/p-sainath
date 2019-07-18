@@ -54,6 +54,7 @@ http://localhost:3000
 - `package.json` Handles the front-end dependencies.
 
 
+
 ## SRC Folder Structure:
 
 - `src/assets/scss/components/` This is where custom project components go. Import to app.scss folder.
