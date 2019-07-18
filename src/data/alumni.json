@@ -60,5 +60,12 @@
         "about": "Anoop Gupta completed his graduation from Kanpur University. he started his journey as a programmer from NavGurukul. He is  working in Repup(Gurgaon) as a Software Developer",
         "post": "Repup , Gurgaon",
         "linkedin": "https://www.linkedin.com/in/anoop-gupta-576536168/"
+    },
+    {
+        "name": "Aman Sharma",
+        "img": "assets/img/alumni/aman-sharma.jpg",
+        "about": "Aman Sharma Completed his 12th from MP(Bord). he started his journey on july 2018 and now he is working in safal solution as a PHP Developer.",
+        "post": "Safal Solutions , Hyderabad",
+        "linkedin": "https://www.linkedin.com/in/aman-sharma-52aa38184/"
     }
 ]
