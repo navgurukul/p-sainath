@@ -8,8 +8,8 @@
     {
         "name": "Rishabh Verma",
         "img": "assets/img/main/rishabh-verma.jpg",
-        "about": "A self learnt programmer, working on Education &amp; Technology. Aged 21, he was part of the founding team of Airwoot. He then took a break to spend a year travelling in the mountains. Later, Rishabh headed Technology for Grownout.",
-        "post": "CTO & Co-founder",
+        "about": "A self learnt programmer, working on Education & Technology. Aged 21, he was part of the founding team of Airwoot. He then took a break to spend a year travelling in the mountains. Later, Rishabh headed Technology for Grownout.",
+        "post": "COO & Co-founder",
         "linkedin": "http://linkedin.com/in/rishmunk"
     },
     {
@@ -18,5 +18,12 @@
         "about": "BITS Pilani Graduate 2015. Worked as an analyst and data scientist for a little above one year, before she recognised her aspiration to learn psychology and work in the domain of learning and education. She is currently pursuing her Masters in Psychology.",
         "post": "Lifeskills Curriculum Lead",
         "linkedin": "http://linkedin.com/in/anuradhadaswani"
+    },
+    {
+        "name": "Nitesh Sharma",
+        "img": "assets/img/alumni/nitesh-sharma.jpg",
+        "about": "A NavGurukul alumnus, Nitesh completed BCA from Sant Singaji Institute Of Science & Management. Interested in social welfare and solving problems through facilitation and ground-work.",
+        "post": "Facility-in-Charge",
+        "linkedin": "#"
     }
 ]

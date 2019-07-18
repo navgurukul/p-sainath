@@ -1,3 +1,57 @@
+.im-checkout-btn {
+    cursor: pointer;
+    border-color: #f05f40;
+    color: #fff;
+    background-color: #f05f40;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.im-checkout-btn:hover,
+.im-checkout-btn:focus,
+.im-checkout-btn.focus,
+.im-checkout-btn:active,
+.im-checkout-btn.active,
+.open>.dropdown-toggle.im-checkout-btn {
+    border-color: #ed431f;
+    color: #fff;
+    background-color: #ee4b28;
+}
+
+.im-checkout-btn:active,
+.im-checkout-btn.active,
+.open>.dropdown-toggle.im-checkout-btn {
+    background-image: none;
+}
+
+.im-checkout-btn.disabled,
+.im-checkout-btn[disabled],
+fieldset[disabled] .im-checkout-btn,
+.im-checkout-btn.disabled:hover,
+.im-checkout-btn[disabled]:hover,
+fieldset[disabled] .im-checkout-btn:hover,
+.im-checkout-btn.disabled:focus,
+.im-checkout-btn[disabled]:focus,
+fieldset[disabled] .im-checkout-btn:focus,
+.im-checkout-btn.disabled.focus,
+.im-checkout-btn[disabled].focus,
+fieldset[disabled] .im-checkout-btn.focus,
+.im-checkout-btn.disabled:active,
+.im-checkout-btn[disabled]:active,
+fieldset[disabled] .im-checkout-btn:active,
+.im-checkout-btn.disabled.active,
+.im-checkout-btn[disabled].active,
+fieldset[disabled] .im-checkout-btn.active {
+    border-color: #f05f40;
+    background-color: #f05f40;
+}
+
+
 html,
 body {
     width: 100%;
@@ -671,6 +725,10 @@ body {
 
 .main-container {
     padding: 40px 15px;
+}
+
+.minHeight {
+    min-height: calc(100vh - 41px)
 }
 
 .skyblue {
