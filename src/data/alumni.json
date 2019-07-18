@@ -1,4 +1,5 @@
-[{
+[
+    {
         "name": "Nitin Gupta",
         "img": "assets/img/alumni/nitin-gupta.png",
         "about": "Nitin was helping out his father at their recharge shop after finishing his class 12th. Now he works for CodeYug, Delhi as a Software Developer.",
@@ -30,15 +31,8 @@
         "name": "Khushboo Pandit",
         "img": "assets/img/alumni/khushboo.jpeg",
         "about": "Khushboo did her schooling through the help of NEEV Foundation. She joined NavGurukul when she was 16 and can currect code well in ReactJS, Python and Node.js",
-        "post": "Impact Scout, Delhi",
+        "post": "FTwo, Delhi",
         "linkedin": "https://www.linkedin.com/in/khushboopandit/"
-    },
-    {
-        "name": "Sunil",
-        "img": "assets/img/alumni/sunil.png",
-        "about": "Sunil has passed his 12th class last year. He was not able to took admission in collage because of his less marks. Then he joined Navgurukul. Now he is working as a java developer at Safal Solutions, Hyderabad",
-        "post": "Safal Solutions PVT.LTD, Hyderabad",
-        "linkedin": "https://www.linkedin.com/in/sunil-parcha-58a6a2182/"
     },
     {
         "name": "Nitesh Sharma",
@@ -50,7 +44,7 @@
     {
         "name": "Rani Pandit",
         "img": "assets/img/alumni/rani-pandit.jpg",
-        "about": "Rani(pursuing 12th) through NEEV foundation.Joined NavGurukul in December 2017 and now I am working in Momspresso as a Web Developer.",
+        "about": "Rani(pursuing 12th) through NEEV foundation.Joined NavGurukul in December 2017 and now she is working in Momspresso as a Web Developer.",
         "post": "Momspresso, Delhi NCR",
         "linkedin": "https://www.linkedin.com/in/rani-pandit-108102158/"
     },
@@ -67,5 +61,12 @@
         "about": "Anoop Gupta completed his graduation from Kanpur University. he started his journey as a programmer from NavGurukul. He is  working in Repup(Gurgaon) as a Software Developer",
         "post": "Repup , Gurgaon",
         "linkedin": "https://www.linkedin.com/in/anoop-gupta-576536168/"
+    },
+    {
+        "name":"Naresh Kumar Gautam",
+        "img":"assets/img/alumni/naresh-gautam.jpeg",
+        "about":"Naresh (10th pass) hails from Delhi and is currently working in Gurgaon. Interested in sports and Art and craft.",
+        "post": "FTwo, Delhi",
+        "linkedin":"https://www.linkedin.com/in/naresh-kumar-1222b7183/"
     }
 ]
