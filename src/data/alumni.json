@@ -103,6 +103,21 @@
         "about":"From Jhunjhunu (Rajasthan), Savita is a fierce debator and a freelance content writer. Savita is quite vocal about gender related issues. Currently, she is also working on outreach at NavGurukul to onboard partners for admission of new students.",
         "post": "Freelancer",
         "linkedin":"https://www.linkedin.com/in/savita-verma-133782167/"
-    }
+    },
+    {
+        "name":"Rahul Kashyap",
+        "img":"assets/img/alumni/rahulk.jpeg",
+        "about":"Rahul Kashyap working in Bsd Technology as a android developer and have great in developing mobile application.",
+        "post": "Androide Developer",
+        "linkedin":"https://www.linkedin.com/in/rahul7042/"
+    },
+    {
+        "name":"Shivnath Halder",
+        "img":"assets/img/alumni/shivnath.jpeg",
+        "about":"Shivnath has start his carrier at the agr of 17 and now he is working in Bsd Technology as a Software developer, moreover he worked with react.",
+        "post": "Software Developer",
+        "linkedin":"https://www.linkedin.com/in/shivnath-halder-ba40b5158/"
+    },
+    
     
 ]
