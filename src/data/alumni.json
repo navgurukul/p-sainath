@@ -56,13 +56,6 @@
         "linkedin": "#"
     },
     {
-        "name": "Rani Pandit",
-        "img": "assets/img/alumni/rani-pandit.jpg",
-        "about": "Rani(pursuing 12th) through NEEV foundation.Joined NavGurukul in December 2017 and now she is working in Momspresso as a Web Developer.",
-        "post": "Momspresso, Delhi NCR",
-        "linkedin": "https://www.linkedin.com/in/rani-pandit-108102158/"
-    },
-    {
         "name": "Vishal Gaddam",
         "img": "assets/img/alumni/vishal-gaddam.jpeg",
         "about": "Vishal Gaddam completed his graduation in B.Sc.IT from Mumbai University. He joined NavGurukul in June 2018 and now he is  working as Curriculum Designer.",
@@ -75,6 +68,13 @@
         "about": "Anoop Gupta completed his graduation from Kanpur University. he started his journey as a programmer from NavGurukul. He is  working in Repup(Gurgaon) as a Software Developer",
         "post": "Repup , Gurgaon",
         "linkedin": "https://www.linkedin.com/in/anoop-gupta-576536168/"
+    },
+    {
+        "name": "Rani Pandit",
+        "img": "assets/img/alumni/rani-pandit.jpg",
+        "about": "Rani(pursuing 12th) through NEEV foundation.Joined NavGurukul in December 2017 and now she is working in Momspresso as a Web Developer.",
+        "post": "Momspresso, Delhi NCR",
+        "linkedin": "https://www.linkedin.com/in/rani-pandit-108102158/"
     },
     {
         "name":"Naresh Kumar Gautam",
