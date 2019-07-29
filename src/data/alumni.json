@@ -118,6 +118,19 @@
         "post": "Software Developer",
         "linkedin":"https://www.linkedin.com/in/shivnath-halder-ba40b5158/"
     },
-    
+    {
+         "name": "Pratyush Kumar",
+        "img": "assets/img/alumni/pratyush.png",
+        "about": "Pratyush attended NavGurukul from November 2017 until September 2018. He is now working at MindTree Limited. He has a strong desire to work in rural education in the long-term. Pratyush likes to play cricket and mentors students at NavGurkul in his free time. ",
+        "post": "Mindtree Limited, Bangalore",
+        "linkedin": "https://www.linkedin.com/in/pratyush-kumar-9b0927134/"
+    },
+    {
+         "name": "Deepa Kumari",
+        "img": "assets/img/alumni/deepa.jpeg",
+        "about": "Deepa attended NavGurukul from april 2018. She is now working at MindTree Limited. She is from assam. Interested in dance",
+        "post": "Mindtree Limited, Bangalore",
+        "linkedin": "https://www.linkedin.com/in/deepa-sinha-06a79716a"
+    }
     
 ]
