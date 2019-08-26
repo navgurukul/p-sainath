@@ -25,5 +25,12 @@
         "about": "A NavGurukul alumnus, Nitesh completed BCA from Sant Singaji Institute Of Science & Management. Interested in social welfare and solving problems through facilitation and ground-work.",
         "post": "Facility-in-Charge",
         "linkedin": "#"
+    },
+    {
+        "name": "Pralhad Jadhav",
+        "img": "assets/img/alumni/pralhad-jadhav.jpg",
+        "about":"A Navgurkul alumnus, Pralhad completed BE from Electronics & Telecommunication engineering stream Graduate in 2017 from Pune Univercity. Now working with Navgurukul as technical suppoter",
+        "post": "Software Engineer",
+        "linkedin": "https://www.linkedin.com/in/pralhad-jadhav-7073b1174/"
     }
 ]
