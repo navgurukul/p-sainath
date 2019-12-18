@@ -1,13 +1,18 @@
-var exotelCallURL = 'http://localhost:3000/helpline/register_exotel_call';
+
+var DEBUG = false;
+var testBaseUrl = 'http://join.navgurukul.org/k/'
+
+if (!DEBUG) {
+    var base_url= 'http://join.navgurukul.org/api/helpline/register_exotel_call';
+} else {
+    var base_url= 'http://localhost:3000/helpline/register_exotel_call';
+}
 
 $('#getLink').click( function() {
-    var mobileNumber = '0'+ $("#mobile").val();
-    $.get(exotelCallURL, {
-        ngCallType: "getEnrolmentKey",
-        From: mobileNumber,
-    },
+    $.get(base_url, querydata(),
+    
     (data, resp) => {
-        $("#testLink").val(`http://join.navgurukul.org/k/${data.key}`);
+        $("#testLink").val(`${testBaseUrl}${data.key}`);
         $('#testLink').select();
         document.execCommand("copy");
         
@@ -15,7 +20,7 @@ $('#getLink').click( function() {
             setTimeout(function(){ 
                 var x = document.getElementById("snackbar");
                 x.className = "show";
-                setTimeout(function(){ x.className = x.className.replace("show", ""); }, 4000);
+                setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
             }, 1000)
         });
     });
@@ -23,14 +28,10 @@ $('#getLink').click( function() {
 
 
 $('#giveTest').click( function() {
-    var mobileNumber = '0'+ $("#mobile").val();
-    $.get(exotelCallURL, {
-        ngCallType: "getEnrolmentKey",
-        From: mobileNumber,
-    },
-
+    $.get(base_url, querydata(),
+    
     (data, resp) => {
-        var win = window.open(`http://join.navgurukul.org/k/${data.key}`, '_blank');
+        var win = window.open(`${testBaseUrl}${data.key}`, '_blank');
         if (win) {
             win.focus(); //Browser has allowed it to be opened
         } else {
@@ -39,3 +40,10 @@ $('#giveTest').click( function() {
     });
 });
 
+function querydata() {
+    var mobileNumber = '0'+ $("#mobile").val();
+    return {
+        ngCallType: "getEnrolmentKey",
+        From: mobileNumber,
+    }
+}
