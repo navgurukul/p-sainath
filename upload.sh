@@ -1,3 +1,4 @@
+gulp build
 cp -r dist/* ../dikhava/
 cd ../dikhava/
 git add *
