@@ -14,7 +14,8 @@ var gulp = require('gulp'),
   runSequence = require('run-sequence'),
   minify = require('gulp-minify'),
   cssnano = require('gulp-cssnano'),
-  autoprefixer = require('gulp-autoprefixer');
+  autoprefixer = require('gulp-autoprefixer'),
+  inject = require('gulp-inject');
 
 // BrowserSync
 const browserSync = (done) => {
@@ -52,6 +53,7 @@ const sassT = () => {
 
 // Using panini, template, page and partial files are combined to form html markup
 const compileHtml = () => {
+  var sources = gulp.src(['./dist/assets/js/*-min.js', './dist/assets/css/*.css'], {read: false});
   return gulp.src('src/pages/**/*.html')
     .pipe(panini({
       root: 'src/pages/',
@@ -60,6 +62,7 @@ const compileHtml = () => {
       helpers: 'src/helpers/',
       data: 'src/data/'
     }))
+    .pipe(inject(sources), {ignorePath: '/dist'})
     .pipe(gulp.dest('dist'));
 };
 
@@ -112,6 +115,15 @@ const clean = () => {
   return del('dist');
 };
 
+// const injectFiles = () => {
+//   var target = gulp.src('./dist/*.html');
+//   // It's not necessary to read the files (will speed up things), we're only after their paths:
+//   var sources = gulp.src(['./dist/assets/js/*.js', './dist/assets/css/*.css'], {read: false});
+ 
+//   return target.pipe(inject(sources))
+//     .pipe(gulp.dest('./dist/src'));
+// });
+
 const watchFiles = (done) => {
   gulp.watch('src/assets/js/**/*.js', gulp.series(scripts, browserSyncReload));
   gulp.watch('src/assets/img/**/*', images);
@@ -125,10 +137,10 @@ const watch = gulp.parallel(watchFiles, browserSync);
 
 // ------------ Build Sequence -------------
 // Simply run 'gulp' in terminal to run local server and watch for changes
-const byd = gulp.series(clean, gulp.parallel(font, sassT, scripts, images, static, compileHtml, resetPages), watch);
+const byd = gulp.series(clean, gulp.parallel(font, sassT, scripts, images, static, resetPages), compileHtml, watch);
 
 // Creates production ready assets in dist folder
-const build = gulp.series(clean, gulp.parallel(sassT, scripts, images, static, font, compileHtml));
+const build = gulp.series(clean, gulp.parallel(sassT, scripts, images, static, font), compileHtml);
 
 exports.default = byd;
 exports.build = build;
