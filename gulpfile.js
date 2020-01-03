@@ -70,14 +70,6 @@ const resetPages = (done) => {
   done();
 };
 
-const watchFiles = (done) => {
-  gulp.watch('src/assets/js/**/*.js', gulp.series(scripts, browserSyncReload));
-  gulp.watch('src/assets/scss/**/*', gulp.series(sassT, browserSyncReload));
-  gulp.watch('src/assets/img/**/*', images);
-  gulp.watch('src/**/*.html', gulp.series(resetPages, compileHtml, browserSyncReload));
-  done();
-}
-
 // ------------ Optimization Tasks -------------
 // Copies image files to dist
 const images = () => {
@@ -89,6 +81,11 @@ const images = () => {
     ]))) // Caching images that ran through imagemin
     .pipe(gulp.dest('dist/assets/img/'));
 };
+
+const static = () => {
+  return gulp.src('src/assets/static/*.*')
+    .pipe(gulp.dest('dist/assets/static/'))
+}
 
 // Places font files in the dist folder
 const font = () => {
@@ -115,14 +112,23 @@ const clean = () => {
   return del('dist');
 };
 
+const watchFiles = (done) => {
+  gulp.watch('src/assets/js/**/*.js', gulp.series(scripts, browserSyncReload));
+  gulp.watch('src/assets/img/**/*', images);
+  gulp.watch('src/assets/static/*.*', static);
+  gulp.watch('src/assets/scss/**/*', gulp.series(sassT, browserSyncReload));
+  gulp.watch('src/**/*.html', gulp.series(resetPages, compileHtml, browserSyncReload));
+  done();
+}
+
 const watch = gulp.parallel(watchFiles, browserSync);
 
 // ------------ Build Sequence -------------
 // Simply run 'gulp' in terminal to run local server and watch for changes
-const byd = gulp.series(clean, gulp.parallel(font, sassT, scripts, images, compileHtml, resetPages), watch);
+const byd = gulp.series(clean, gulp.parallel(font, sassT, scripts, images, static, compileHtml, resetPages), watch);
 
 // Creates production ready assets in dist folder
-const build = gulp.series(clean, gulp.parallel(sassT, scripts, images, font, compileHtml));
+const build = gulp.series(clean, gulp.parallel(sassT, scripts, images, static, font, compileHtml));
 
 exports.default = byd;
 exports.build = build;
