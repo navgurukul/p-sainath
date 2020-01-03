@@ -81,7 +81,7 @@ gulp.task('watch', gulp.series('sass', function (done) {
     .on('change', function(path, stats) {
         gulp.series('resetPages', 'compile-html', browserSync.reload);
     })
-    
+
     console.log('Watching for changes');
     done();
 }));
@@ -136,7 +136,4 @@ gulp.task('clean:dist', function () {
 gulp.task('default', gulp.series('clean:dist', 'font', 'scripts', 'images', 'compile-html', 'resetPages', 'media', 'watch'));
 
 // Creates production ready assets in dist folder
-gulp.task('build', function () {
-    console.log('Building production ready assets');
-    runSequence('clean:dist', 'sass', ['scripts', 'images', 'font', 'compile-html'])
-});
+gulp.task('build', gulp.series('clean:dist', 'sass', 'scripts', 'images', 'font', 'compile-html'));
