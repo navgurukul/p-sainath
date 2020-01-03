@@ -55,19 +55,36 @@ gulp.task('resetPages', (done) => {
 });
 
 // Watches for changes while gulp is running
-gulp.task('watch', ['sass'], function () {
+gulp.task('watch', gulp.series('sass', function (done) {
     // Live reload with BrowserSync
     browserSync.init({
         server: "./dist"
     });
 
-    gulp.watch(['src/assets/js/**/*.js'], ['scripts', browserSync.reload]);
-    gulp.watch(['src/assets/scss/**/*'], ['sass', browserSync.reload]);
-    gulp.watch(['src/assets/img/**/*'], ['images']);
-    gulp.watch(['src/assets/video/**/*'], ['media']);
-    gulp.watch(['src/**/*.html'], ['resetPages', 'compile-html', browserSync.reload]);
+    gulp.watch('src/assets/js/**/*.js')
+    .on('change', function(path, stats) {
+        gulp.series('scripts', browserSync.reload);
+    })
+    gulp.watch('src/assets/scss/**/*')
+    .on('change', function(path, stats) {
+        gulp.series('sass', browserSync.reload);
+    })
+    gulp.watch('src/assets/img/**/*')
+    .on('change', function(path, stats) {
+        gulp.series('images');
+    })
+    gulp.watch('src/assets/video/**/*')
+    .on('change', function(path, stats) {
+        gulp.series('media');
+    })
+    gulp.watch('src/**/*.html')
+    .on('change', function(path, stats) {
+        gulp.series('resetPages', 'compile-html', browserSync.reload);
+    })
+    
     console.log('Watching for changes');
-});
+    done();
+}));
 
 
 // ------------ Optimization Tasks -------------
@@ -110,13 +127,13 @@ gulp.task('scripts', function () {
 // Cleaning/deleting files no longer being used in dist folder
 gulp.task('clean:dist', function () {
     console.log('Removing old files from dist');
-    return del.sync('dist');
+    return del('dist');
 });
 
 
 // ------------ Build Sequence -------------
 // Simply run 'gulp' in terminal to run local server and watch for changes
-gulp.task('default', ['clean:dist', 'font', 'scripts', 'images', 'compile-html', 'resetPages', 'media', 'watch']);
+gulp.task('default', gulp.series('clean:dist', 'font', 'scripts', 'images', 'compile-html', 'resetPages', 'media', 'watch'));
 
 // Creates production ready assets in dist folder
 gulp.task('build', function () {
