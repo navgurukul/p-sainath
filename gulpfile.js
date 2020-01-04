@@ -63,11 +63,11 @@ const compileHtml = () => {
       helpers: 'src/helpers/',
       data: 'src/data/'
     }))
-    .pipe(cdnizer([
-      'cdnjs:jquery',
-      'google:angular'
-    ]))
-    .pipe(inject(sources), {ignorePath: 'dist'})
+    // .pipe(cdnizer([
+    //   'cdnjs:jquery',
+    //   'google:angular'
+    // ]))
+    .pipe(inject(sources, {ignorePath: '/dist'}))
     .pipe(gulp.dest('dist'));
 };
 
