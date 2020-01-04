@@ -15,7 +15,8 @@ var gulp = require('gulp'),
   minify = require('gulp-minify'),
   cssnano = require('gulp-cssnano'),
   autoprefixer = require('gulp-autoprefixer'),
-  inject = require('gulp-inject');
+  inject = require('gulp-inject'),
+  cdnizer = require("gulp-cdnizer");
 
 // BrowserSync
 const browserSync = (done) => {
@@ -62,7 +63,11 @@ const compileHtml = () => {
       helpers: 'src/helpers/',
       data: 'src/data/'
     }))
-    .pipe(inject(sources), {ignorePath: '/dist'})
+    .pipe(cdnizer([
+      'cdnjs:jquery',
+      'google:angular'
+    ]))
+    .pipe(inject(sources), {ignorePath: 'dist'})
     .pipe(gulp.dest('dist'));
 };
 
