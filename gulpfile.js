@@ -11,12 +11,10 @@ var gulp = require('gulp'),
   sourcemaps = require('gulp-sourcemaps'),
   imagemin = require('gulp-imagemin'),
   cache = require('gulp-cache'),
-  runSequence = require('run-sequence'),
   minify = require('gulp-minify'),
   cssnano = require('gulp-cssnano'),
   autoprefixer = require('gulp-autoprefixer'),
-  inject = require('gulp-inject'),
-  cdnizer = require("gulp-cdnizer");
+  inject = require('gulp-inject');
 
 // BrowserSync
 const browserSync = (done) => {
@@ -54,7 +52,7 @@ const sassT = () => {
 
 // Using panini, template, page and partial files are combined to form html markup
 const compileHtml = () => {
-  var sources = gulp.src(['./dist/assets/js/*-min.js', './dist/assets/css/*.css'], {read: false});
+  var sources = gulp.src(['./dist/assets/js/*-min.js', './dist/assets/css/*.css'], { read: false });
   return gulp.src('src/pages/**/*.html')
     .pipe(panini({
       root: 'src/pages/',
@@ -63,11 +61,7 @@ const compileHtml = () => {
       helpers: 'src/helpers/',
       data: 'src/data/'
     }))
-    .pipe(cdnizer([
-      'cdnjs:jquery',
-      'google:angular'
-    ]))
-    .pipe(inject(sources), {ignorePath: 'dist'})
+    .pipe(inject(sources, { ignorePath: '/dist' }))
     .pipe(gulp.dest('dist'));
 };
 
@@ -124,7 +118,7 @@ const clean = () => {
 //   var target = gulp.src('./dist/*.html');
 //   // It's not necessary to read the files (will speed up things), we're only after their paths:
 //   var sources = gulp.src(['./dist/assets/js/*.js', './dist/assets/css/*.css'], {read: false});
- 
+
 //   return target.pipe(inject(sources))
 //     .pipe(gulp.dest('./dist/src'));
 // });
