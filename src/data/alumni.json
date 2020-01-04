@@ -1,5 +1,19 @@
 [
     {
+        "name": "Anurag Rawat",
+        "img": "assets/img/alumni/anurag.jpeg",
+        "about":"He is from Uttarakhand,Dehradun. His father is a watchmen and the only earning member of his family. In order to support his family's financial needs after completing his class 12th, he  joined Navgurkul and currently working as a python developer in Mahiti Infotech,Bengalore.",
+        "post": "Mahiti Infotech, Bangalore",
+        "linkedin": "https://www.linkedin.com/in/anurag-rawat-79a541168/"
+    },
+    {
+        "name": "Jai Kishan",
+        "img": "assets/img/alumni/jai.jpg",
+        "about": "Jai has passed his 12th and He is from Delhi, now working as a Python developer in Mahiti Infotech, Bangalore. Interested in social welfare and intracting with new peoples.",
+        "post": "Mahiti Infotech, Bangalore",
+        "linkedin": "https://www.linkedin.com/in/jai-dev-84a8b2157/"
+    },
+    {
         "name": "Amar Sinha",
         "img": "assets/img/alumni/amar-sinha.jpg",
         "about": "Amar's dad runs a small shop in Guwahati, making college an unafforable option for him. He joined NavGurukul to learn at his own terms, and is currently a full-stack developer - Javascript, Java and Python being primary language of his interest.",
@@ -119,14 +133,14 @@
         "linkedin":"https://www.linkedin.com/in/shivnath-halder-ba40b5158/"
     },
     {
-         "name": "Pratyush Kumar",
+        "name": "Pratyush Kumar",
         "img": "assets/img/alumni/pratyush.png",
         "about": "Pratyush attended NavGurukul from November 2017 until September 2018. He is now working at MindTree Limited. He has a strong desire to work in rural education in the long-term. Pratyush likes to play cricket and mentors students at NavGurkul in his free time. ",
         "post": "Mindtree, Bangalore",
         "linkedin": "https://www.linkedin.com/in/pratyush-kumar-9b0927134/"
     },
     {
-         "name": "Deepa Kumari",
+        "name": "Deepa Kumari",
         "img": "assets/img/alumni/deepa.jpeg",
         "about": "Deepa has passed her 12th and she is from Guwahati, Assam, her father have a small shop and she completed her training in just 7 months. Now working as a Android developer in Mindtree, Bangalore.",
         "post": "Mindtree, Bangalore",
@@ -139,5 +153,4 @@
         "post": "Software Engineer, Dharmashala",
         "linkedin": "https://www.linkedin.com/in/pralhad-jadhav-7073b1174/"
     }
-    
 ]
