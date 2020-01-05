@@ -1,143 +1,149 @@
 [
-    {
-        "name": "Amar Sinha",
-        "img": "assets/img/alumni/amar-sinha.jpg",
-        "about": "Amar's dad runs a small shop in Guwahati, making college an unafforable option for him. He joined NavGurukul to learn at his own terms, and is currently a full-stack developer - Javascript, Java and Python being primary language of his interest.",
-        "post": "Thoughtworks, Bangalore",
-        "linkedin": "http://linkedin.com/in/amar-sinha-5530b1158"
-    },
-    {
-        "name": "Diwakar Prasad",
-        "img": "assets/img/alumni/diwakar-prasad.jpeg",
-        "about": "Diwakar belongs to a low-income family where his father is the only earning person and drives a car for a private company. He joined Navgurukul after finishing his schooling from a Delhi Government school in August 2017 after struggling a lot to get admission in a good college. Finally, his hard work and dedication paid off and he is now working at MindTree as a software developer.",
-        "post": "Mindtree, Bangalore",
-        "linkedin": "https://www.linkedin.com/in/diwakar-prasad-a47a34150"
-    },
-    {
-        "name": "Nitin Gupta",
-        "img": "assets/img/alumni/nitin-gupta.png",
-        "about": "Nitin was helping out his father at their recharge shop after finishing his class 12th. Now he works for CodeYug, Delhi as a Software Developer.",
-        "post": "Codeyug, Delhi",
-        "linkedin": "http://linkedin.com/in/nitingupta220"
-    },
-    {
-        "name": "Annu Bharti",
-        "img": "assets/img/alumni/annu-bharti.png",
-        "about": "Annu hailing from Kishanganj, Bihar is working at Mindtree. Living in a village she barely had access to good education. Now she wishes to establish another Navgurukul in  her own village.",
-        "post": "Mindtree, Bangalore",
-        "linkedin": "http://linkedin.com/in/annu-bharti-6a60bb158"
-    },
-    {
-        "name": "Aman Sharma",
-        "img": "assets/img/alumni/aman-sharma.jpg",
-        "about": "Aman Sharma Completed his 12th from MP(Bord). he started his journey on july 2018 and now he is working in safal solution as a PHP Developer.",
-        "post": "Safal Solutions, Hyderabad",
-        "linkedin": "https://www.linkedin.com/in/aman-sharma-52aa38184/"
-    },
-    {
-        "name": "Kajal Ahirwal",
-        "img": "assets/img/alumni/kajal-ahirwal.png",
-        "about": "Kajal an 18 year old girl, who just finished her tenth class, with less than 6 months of training at Navgurukul - is now working at Mindtree.  Based out of Delhi, her father is a rickshaw puller and mother a domestic cook in Delhi.",
-        "post": "Mindtree, Bangalore",
-        "linkedin": "http://linkedin.com/in/kajal-ahirwal-41042b175"
-    },
-    {
-        "name": "Sunil",
-        "img": "assets/img/alumni/sunil.jpg",
-        "about": "Sunil has passed his 12th class last year. He was not able to took admission in collage because of his less marks. Then he joined Navgurukul. Now he is working as a java developer at Safal Solutions, Hyderabad",
-        "post": "SAFAL Solutions, Hyderabad",
-        "linkedin": "https://www.linkedin.com/in/sunil-parcha-58a6a2182"
-    },
-    {
-        "name": "Shivam Raj",
-        "img": "assets/img/alumni/shivam.png",
-        "about": "Shivam (12th pass) was working as a helper at a local bakery and then at a call center. He is now working as a Software Developer at GamingMonk, Delhi.",
-        "post": "GamingMonk, Delhi",
-        "linkedin": "http://linkedin.com/in/shivam-raj-0a540b133"
-    },
-    {
-        "name": "Khushboo Pandit",
-        "img": "assets/img/alumni/khushboo.jpeg",
-        "about": "Khushboo was the youngest girl to join NavGurukul (at 16). She is currently working as a react developer but can code full-stack. Her dad works as a cleaner in Gurgaon while she finished her schooling with the help of Neev Foundation.",
-        "post": "FTwo, Delhi",
-        "linkedin": "https://www.linkedin.com/in/khushboopandit/"
-    },
-    {
-        "name": "Nitesh Sharma",
-        "img": "assets/img/alumni/nitesh-sharma.jpg",
-        "about": "Nitesh completed BCA from Sant Singaji Institute Of Science & Management. Interested in social welfare and solving problems through facilitation and ground-work.",
-        "post": "Facility-in-Charge, NavGurukul",
-        "linkedin": "#"
-    },
-    {
-        "name": "Vishal Gaddam",
-        "img": "assets/img/alumni/vishal-gaddam.jpeg",
-        "about": "Vishal Gaddam completed his graduation in B.Sc.IT from Mumbai University. He joined NavGurukul in June 2018 and now he is  working as Curriculum Designer.",
-        "post": "WhiteHat Jr, Mumbai",
-        "linkedin": "https://www.linkedin.com/in/vishal-gaddam-7a20b1178/"
-    },
-    {
-        "name": "Anoop Gupta",
-        "img": "assets/img/alumni/anoop-gupta.jpeg",
-        "about": "Anoop Gupta completed his graduation from Kanpur University. he started his journey as a programmer from NavGurukul. He is  working in Repup(Gurgaon) as a Software Developer",
-        "post": "Repup, Gurgaon",
-        "linkedin": "https://www.linkedin.com/in/anoop-gupta-576536168/"
-    },
-    {
-        "name": "Rani Pandit",
-        "img": "assets/img/alumni/rani-pandit.jpg",
-        "about": "Rani is currently working as a React Developer in Gurgaon. Barely 18, Rani's father work as a mason but have always inspired her to work harder towards her aspirations",
-        "post": "Momspresso, Delhi NCR",
-        "linkedin": "https://www.linkedin.com/in/rani-pandit-108102158/"
-    },
-    {
-        "name":"Naresh Kumar Gautam",
-        "img":"assets/img/alumni/naresh-gautam.jpeg",
-        "about":"Naresh (10th pass) hails from Delhi and is currently working in Gurgaon. Interested in sports and Art and craft.",
-        "post": "FTwo, Delhi",
-        "linkedin":"https://www.linkedin.com/in/naresh-kumar-gautam-1222b7183/"
-    },
-    {
-        "name":"Savita Verma",
-        "img":"assets/img/alumni/savita.jpg",
-        "about":"From Jhunjhunu (Rajasthan), Savita is a fierce debator and a freelance content writer. Savita is quite vocal about gender related issues. Currently, she is also working on outreach at NavGurukul to onboard partners for admission of new students.",
-        "post": "Freelancer",
-        "linkedin":"https://www.linkedin.com/in/savita-verma-133782167/"
-    },
-    {
-        "name":"Rahul Kashyap",
-        "img":"assets/img/alumni/rahulk.jpeg",
-        "about":"Rahul Kashyap working in Bsd Technology as a android developer and have great experience in developing mobile application.",
-        "post": "BSD Technologies, Gurgaon",
-        "linkedin":"https://www.linkedin.com/in/rahul7042/"
-    },
-    {
-        "name":"Shivnath Halder",
-        "img":"assets/img/alumni/shivnath.jpeg",
-        "about":"Shivnath has start his carrier at the age of 17 and now he is working in Bsd Technology as a Software developer, moreover he worked with react.",
-        "post": "BSD Technologies, Gurgaon",
-        "linkedin":"https://www.linkedin.com/in/shivnath-halder-ba40b5158/"
-    },
-    {
-         "name": "Pratyush Kumar",
-        "img": "assets/img/alumni/pratyush.png",
-        "about": "Pratyush attended NavGurukul from November 2017 until September 2018. He is now working at MindTree Limited. He has a strong desire to work in rural education in the long-term. Pratyush likes to play cricket and mentors students at NavGurkul in his free time. ",
-        "post": "Mindtree, Bangalore",
-        "linkedin": "https://www.linkedin.com/in/pratyush-kumar-9b0927134/"
-    },
-    {
-         "name": "Deepa Kumari",
-        "img": "assets/img/alumni/deepa.jpeg",
-        "about": "Deepa has passed her 12th and she is from Guwahati, Assam, her father have a small shop and she completed her training in just 7 months. Now working as a Android developer in Mindtree, Bangalore.",
-        "post": "Mindtree, Bangalore",
-        "linkedin": "https://www.linkedin.com/in/deepa-sinha-06a79716a"
-    },
-    {
-        "name": "Pralhad Jadhav",
-        "img": "assets/img/alumni/pralhad-jadhav.jpg",
-        "about":"A Navgurkul alumnus, Pralhad completed BE from Electronics & Telecommunication engineering stream Graduate in 2017 from Pune Univercity. Now working with Navgurukul as Software Engineer",
-        "post": "Software Engineer, Dharmashala",
-        "linkedin": "https://www.linkedin.com/in/pralhad-jadhav-7073b1174/"
-    }
-    
+  {
+    "name": "Amar Sinha",
+    "img": "assets/img/alumni/amar-sinha.jpg",
+    "about": "Amar's dad runs a small shop in Guwahati, making college an unafforable option for him. He joined NavGurukul to learn at his own terms, and is currently a full-stack developer - Javascript, Java and Python being primary language of his interest.",
+    "post": "Thoughtworks, Bangalore",
+    "linkedin": "http://linkedin.com/in/amar-sinha-5530b1158"
+  },
+  {
+    "name": "Diwakar Prasad",
+    "img": "assets/img/alumni/diwakar-prasad.jpeg",
+    "about": "Diwakar belongs to a low-income family where his father is the only earning person and drives a car for a private company. He joined Navgurukul after finishing his schooling from a Delhi Government school in August 2017 after struggling a lot to get admission in a good college. Finally, his hard work and dedication paid off and he is now working at MindTree as a software developer.",
+    "post": "Mindtree, Bangalore",
+    "linkedin": "https://www.linkedin.com/in/diwakar-prasad-a47a34150"
+  },
+  {
+    "name": "Nitin Gupta",
+    "img": "assets/img/alumni/nitin-gupta.png",
+    "about": "Nitin was helping out his father at their recharge shop after finishing his class 12th. Now he works for CodeYug, Delhi as a Software Developer.",
+    "post": "Codeyug, Delhi",
+    "linkedin": "http://linkedin.com/in/nitingupta220"
+  },
+  {
+    "name": "Annu Bharti",
+    "img": "assets/img/alumni/annu-bharti.png",
+    "about": "Annu hailing from Kishanganj, Bihar is working at Mindtree. Living in a village she barely had access to good education. Now she wishes to establish another Navgurukul in  her own village.",
+    "post": "Mindtree, Bangalore",
+    "linkedin": "http://linkedin.com/in/annu-bharti-6a60bb158"
+  },
+  {
+    "name": "Aman Sharma",
+    "img": "assets/img/alumni/aman-sharma.jpg",
+    "about": "Aman Sharma Completed his 12th from MP(Bord). he started his journey on july 2018 and now he is working in safal solution as a PHP Developer.",
+    "post": "Safal Solutions, Hyderabad",
+    "linkedin": "https://www.linkedin.com/in/aman-sharma-52aa38184/"
+  },
+  {
+    "name": "Kajal Ahirwal",
+    "img": "assets/img/alumni/kajal-ahirwal.png",
+    "about": "Kajal an 18 year old girl, who just finished her tenth class, with less than 6 months of training at Navgurukul - is now working at Mindtree.  Based out of Delhi, her father is a rickshaw puller and mother a domestic cook in Delhi.",
+    "post": "Mindtree, Bangalore",
+    "linkedin": "http://linkedin.com/in/kajal-ahirwal-41042b175"
+  },
+  {
+    "name": "Sunil",
+    "img": "assets/img/alumni/sunil.jpg",
+    "about": "Sunil has passed his 12th class last year. He was not able to took admission in collage because of his less marks. Then he joined Navgurukul. Now he is working as a java developer at Safal Solutions, Hyderabad",
+    "post": "SAFAL Solutions, Hyderabad",
+    "linkedin": "https://www.linkedin.com/in/sunil-parcha-58a6a2182"
+  },
+  {
+    "name": "Shivam Raj",
+    "img": "assets/img/alumni/shivam.png",
+    "about": "Shivam (12th pass) was working as a helper at a local bakery and then at a call center. He is now working as a Software Developer at GamingMonk, Delhi.",
+    "post": "GamingMonk, Delhi",
+    "linkedin": "http://linkedin.com/in/shivam-raj-0a540b133"
+  },
+  {
+    "name": "Khushboo Pandit",
+    "img": "assets/img/alumni/khushboo.jpeg",
+    "about": "Khushboo was the youngest girl to join NavGurukul (at 16). She is currently working as a react developer but can code full-stack. Her dad works as a cleaner in Gurgaon while she finished her schooling with the help of Neev Foundation.",
+    "post": "MindScroll, Delhi",
+    "linkedin": "https://www.linkedin.com/in/khushboopandit/"
+  },
+  {
+    "name": "Nitesh Sharma",
+    "img": "assets/img/alumni/nitesh-sharma.jpg",
+    "about": "Nitesh completed BCA from Sant Singaji Institute Of Science & Management. Interested in social welfare and solving problems through facilitation and ground-work.",
+    "post": "Facility-in-Charge, NavGurukul",
+    "linkedin": "#"
+  },
+  {
+    "name": "Vishal Gaddam",
+    "img": "assets/img/alumni/vishal-gaddam.jpeg",
+    "about": "Vishal Gaddam completed his graduation in B.Sc.IT from Mumbai University. He joined NavGurukul in June 2018 and now he is  working as Curriculum Designer.",
+    "post": "WhiteHat Jr, Mumbai",
+    "linkedin": "https://www.linkedin.com/in/vishal-gaddam-7a20b1178/"
+  },
+  {
+    "name": "Anoop Gupta",
+    "img": "assets/img/alumni/anoop-gupta.jpeg",
+    "about": "Anoop Gupta completed his graduation from Kanpur University. he started his journey as a programmer from NavGurukul. He is  working in Repup(Gurgaon) as a Software Developer",
+    "post": "Repup, Gurgaon",
+    "linkedin": "https://www.linkedin.com/in/anoop-gupta-576536168/"
+  },
+  {
+    "name": "Rani Pandit",
+    "img": "assets/img/alumni/rani-pandit.jpg",
+    "about": "Rani is currently working as a React Developer in Gurgaon. Barely 18, Rani's father work as a mason but have always inspired her to work harder towards her aspirations",
+    "post": "Momspresso, Delhi NCR",
+    "linkedin": "https://www.linkedin.com/in/rani-pandit-108102158/"
+  },
+  {
+    "name": "Naresh Kumar Gautam",
+    "img": "assets/img/alumni/naresh-gautam.jpeg",
+    "about": "Naresh (10th pass) hails from Delhi and is currently working in Gurgaon. Interested in sports and Art and craft.",
+    "post": "FTwo, Delhi",
+    "linkedin": "https://www.linkedin.com/in/naresh-kumar-gautam-1222b7183/"
+  },
+  {
+    "name": "Savita Verma",
+    "img": "assets/img/alumni/savita.jpg",
+    "about": "From Jhunjhunu (Rajasthan), Savita is a fierce debator and a freelance content writer. Savita is quite vocal about gender related issues. Currently, she is also working on outreach at NavGurukul to onboard partners for admission of new students.",
+    "post": "Freelancer",
+    "linkedin": "https://www.linkedin.com/in/savita-verma-133782167/"
+  },
+  {
+    "name": "Rahul Kashyap",
+    "img": "assets/img/alumni/rahulk.jpeg",
+    "about": "Rahul Kashyap working in Bsd Technology as a android developer and have great experience in developing mobile application.",
+    "post": "BSD Technologies, Gurgaon",
+    "linkedin": "https://www.linkedin.com/in/rahul7042/"
+  },
+  {
+    "name": "Shivnath Halder",
+    "img": "assets/img/alumni/shivnath.jpeg",
+    "about": "Shivnath has start his carrier at the age of 17 and now he is working in Bsd Technology as a Software developer, moreover he worked with react.",
+    "post": "BSD Technologies, Gurgaon",
+    "linkedin": "https://www.linkedin.com/in/shivnath-halder-ba40b5158/"
+  },
+  {
+    "name": "Pratyush Kumar",
+    "img": "assets/img/alumni/pratyush.png",
+    "about": "Pratyush attended NavGurukul from November 2017 until September 2018. He is now working at MindTree Limited. He has a strong desire to work in rural education in the long-term. Pratyush likes to play cricket and mentors students at NavGurkul in his free time. ",
+    "post": "Mindtree, Bangalore",
+    "linkedin": "https://www.linkedin.com/in/pratyush-kumar-9b0927134/"
+  },
+  {
+    "name": "Deepa Kumari",
+    "img": "assets/img/alumni/deepa.jpeg",
+    "about": "Deepa has passed her 12th and she is from Guwahati, Assam, her father have a small shop and she completed her training in just 7 months. Now working as a Android developer in Mindtree, Bangalore.",
+    "post": "Mindtree, Bangalore",
+    "linkedin": "https://www.linkedin.com/in/deepa-sinha-06a79716a"
+  },
+  {
+    "name": "Pralhad Jadhav",
+    "img": "assets/img/alumni/pralhad-jadhav.jpg",
+    "about": "A Navgurkul alumnus, Pralhad completed BE from Electronics & Telecommunication engineering stream Graduate in 2017 from Pune Univercity. Now working with Navgurukul as Software Engineer",
+    "post": "Software Engineer, Dharmashala",
+    "linkedin": "https://www.linkedin.com/in/pralhad-jadhav-7073b1174/"
+  },
+  {
+    "name": "Ankita Gole",
+    "img": "assets/img/alumni/ankita.jpg",
+    "about": "She is from Delhi. Her father works as a shopkeeper and her mom as a maid, however, she aspire to become a Software Engineer and make her family proud.",
+    "post": "Tester and NodeJS developer, SmallWorld Digital Services",
+    "linkedin": "https://www.linkedin.com/in/ankita-gole-6570bb158/"
+  }
 ]
