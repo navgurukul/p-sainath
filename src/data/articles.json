@@ -1,0 +1,22 @@
+[
+  {
+    "img": "assets/img/thebetterindia.jpeg",
+    "headLine": "Dropout Are Skilling Underprivileged Students to Get IT Jobs in a Year.",
+    "link": "https://www.thebetterindia.com/102699/navgurukul-skilling-underprivileged-delhi-computer-engineering-jobs/"
+  },
+  {
+    "img": "assets/img/timesofindia.jpg",
+    "headLine": "How a gurukul for coders is changing lives",
+    "link": "https://timesofindia.indiatimes.com/home/sunday-times/how-a-gurukul-for-coders-is-changing-lives/articleshow/60896051.cms"
+  },
+  {
+    "img": "assets/img/thelogicalindia.png",
+    "headLine": "How a gurukul for coders is changing lives...",
+    "link": "https://thelogicalindian.com/story-feed/get-inspired/navgurukul/"
+  },
+  {
+    "img": "assets/img/quartz.jpg",
+    "headLine": "IIT grads? No, it’s the school dropouts...",
+    "link": "https://qz.com/1086297/iit-grads-no-its-the-school-dropouts-who-are-hot-property-in-indian-it-now/"
+  }
+]
