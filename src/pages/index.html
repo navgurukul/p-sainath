@@ -188,7 +188,14 @@
     <div class="text-center">
       <h2 class="section-heading text-center">SUPPORTED BY:</h2>
       <hr class="primary">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="sorttedby">
+        <div class="slide-content"><a href="https://accenture.com" class="nounderline d-flex justify-content-center py-4" rel="nofollow"><img src="assets/img/accenture.jpg"></a></div>
+        <div class="slide-content"><a href="http://socialalpha.in" class="nounderline d-flex justify-content-center py-4" rel="nofollow"><img src="assets/img/social-alpha.jpg"></a></div>
+        <div class="slide-content"><a href="http://ncore.thenudge.org" class="nounderline d-flex justify-content-center py-4" rel="nofollow"><img src="assets/img/ncore.jpg"></a></div>
+        <div class="slide-content"><a href="http://unltdindia.org" class="nounderline d-flex justify-content-center py-4" rel="nofollow"><img src="assets/img/unltd.jpg"></a></div>
+        <div class="slide-content"><a href="http://dunnhumby.com" class="nounderline d-flex justify-content-center py-4" rel="nofollow"><img style="height:60px" src="assets/img/dunnhumby_logo.png"></a></div>
+      </div>  
+      <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -231,12 +238,47 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
 </section>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script>
+        $().ready(function() {
+          $(".newsArticles").slick({
+            arrows: true,
+            centerMode: true,
+            centerPadding: '60px',
+            dots: false,
+            infinite: false,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [{
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              }
+              }, {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              }
+              }]
+          })
+        });
+        $().ready(function() {
+          $(".sorttedby").slick({
+            arrows: true,
+            dots: true,
+            infinite: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          })
+        });
+      </script>
 
 <div class="clearfix">
 </div>
