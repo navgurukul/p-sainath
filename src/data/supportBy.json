@@ -1,0 +1,22 @@
+[
+  {
+    "logo_img": "assets/img/accenture.jpg",
+    "link": "https://accenture.com"
+  },
+  {
+    "logo_img": "assets/img/social-alpha.jpg",
+    "link": "http://socialalpha.in"
+  },
+  {
+    "logo_img": "assets/img/ncore.jpg",
+    "link": "http://ncore.thenudge.org"
+  },
+  {
+    "logo_img": "assets/img/unltd.jpg",
+    "link": "http://unltdindia.org"
+  },
+  {
+    "logo_img": "assets/img/dunnhumby_logo.png",
+    "link": "http://dunnhumby.com"
+  }
+]
