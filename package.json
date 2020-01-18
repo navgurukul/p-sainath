@@ -46,6 +46,5 @@
     "yargs": "^15.1.0",
     "handlebars": "^4.5.3"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
