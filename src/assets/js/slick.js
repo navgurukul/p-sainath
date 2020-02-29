@@ -10,6 +10,17 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+  $(".testimonials").slick({
+    arrows: true,
+    dots: true,
+    infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true
+  });
+});
+
+$(document).ready(function () {
   $(".sorttedby").slick({
     arrows: true,
     dots: true,
