@@ -1,61 +1,67 @@
 <nav id="mainNav" class="navbar navbar-expand-md navbar-default fixed-top navbar-light">
-    <div class="container">
-        <a class="navbar-brand" href="index.html#page-top"><img src="{{root}}assets/img/logo.png" alt="logoNavGurukul" class="logoheader"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+  <div class="container">
+    <a class="navbar-brand" href="index.html#page-top"><img src="{{root}}assets/img/logo.png" alt="logoNavGurukul" class="logoheader"></a>
+    <div class="nav-item dropdown" style="cursor: pointer;">
+      <a class="nav-link dropdown-toggle" id="selected_option" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+      <div class="dropdown-menu" aria-labelledby="dropdown09">
+        <a class="dropdown-item" id="other_option" onclick="changeLang()"></a>
+      </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto"></ul>
-            <ul class="navbar-nav nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html#page-top">HOME
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto"></ul>
+      <ul class="navbar-nav nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#page-top">HOME
                         <span class="sr-only">(current)</span>
                     </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">ABOUT
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT
                         <span class="sr-only">(current)</span>
                     </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="http://medium.com/navgurukul">BLOG
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="http://medium.com/navgurukul">BLOG
                         <span class="sr-only">(current)</span>
                     </a>
-                </li>
-                <li class="nav-item">
-                    <a target="_blank" class="nav-link" href="http://saral.navgurukul.org">&lt;SARAL&gt;
+        </li>
+        <li class="nav-item">
+          <a target="_blank" class="nav-link" href="http://saral.navgurukul.org">&lt;SARAL&gt;
                     </a>
-                </li>
-                <li class="nav-item">
-                    <a rel="nowfollow" class="nav-link" href="http://admissions.navgurukul.org" target="_blank">APPLY
+        </li>
+        <li class="nav-item">
+          <a rel="nowfollow" class="nav-link" href="http://admissions.navgurukul.org" target="_blank">APPLY
                     </a>
-                </li>
-                <li class="nav-item">
-                    <a rel="nowfollow" class="nav-link" href="alumni.html">ALUMNI
+        </li>
+        <li class="nav-item">
+          <a rel="nowfollow" class="nav-link" href="alumni.html">ALUMNI
                 </a>
-                </li>
-                <li class="nav-item">
-                    <a rel="nofollow" class="nav-link" href="hire.html">HIRE
+        </li>
+        <li class="nav-item">
+          <a rel="nofollow" class="nav-link" href="hire.html">HIRE
                     </a>
-                </li>
-                <li class="nav-item">
-                    <a rel="nofollow" class="nav-link" href="donate.html">DONATE
+        </li>
+        <li class="nav-item">
+          <a rel="nofollow" class="nav-link" href="donate.html">DONATE
                             <span class="sr-only">(current)</span>
                         </a>
-                </li>
-                <!-- <li class="nav-item">
+        </li>
+        <!-- <li class="nav-item">
                     <a rel="nofollow"  class="nav-link" href="join.html">JOIN US
                     </a>
                 </li> -->
-                <!-- <li class="nav-item">
+        <!-- <li class="nav-item">
                     <a target="_blank"  class="nav-link" rel="nofollow" href="https://angel.co/navgurukul-foundation/jobs">JOIN US
                     </a>
                 </li> -->
-            </ul>
-            <!-- <form class="form-inline mt-2 mt-md-0">
+      </ul>
+      <!-- <form class="form-inline mt-2 mt-md-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form> -->
-        </div>
     </div>
+  </div>
 </nav>
