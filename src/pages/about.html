@@ -7,13 +7,15 @@
 
   <div class="row w-middle mb-4 mt-4 p-3" style="display: flex; justify-content: center;">
     <h4>
-      Started in 2016, Navgurukul runs one-year residential course for students from underserved and diverse communities. Students after pursuing our course are awarded Diploma in Software Programming. Diploma is issued by DGT, Government of India as detailed by the MOU <a href="{{root}}assets/static/mou_dgt_diploma-in-software-programming.pdf" target="_blank">here</a>.
+      Started in 2016, Navgurukul runs one-year residential course for students from underserved and diverse communities. Students after pursuing our course are awarded Diploma in Software Programming. Diploma is issued by DGT, Government of India as detailed
+      by the MOU <a href="{{root}}assets/static/mou_dgt_diploma-in-software-programming.pdf" target="_blank">here</a>.
     </h4>
   </div>
 
 
   <div class="row w-middle mb-4 iframe-container" style="display: flex; justify-content: center;">
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRImbed-Fmaf8QEDzNj3SMFJFYpXbOC4sutIFTYfW6JFjGzozowZCgu142FKwjmiiOvM-0MRkkpXvPk/embed?start=true&loop=false&delayms=10000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" align="center" webkitallowfullscreen="true"></iframe>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRImbed-Fmaf8QEDzNj3SMFJFYpXbOC4sutIFTYfW6JFjGzozowZCgu142FKwjmiiOvM-0MRkkpXvPk/embed?start=true&loop=false&delayms=5000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" align="center"
+      webkitallowfullscreen="true"></iframe>
   </div>
 
   <!-- <div class="row equal-heights w-middle mt-4">
@@ -76,3 +78,42 @@
     </div> 
   </div> -->
 </section>
+
+<!-- Section Team
+    ================================================== -->
+<section id="team" class="mb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Team</h2>
+        <hr class="primary" />
+      </div>
+    </div>
+  </div>
+
+  <div class="row col-10 offset-1 mt-4">
+    {{#each team}}
+    <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+      <div class="alumni">
+        <div class="pic">
+          <img src="{{root}}{{this.img}}" alt="" />
+        </div>
+        <div class="team-content">
+          <h3 class="team-title">{{this.name}}</h3>
+          <span class="post">{{this.post}}</span>
+          <p class="description">
+            {{this.about}}
+          </p>
+          <ul class="social-links">
+            <li>
+              <a target="_blank" href="{{this.linkedin}}" class="fa fa-linkedin"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+
+</section>
+<div class="clearfix"></div>
