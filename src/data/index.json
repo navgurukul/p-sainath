@@ -2,5 +2,14 @@
     "headline1" : {
         "en": "Intensive program without any fees during the course at par with B.Tech (CS or IT) degree with better placements",
         "hi": "बिना fees के पर बेहतर jobs के साथ, एक college जैसा program" 
+    },
+    "headline2":{
+        "en":"Call our helpline number -  <b>011 4084 6385</b> now to join.",
+        "hi":"जुड़ने के लिए अब हमारे हेल्पलाइन नंबर - <b>011 4084 6385</b> पर कॉल करें।"
+    },
+    "headline3":{
+        "en":"Creating local problem solvers with the right tools & understanding.",
+        "hi":"सही उपकरण और समझ के साथ स्थानीय समस्या हल करना।"
     }
+
 }
