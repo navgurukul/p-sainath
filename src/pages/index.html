@@ -1,6 +1,5 @@
 <!-- IN the press
     ================================================== -->
-
 <section id="partners" class="container">
   <div class="text-center">
     <div class="row">
@@ -107,7 +106,8 @@
       <div class="sorttedby">
         {{#each supportBy}}
         <div class="slide-content">
-          <a href="{{this.link}}" target="_blank" class="nounderline d-flex justify-content-center py-4" rel="nofollow"><img src="{{root}}{{this.logo_img}}" /></a>
+          <a href="{{this.link}}" target="_blank" class="nounderline d-flex justify-content-center py-4"
+            rel="nofollow"><img src="{{root}}{{this.logo_img}}" /></a>
         </div>
         {{/each}}
       </div>
@@ -166,11 +166,9 @@
       <div class="col-lg-5 col-xs-2">
         <span class="funfacts">
           <span class="icon">
-            <a target="_blank" href="http://facebook.com/NavGurukul"
-              ><i class="fa fa-facebook"></i
-            ></a>
+            <a target="_blank" href="http://facebook.com/NavGurukul"><i class="fa fa-facebook"></i></a>
           </span>
-        <h4 class="text-dark">Facebook</h4>
+          <h4 class="text-dark">Facebook</h4>
         </span>
       </div>
       <!-- <div class="parallax-content">
@@ -205,7 +203,7 @@
 
     document.addEventListener(
       "click",
-      function(event) {
+      function (event) {
         // Check if clicked element is a video thumbnail
 
         var videoIdN = event.target.getAttribute("data-video");
@@ -234,14 +232,14 @@
     );
 
     function removeIframes() {
-      document.querySelectorAll("iframe").forEach(function(elem) {
+      document.querySelectorAll("iframe").forEach(function (elem) {
         elem.parentNode.removeChild(elem);
       });
     }
 
     document.addEventListener(
       "fullscreenchange",
-      function() {
+      function () {
         if (!document.fullscreenElement) removeIframes();
       },
       false
@@ -249,7 +247,7 @@
 
     document.addEventListener(
       "msfullscreenchange",
-      function() {
+      function () {
         if (!document.msFullscreenElement) removeIframes();
       },
       false
@@ -257,7 +255,7 @@
 
     document.addEventListener(
       "mozfullscreenchange",
-      function() {
+      function () {
         if (!document.mozFullScreen) removeIframes();
       },
       false
@@ -265,7 +263,7 @@
 
     document.addEventListener(
       "webkitfullscreenchange",
-      function() {
+      function () {
         if (!document.webkitIsFullScreen) removeIframes();
       },
       false
