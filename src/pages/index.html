@@ -80,7 +80,8 @@
     </div>
 
     <p>
-      We currently have 35+ NGOs, schools and colleges across India who support us in our efforts to reach out to as many deserving youth as possible. Many individuals become champions in their localities or workspaces to help youth around them know about our program.
+      We currently have 35+ NGOs, schools and colleges across India who support us in our efforts to reach out to as many deserving youth as possible. Many individuals become champions in their localities or workspaces to help youth around them know about our
+      program.
     </p>
 
     <div class="testimonials">
@@ -106,8 +107,7 @@
       <div class="sorttedby">
         {{#each supportBy}}
         <div class="slide-content">
-          <a href="{{this.link}}" target="_blank" class="nounderline d-flex justify-content-center py-4"
-            rel="nofollow"><img src="{{root}}{{this.logo_img}}" /></a>
+          <a href="{{this.link}}" target="_blank" class="nounderline d-flex justify-content-center py-4" rel="nofollow"><img src="{{root}}{{this.logo_img}}" /></a>
         </div>
         {{/each}}
       </div>
@@ -149,6 +149,26 @@
 </section>
 <div class="clearfix"></div> -->
 
+<section id="videos" class="container">
+  <div class="text-center">
+    <h2 class="section-heading text-center">VIDEOS:</h2>
+    <hr class="primary" />
+    <div class="row" style="justify-content: center;">
+      {{#each videos}}
+      <div class="card col-6 p-2" style="border: none;">
+        <a data-fancybox href="https://www.youtube.com/watch?v={{this.video_id}}">
+          <img class="card-img-top img-fluid" src="https://img.youtube.com/vi/{{this.video_id}}/mqdefault.jpg">
+        </a>
+        <div class="card-body" style="background-color: #eee;">
+          <p class="card-text">
+            {{this.description}}
+          </p>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
 
 <section id="contact">
   <div class="container">
@@ -168,7 +188,7 @@
           <span class="icon">
             <a target="_blank" href="http://facebook.com/NavGurukul"><i class="fa fa-facebook"></i></a>
           </span>
-          <!-- <h4 class="text-dark">Facebook</h4> -->
+        <!-- <h4 class="text-dark">Facebook</h4> -->
         </span>
       </div>
     </div>
