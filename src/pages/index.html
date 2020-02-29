@@ -1,7 +1,10 @@
 <!-- Section Intro Slider
 ================================================== -->
-<img data-video="dLVT1fJeWHI" alt="Play this video" style="background:url({{root}}assets/img/coverbg.jpg); position:relative; min-height:450px; min-width:100%; max-width: 100%; cursor: pointer;" id="imageP" />
-<img src="{{root}}assets/img/playicon.png" style="position:absolute; top: 170px; width: 120px; cursor: pointer; left: calc(50% - 60px);" />
+<img data-video="dLVT1fJeWHI" alt="Play this video"
+  style="background:url({{root}}assets/img/coverbg.jpg); position:relative; min-height:450px; min-width:100%; max-width: 100%; cursor: pointer;"
+  id="imageP" />
+<img src="{{root}}assets/img/playicon.png"
+  style="position:absolute; top: 170px; width: 120px; cursor: pointer; left: calc(50% - 60px);" />
 <!-- <div id="carousel-example-generic" class="carousel intro slide">
         <div class="carousel-inner" role="listbox">
             <div class="item active" style="background-image:url({{root}}assets/img/coverbg.jpg)">
@@ -39,17 +42,13 @@
       <div class="box text-center">
         <h5 class="wow flipInX">
           {{#lang index.headline2}}{{/lang}}
-          <!-- Call our helpline number - <b>011 4084 6385</b> now to join. -->
         </h5>
-        <!-- <h5>One year residential program leading to high-growth careers.</h5> -->
       </div>
     </div>
     <div class="col-md-4 bg-gray">
       <div class="box text-center">
         <h5 class="wow flipInX">
           {{#lang index.headline3}}{{/lang}}
-
-          <!-- Creating local problem solvers with the right tools &amp; understanding. -->
         </h5>
       </div>
     </div>
@@ -107,7 +106,8 @@
       <div class="sorttedby">
         {{#each supportBy}}
         <div class="slide-content">
-          <a href="{{this.link}}" target="_blank" class="nounderline d-flex justify-content-center py-4" rel="nofollow"><img src="{{root}}{{this.logo_img}}" /></a>
+          <a href="{{this.link}}" target="_blank" class="nounderline d-flex justify-content-center py-4"
+            rel="nofollow"><img src="{{root}}{{this.logo_img}}" /></a>
         </div>
         {{/each}}
       </div>
@@ -166,11 +166,9 @@
       <div class="col-lg-5 col-xs-2">
         <span class="funfacts">
           <span class="icon">
-            <a target="_blank" href="http://facebook.com/NavGurukul"
-              ><i class="fa fa-facebook"></i
-            ></a>
+            <a target="_blank" href="http://facebook.com/NavGurukul"><i class="fa fa-facebook"></i></a>
           </span>
-        <h4 class="text-dark">Facebook</h4>
+          <h4 class="text-dark">Facebook</h4>
         </span>
       </div>
       <!-- <div class="parallax-content">
@@ -205,7 +203,7 @@
 
     document.addEventListener(
       "click",
-      function(event) {
+      function (event) {
         // Check if clicked element is a video thumbnail
 
         var videoIdN = event.target.getAttribute("data-video");
@@ -234,14 +232,14 @@
     );
 
     function removeIframes() {
-      document.querySelectorAll("iframe").forEach(function(elem) {
+      document.querySelectorAll("iframe").forEach(function (elem) {
         elem.parentNode.removeChild(elem);
       });
     }
 
     document.addEventListener(
       "fullscreenchange",
-      function() {
+      function () {
         if (!document.fullscreenElement) removeIframes();
       },
       false
@@ -249,7 +247,7 @@
 
     document.addEventListener(
       "msfullscreenchange",
-      function() {
+      function () {
         if (!document.msFullscreenElement) removeIframes();
       },
       false
@@ -257,7 +255,7 @@
 
     document.addEventListener(
       "mozfullscreenchange",
-      function() {
+      function () {
         if (!document.mozFullScreen) removeIframes();
       },
       false
@@ -265,7 +263,7 @@
 
     document.addEventListener(
       "webkitfullscreenchange",
-      function() {
+      function () {
         if (!document.webkitIsFullScreen) removeIframes();
       },
       false
