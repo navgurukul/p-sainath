@@ -19,7 +19,6 @@ var gulp = require('gulp'),
 const Handlebars = require("handlebars");
 
 Handlebars.registerHelper("lang", function(context, options) {
-  console.log(options, context, context.en, options.fn(context), options.fn(this), options.fn(context).hi);
   return new Handlebars.SafeString('<div class="en">' + context.en + "</div>"+'<div class="hi d-none">' + context.hi + "</div>");
 });
 

@@ -23,7 +23,6 @@ function setCookie(cname, cvalue, exdays) {
 
 function setLang() {
   var lang = getLang();
-  console.log('setLang', lang);
   var olang = lang == 'en' ? 'hi' : 'en';
   var language1 = lang == "en" ? "English" : "हिंदी";
   var language2 = lang == "en" ? "हिंदी " : "English";
@@ -43,8 +42,6 @@ function changeLang() {
   var language = getCookie("lang");
   var lang = language == "en" ? "hi" : "en";
   setCookie("lang", lang, 365);
-  console.log(language, lang, getLang());
   setLang();
   return lang;
 }
-
