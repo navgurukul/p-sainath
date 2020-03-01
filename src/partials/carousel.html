@@ -1,0 +1,20 @@
+<div class="text-center mt-5 pt-md-5 px-md-5 px-4">
+    <!-- <h2 class="section-heading text-center">IN THE PRESS</h2>
+    <hr class="primary" /> -->
+    <div class="newsArticles">
+      {{#each about}}
+      <div class="slide-content">
+        <div class="mx-3">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-6 col-12">
+              <img src="{{root}}{{this.img}}" style="max-width: 100%"/>
+            </div>
+            <div class="px-4 align-self-center col-md-4 col-12" style="word-break: break-word">
+              <h3>{{this.headLine}}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
