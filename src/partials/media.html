@@ -1,0 +1,35 @@
+<section id="articles">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Media</h2>
+          <hr class="primary">
+        </div>
+      </div>
+  
+      <div class="text-center">
+        <!-- <h2 class="section-heading text-center">IN THE PRESS</h2>
+        <hr class="primary" /> -->
+        <div class="newsArticles">
+          {{#each articles}}
+          <div class="slide-content">
+            <div class="mx-3">
+              <a target="_blank" href="{{this.link}}" class="nounderline text-dark py-4" rel="nofollow">
+                <div class="row d-flex justify-content-center">
+                  <div>
+                    <img src="{{root}}{{this.img}}" style="height:64px;" />
+                  </div>
+                  <div class="px-4 align-self-center" style="word-break: break-word">
+                    <h3>{{this.headLine}}</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="clearfix"></div>
+  
