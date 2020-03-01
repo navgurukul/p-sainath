@@ -19,7 +19,7 @@ $(document).ready(function () {
 $(document).ready(function () {
   $('.large_text').readmore({
     speed: 100,
-    collapsedHeight: 200,
+    collapsedHeight: 190,
     heightMargin: 24,
     moreLink: '<a href="#">Know More</a>',
     lessLink: '<a href="#">Close</a>',
