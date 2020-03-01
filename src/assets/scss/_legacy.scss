@@ -754,6 +754,7 @@ body {
 }
 
 .minHeight {
+  padding-top: 0;
   min-height: calc(100vh - 41px)
 }
 
@@ -905,7 +906,7 @@ body {
 }
 
 .equal-heights .box {
-  padding: 30px 60px;
+  padding: 20px 30px;
 }
 
 .w-middle {
@@ -1680,7 +1681,10 @@ ul.nav-footer>li a {
     font-size: 35px;
   }
   section {
-    padding: 80px 0;
+    padding: 25px 0;
+  }
+  .minHeight {
+    padding: 60px 0;
   }
   .equal-heights .box {
     padding: 30px;
