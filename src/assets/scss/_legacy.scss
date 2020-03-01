@@ -890,6 +890,22 @@ body {
   color: #222;
 }
 
+.playicon {
+  position:absolute;
+  top: calc(50% - 60px);
+  width: 120px;
+  cursor: pointer;
+  left: calc(50% - 60px);
+}
+
+@media(max-width:780px) {
+  .playicon {
+    top: calc(50% - 30px);
+    width: 60px;
+    left: calc(50% - 30px);
+  }
+}
+
 .btn-round {
   border-radius: 300px;
   border: 0;

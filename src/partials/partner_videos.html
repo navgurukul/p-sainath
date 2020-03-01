@@ -5,10 +5,12 @@
     <div class="row" style="justify-content: center;">
       {{#each videos}}
       <div class="card col-6 p-2" style="border: none;">
-        <a data-fancybox href="https://www.youtube.com/watch?v={{this.video_id}}">
-          <img class="card-img-top img-fluid" src="https://img.youtube.com/vi/{{this.video_id}}/mqdefault.jpg">
-          <img src="{{root}}assets/img/playicon.png" style="position:absolute; top: 110px; width: 120px; cursor: pointer; left: calc(50% - 60px);" />
-        </a>
+        <div style="position: relative;">
+          <a data-fancybox href="https://www.youtube.com/watch?v={{this.video_id}}">
+            <img class="card-img-top img-fluid" src="https://img.youtube.com/vi/{{this.video_id}}/mqdefault.jpg">
+            <img src="{{root}}assets/img/playicon.png" class="playicon" />
+          </a>
+        </div>
         <div class="card-body" style="background-color: #eee;">
           <p class="card-text">
             {{this.description}}
