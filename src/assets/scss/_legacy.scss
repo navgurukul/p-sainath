@@ -4,6 +4,22 @@
   cursor: pointer;
 }
 
+.playicon {
+  position:absolute;
+  top: calc(50% - 60px);
+  width: 120px;
+  cursor: pointer;
+  left: calc(50% - 60px);
+}
+
+@media(maxhistory-width:768px) {
+  .playicon {
+    top: calc(50% - 30px);
+    width: 60px;
+    left: calc(50% - 30px);
+  }  
+}
+
 .iframe-container {
     position: relative;
 }
