@@ -8,7 +8,7 @@
 .alumni .pic {
   width: 40%;
   border: 3px solid #fff;
-  border-radius: 60px 0;
+  border-radius: 35px 0;
   margin: -72px auto 0;
   overflow: hidden;
   transition: all 0.2s ease 0s;
@@ -44,6 +44,13 @@
   margin-bottom: 15px;
 }
 
+.alumni {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .alumni .description {
   font-size: 16px;
   font-weight: 300;
@@ -51,8 +58,11 @@
   font-family: Open Sans, "Helvetica Neue", Arial, sans-serif;
   padding: 0 35px;
   line-height: 22px;
-  margin-bottom: 60px;
+  margin-bottom: 18px;
 }
+
+// [data-readmore-toggle] {
+// }
 
 .alumni .social {
   padding: 0;
