@@ -1,11 +1,44 @@
-<section id="about" class="container">
+<div class="text-center mt-5 pt-md-5 px-md-5 px-4">
+  <!-- <h2 class="section-heading text-center">IN THE PRESS</h2>
+  <hr class="primary" /> -->
+  <div class="newsArticles">
+    {{#each about}}
+    <div class="slide-content">
+      <div class="mx-3">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-6 col-12">
+            <img src="{{root}}{{this.img}}" style="max-width: 100%"/>
+          </div>
+          <div class="px-4 align-self-center col-md-4 col-12" style="word-break: break-word">
+            <h3>{{this.headLine}}</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>
+
+<section id="about" class="container pt-0">
+  <section id="articles">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">ABOUT US</h2>
+          <hr class="primary">
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="clearfix"></div>
+
   <!-- <div class="text-center mb-4">
         <h2 class="section-heading">ABOUT US</h2>
         <hr>
     </div>
   -->
 
-  <div class="row w-middle mb-4 mt-4 p-3" style="display: flex; justify-content: center;">
+  <div class="row w-middle mb-4 p-3" style="display: flex; justify-content: center;">
     <h4>
       Started in 2016, Navgurukul runs one-year residential course for students from underserved and diverse communities. Students after pursuing our course are awarded Diploma in Software Programming. Diploma is issued by DGT, Government of India as detailed
       by the MOU <a href="{{root}}assets/static/mou_dgt_diploma-in-software-programming.pdf" target="_blank">here</a>.
