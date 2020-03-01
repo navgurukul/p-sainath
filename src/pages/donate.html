@@ -51,7 +51,7 @@
       <div class="text-center col-12">
         <a href="https://www.instamojo.com/@navgurukul/" type="button" rel="im-checkout" data-behaviour="remote"
           data-style="no-style" data-text="Pay Directly Now">
-          {{#lang donate-text.pay}}{{/lang}}</a>
+        </a>
       </div>
 
       <!-- <p class="text-center font-weight-bold col-12">Looking forward to achieving great things together.</p> -->
@@ -68,7 +68,7 @@
       {{#each donate}}
       <a href="{{this.link}}" target="_blank"
         class="badge badge-{{this.type}} badge-pill p-3 m-1 badgeOverrides">{{this.amount}}₹ <span
-          style="font-size:14px">per month</span></a>
+          style="font-size:14px">{{#lang this.month}}{{/lang}}</span></a>
       {{/each}}
     </div>
   </div>
