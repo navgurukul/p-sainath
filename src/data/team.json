@@ -1,50 +1,60 @@
-[{
-        "name": "Abhishek Gupta",
-        "img": "assets/img/main/abhishek-gupta.jpg",
-        "about": "IITD ‘13 CS Graduate. Co-founded Zumbl.com and FranklyMe. Zumbl was acquired and FranklyMe raised more than 2.6M$ from Matrix Partners and others. Was working with Education Department, Delhi Government before NavGurukul.",
-        "post": "CEO & Co-founder",
-        "linkedin": "http://linkedin.com/in/abhishekgupta92"
-    },
-    {
-        "name": "Rishabh Verma",
-        "img": "assets/img/main/rishabh-verma.jpg",
-        "about": "A self learnt programmer, working on Education & Technology. Aged 21, he was part of the founding team of Airwoot. He then took a break to spend a year travelling in the mountains. Later, Rishabh headed Technology for Grownout.",
-        "post": "COO & Co-founder",
-        "linkedin": "http://linkedin.com/in/rishmunk"
-    },
-    {
-        "name": "Surabhi Yadav",
-        "img": "assets/img/main/surabhi-yadav.jpg",
-        "about": "IIT Delhi + UC Berkeley Alumna. Worked as a public policy researcher at IIT Delhi for 3 years to understand inclusive innovation ecosystem in India. Her work is focused on gender and rural development in India.",
-        "post": "CINO & Co-founder",
-        "linkedin": "https://www.linkedin.com/in/surabhi-yadav-6771323a/"
-    },
-    {
-        "name": "Alisha Sadana",
-        "img": "assets/img/main/alisha.png",
-        "about": "A feminist and social activist, one of the members of a 25-day people's movement/peace campaign. A student of Humanities & Social Work. Attended various training programs on gender equality, domestic violence, women rights & LGBT issues.",
-        "post": "Facility-in-charge",
-        "linkedin": "#"
-    },
-    {
-        "name": "Nitesh Sharma",
-        "img": "assets/img/alumni/nitesh-sharma.jpg",
-        "about": "A NavGurukul alumnus, Nitesh completed BCA from Sant Singaji Institute Of Science & Management. Interested in social welfare and solving problems through facilitation and ground-work.",
-        "post": "Facility-in-Charge",
-        "linkedin": "#"
-    },
-    {
-        "name": "Pralhad Jadhav",
-        "img": "assets/img/alumni/pralhad-jadhav.jpg",
-        "about":"A Navgurkul alumnus, Pralhad completed BE from Electronics & Telecommunication engineering stream Graduate in 2017 from Pune University. Now working with Navgurukul as technical suppoter",
-        "post": "Software Engineer",
-        "linkedin": "https://www.linkedin.com/in/pralhad-jadhav-7073b1174/"
-    },
-    {
-        "name": "Anuradha Daswani",
-        "img": "assets/img/main/anuradha-daswani.jpg",
-        "about": "BITS Pilani Graduate 2015. Worked as an analyst and data scientist for a little above one year, before she recognised her aspiration to learn psychology and work in the domain of learning and education. She is currently pursuing her Masters in Psychology.",
-        "post": "Lifeskills Curriculum Lead",
-        "linkedin": "http://linkedin.com/in/anuradhadaswani"
-    }
+[
+  {
+    "name": "Abhishek Gupta",
+    "img": "assets/img/main/abhishek-gupta.jpg",
+    "about": "IITD ‘13 CS Graduate. Co-founded Zumbl.com and FranklyMe. Zumbl was acquired and FranklyMe raised more than 2.6M$ from Matrix Partners and others. Was working with Education Department, Delhi Government before NavGurukul.",
+    "post": "CEO & Co-founder",
+    "linkedin": "http://linkedin.com/in/abhishekgupta92"
+  },
+  {
+    "name": "Rishabh Verma",
+    "img": "assets/img/main/rishabh-verma.jpg",
+    "about": "A self learnt programmer, working on Education & Technology. Aged 21, he was part of the founding team of Airwoot. He then took a break to spend a year travelling in the mountains. Later, Rishabh headed Technology for Grownout.",
+    "post": "COO & Co-founder",
+    "linkedin": "http://linkedin.com/in/rishmunk"
+  },
+  {
+    "name": "Surabhi Yadav",
+    "img": "assets/img/main/surabhi-yadav.jpg",
+    "about": "IIT Delhi + UC Berkeley Alumna. Worked as a public policy researcher at IIT Delhi for 3 years to understand inclusive innovation ecosystem in India. Her work is focused on gender and rural development in India.",
+    "post": "CINO & Co-founder",
+    "linkedin": "https://www.linkedin.com/in/surabhi-yadav-6771323a/"
+  },
+  {
+    "name": "Alisha Sadana",
+    "img": "assets/img/main/alisha.png",
+    "about": "A feminist and social activist, one of the members of a 25-day people's movement/peace campaign. A student of Humanities & Social Work. Attended various training programs on gender equality, domestic violence, women rights & LGBT issues.",
+    "post": "Facility-in-charge",
+    "linkedin": "#"
+  },
+
+  {
+    "name": "Varisha Tariq",
+    "img": "assets/img/main/varisha-tariq.jpg",
+    "about": "She is a recent undergraduate from Ashoka University where she was a Resident Assistant and did two-year-long volunteer work with Centre for Gender and Sexuality. She is the director of Helping Hands NGO that works with marginalized communities. She worked as an associate editor with the start-up Xtraordinary Life. She has written several articles and patriarchy published in The Wire, Feminism in India, Hindustan time amongst several others.",
+    "post": "Associate, Partnerships and Outreach",
+    "linkedin": "https://in.linkedin.com/in/varisha-tariq-8304a7133"
+  },
+
+  {
+    "name": "Nitesh Sharma",
+    "img": "assets/img/alumni/nitesh-sharma.jpg",
+    "about": "A NavGurukul alumnus, Nitesh completed BCA from Sant Singaji Institute Of Science & Management. Interested in social welfare and solving problems through facilitation and ground-work.",
+    "post": "Facility-in-Charge",
+    "linkedin": "#"
+  },
+  {
+    "name": "Pralhad Jadhav",
+    "img": "assets/img/alumni/pralhad-jadhav.jpg",
+    "about": "A Navgurkul alumnus, Pralhad completed BE from Electronics & Telecommunication engineering stream Graduate in 2017 from Pune University. Now working with Navgurukul as technical suppoter",
+    "post": "Software Engineer",
+    "linkedin": "https://www.linkedin.com/in/pralhad-jadhav-7073b1174/"
+  },
+  {
+    "name": "Anuradha Daswani",
+    "img": "assets/img/main/anuradha-daswani.jpg",
+    "about": "BITS Pilani Graduate 2015. Worked as an analyst and data scientist for a little above one year, before she recognised her aspiration to learn psychology and work in the domain of learning and education. She is currently pursuing her Masters in Psychology.",
+    "post": "Lifeskills Curriculum Lead",
+    "linkedin": "http://linkedin.com/in/anuradhadaswani"
+  }
 ]
