@@ -1,11 +1,24 @@
 $(document).ready(function () {
+  $(".videoCarousel").slick({
+    arrows: true,
+    dots: true,
+    infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+  });
+});
+
+$(document).ready(function () {
   $(".newsArticles").slick({
     arrows: true,
     dots: true,
     infinite: false,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true
+    autoplay: true,
+    autoplaySpeed: 3000,
   });
 });
 

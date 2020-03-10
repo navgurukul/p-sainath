@@ -1,0 +1,25 @@
+<div class="text-center mt-5 pt-md-5 px-md-5 px-4">
+  <!-- <h2 class="section-heading text-center">IN THE PRESS</h2>
+      <hr class="primary" /> -->
+  <div class="videoCarousel">
+    {{#each video_carousel}}
+    <div class="slide-content">
+
+      <div class="mx-3">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-6 col-12">
+            <a data-fancybox href="https://www.youtube.com/watch?v={{this.video_id}}">
+              <img class="card-img-top img-fluid" src="https://img.youtube.com/vi/{{this.video_id}}/maxresdefault.jpg">
+              <img src="{{root}}assets/img/playicon.png" class="playicon" />
+            </a>
+          </div>
+          <div class="px-4 align-self-center col-md-4 col-12" style="word-break: break-word">
+            <h3>{{this.headLine}}</h3>
+            <p>{{this.subtext}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>
