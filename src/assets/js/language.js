@@ -14,17 +14,11 @@ function getCookie(cname) {
   return "en";
 }
 
-function deleteCookie(name) {
-  // If the cookie exists
-  if (getCookie(name))
-    setCookie(name, "", -1);
-}
-
 function setCookie(cname, cvalue, exdays) {
   var d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
   var expires = "expires="+ d.toUTCString();
-  document.cookie=cname + "=" + cvalue + ";" + expires + ";path=/";
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
 function setLang() {
@@ -45,9 +39,8 @@ function getLang() {
 setLang();
 
 function changeLang() {
-  var language = getLang();
+  var language = getCookie("lang");
   var lang = language == "en" ? "hi" : "en";
-  deleteCookie("lang");
   setCookie("lang", lang, 365);
   setLang();
   return lang;
