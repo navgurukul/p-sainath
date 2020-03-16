@@ -41,5 +41,5 @@ $theme-colors: (
   primary: #f05f40
 );
 
-// @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
-// @include _assert-starts-at-zero($grid-breakpoints);
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints);

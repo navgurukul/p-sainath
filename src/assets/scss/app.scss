@@ -1,11 +1,11 @@
 //Bootstrap styles 
-// @import "node_modules/bootstrap/scss/bootstrap/functions";
-// @import "node_modules/bootstrap/scss/bootstrap/variables";
-@import "settings";
-@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
 //Custom mixins
 @import "mixins/mixins";
 //Custom settings --
+@import "settings";
+@import "node_modules/bootstrap/scss/bootstrap";
 @import "alumni";
 @import "legacy";
 @import "animate-legacy";
