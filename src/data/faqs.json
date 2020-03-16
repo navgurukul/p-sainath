@@ -1,0 +1,110 @@
+[
+  {
+    "tab": "about",
+    "name": {
+      "en": "ABOUT THE PROGRAM",
+      "hi": "komal" 
+    },
+    "set": [
+      {
+        "ques": {
+          "en": "1) WHAT IS NAVGURUKUL PROGRAM?",
+          "hi": "kgffggkjghj"
+        },
+        "ans": {
+          "en":"NavGurukul offers a  <b> free one-year residential program </b>for underprivileged students to <b>learn software engineering</b> and get guaranteed high paying aspirational jobs. Apart from software engineering, there is an intense focus on English training and personality development. It is a meaningful alternative to a college for the job-seeking young adults.  <a href = 'https://navgurukul.org'> Navgurukul Website </a>",
+          "hi": "Uttar 1"
+        }
+      },
+      {
+        "ques": {
+          "en": "2) HOW DOES ONE YEAR EDUCATION AT NAVGURUKUL LOOK LIKE ?",
+          "hi": "kgffggkjghj"
+        },
+        "ans": {
+          "en":"NavGurukul offers a free one-year residential program for underprivileged students to learn software engineering and get guaranteed high paying aspirational jobs. Apart from software engineering, there is an intense focus on English training and personality development. It is a meaningful alternative to a college for the job-seeking young adults.",
+          "hi": "Uttar 1"
+        }
+      },
+      {
+        "ques": {
+          "en": "3) WHO IS THIS PROGRAM FOR?",
+          "hi": "kgffggkjghj"
+        },
+        "ans": {
+          "en":"NavGurukul offers a free one-year residential program for underprivileged students to learn software engineering and get guaranteed high paying aspirational jobs. Apart from software engineering, there is an intense focus on English training and personality development. It is a meaningful alternative to a college for the job-seeking young adults.",
+          "hi": "Uttar 1"
+        }
+      },
+      {
+        "ques": {
+          "en": "4) WHAT THINGS DO STUDENTS LEARN AT NAVGURUKUL?",
+          "hi": "kgffggkjghj"
+        },
+        "ans": {
+          "en":"NavGurukul offers a free one-year residential program for underprivileged students to learn software engineering and get guaranteed high paying aspirational jobs. Apart from software engineering, there is an intense focus on English training and personality development. It is a meaningful alternative to a college for the job-seeking young adults.",
+          "hi": "Uttar 1"
+        }
+      },
+      {
+        "ques": {
+          "en": "5) WHERE IS THIS RESIDENTIAL PROGRAM?",
+          "hi": "kgffggkjghj"
+        },
+        "ans": {
+          "en":"NavGurukul offers a free one-year residential program for underprivileged students to learn software engineering and get guaranteed high paying aspirational jobs. Apart from software engineering, there is an intense focus on English training and personality development. It is a meaningful alternative to a college for the job-seeking young adults.",
+          "hi": "Uttar 1"
+        }
+      },
+      {
+        "ques": {
+          "en": "6) WHAT ARE THE FACILITIES PROVIDED BY NAVGURUKUL?",
+          "hi": "kgffggkjghj"
+        },
+        "ans": {
+          "en":"NavGurukul offers a free one-year residential program for underprivileged students to learn software engineering and get guaranteed high paying aspirational jobs. Apart from software engineering, there is an intense focus on English training and personality development. It is a meaningful alternative to a college for the job-seeking young adults.",
+          "hi": "Uttar 1"
+        }
+      },
+      {
+        "ques": {
+          "en": "7) DO STUDENTS HAVE TO PAY ANYTHING?",
+          "hi": "kgffggkjghj"
+        },
+        "ans": {
+          "en":"NavGurukul offers a free one-year residential program for underprivileged students to learn software engineering and get guaranteed high paying aspirational jobs. Apart from software engineering, there is an intense focus on English training and personality development. It is a meaningful alternative to a college for the job-seeking young adults.",
+          "hi": "Uttar 1"
+        }
+      },
+      {
+        "ques": {
+          "en": "8) WHAT IS THE LIFESTYLE AND CULTURE AT NAVGURUKUL?",
+          "hi": "kgffggkjghj"
+        },
+        "ans": {
+          "en":"NavGurukul offers a free one-year residential program for underprivileged students to learn software engineering and get guaranteed high paying aspirational jobs. Apart from software engineering, there is an intense focus on English training and personality development. It is a meaningful alternative to a college for the job-seeking young adults.",
+          "hi": "Uttar 1"
+        }
+      }
+    ]
+  },
+  {
+    "tab" : "navgurukul",
+    "name": {
+      "en": "Navgurukul",
+      "hi": "komal"
+    },
+    "set": [
+      {
+        "ques": {
+          "en": "Question 1",
+          "hi": "Prashan 1"
+        },
+        "ans": {
+          "en": "Answer 1",
+          "hi": "Uttar 1"
+        }
+      }
+    ]
+  }
+]
