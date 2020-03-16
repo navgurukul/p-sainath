@@ -1,15 +1,21 @@
-//Bootstrap styles 
+//Import bootstrap variables and functions
+// before bootstrap itself as settings
+// file need to know them
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
+
 //Custom mixins
 @import "mixins/mixins";
-//Custom settings --
+
+//Custom settings (need to be imported before bootstrap)
 @import "settings";
 @import "node_modules/bootstrap/scss/bootstrap";
+
 @import "alumni";
 @import "legacy";
 @import "animate-legacy";
 @import "font-awesome-legacy";
 @import "faq";
-//Component specific styles 
+
+//Component specific styles
 @import "components/callout";

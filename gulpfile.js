@@ -145,6 +145,7 @@ const watchFiles = (done) => {
   gulp.watch('src/assets/js/*', gulp.series(scripts, browserSyncReload));
   gulp.watch('src/assets/img/**/*', images);
   gulp.watch('src/assets/static/*.*', static);
+  gulp.watch('node_modules/bootstrap/scss/*', gulp.series(sassT, browserSyncReload));
   gulp.watch('src/assets/scss/*', gulp.series(sassT, browserSyncReload));
   gulp.watch('src/assets/scss/**/*', gulp.series(sassT, browserSyncReload));
   gulp.watch('src/**/*.html', gulp.series(resetPages, compileHtml, browserSyncReload));
