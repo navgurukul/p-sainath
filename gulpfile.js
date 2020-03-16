@@ -22,6 +22,11 @@ Handlebars.registerHelper("lang", function(context, options) {
   return new Handlebars.SafeString('<span class="en">' + context.en + "</span>"+'<span class="hi d-none">' + context.hi + "</span>");
 });
 
+Handlebars.registerHelper("log", function(context, options) {
+  console.log(context, options);
+});
+
+
 Handlebars.registerHelper('assign', function (varName, varValue, options) {
   if (!options.data.root) {
     options.data.root = {};
