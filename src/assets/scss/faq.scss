@@ -15,7 +15,6 @@
     border: 0;
     border-bottom: 1px solid #ddd;
     border-radius: 0;
-    transition: background-color 0.2s ease;
 
     &:hover {
       background-color: #f6f6f6;
@@ -24,33 +23,15 @@
     &.active {
       background-color: #f6f6f6;
     }
-
-    &:last-of-type {
-      border-bottom-left-radius: 2px;
-      border-bottom-right-radius: 2px;
-      border-bottom: 0;
-    }
-
-    i.mdi {
-      margin-right: 5px;
-      font-size: 18px;
-      position: relative;
-    }
   }
 }
 
 // TAB CONTENT
 .tab-content {
-  box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
-
-  .card {
-    border-radius: 0;
-  }
-
   .card-header {
     padding: 15px 16px;
     border-radius: 0;
-    background-color: #f6f6f6;
+    background-color:white;
 
     h5 {
       margin: 0;
@@ -92,11 +73,5 @@
     &:not(:first-child) {
       border-top: 0;
     }
-  }
-}
-
-.collapse.show {
-  .card-body {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   }
 }

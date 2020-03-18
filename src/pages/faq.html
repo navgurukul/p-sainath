@@ -1,6 +1,6 @@
 <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
   <div class="container">
-    <h2 class="mb-3 text-dark text-center">Frequently Asked Questions</h2>
+    <h1 class="mb-3 text-dark text-center text-uppercase font-weight-bold">Frequently Asked Questions</h1>
     <div class="container">
       <div class="row">
         <div class="col-lg-3">
@@ -13,24 +13,24 @@
             {{/each}}
           </div>
         </div>
-        <div class="col-lg-8 mb-3">
-          <div class="tab-content" id="faq-tab-content">
+        <div class="col-lg-8 mb-3 ">
+          <div class="tab-content border" id="faq-tab-content">
             {{#each faqs as |category|}}
-            <div class="tab-pane" id="{{category.tab}}" role="tabpanel" aria-labelledby="{{category.tab}}">
-              <div class="accordion" id="accordion-tab-2">
-                <div class="card">
+            <div class="tab-pane  {{category.display}}" id="{{category.tab}}" role="tabpanel"
+              aria-labelledby="{{category.tab}}">
+              <div class="accordion" id="{{category.tab}}">
+                <h3 class="mt-4 text-dark text-center font-weight-bold ">{{#lang category.name}}{{/lang}}</h3>
+                <div class="card ">
                   {{#each category.set as |qna|}}
-                  <div class="card-header" id="accordion-tab-2-heading-1">
+                  <div class="card-header">
                     <h5>
-                      <button class="btn btn-link" type="button" data-toggle="collapse"
-                        data-target="#accordion-tab-2-content-1" aria-expanded="false"
-                        aria-controls="accordion-tab-2-content-1">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#{{qna.target}}"
+                        aria-expanded="false" aria-controls="accordion-tab-2-content-1">
                         {{#lang qna.ques}}{{/lang}}
                       </button>
                     </h5>
                   </div>
-                  <div class="collapse show" id="accordion-tab-2-content-1" aria-labelledby="accordion-tab-2-heading-1"
-                    data-parent="#accordion-tab-2">
+                  <div class="collapse" id="{{qna.target}}" data-parent="#{{category.tab}}">
                     <div class="card-body">
                       <p> {{#lang qna.ans}}{{/lang}}</p>
                     </div>
