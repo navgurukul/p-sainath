@@ -3,11 +3,12 @@
     "tab": "about",
     "display":"show active",
     "name": {
-      "en": "ABOUT THE PROGRAM",
+      "en": "About The Program",
       "hi": "Will come soon in hindi" 
     },
     "set": [
       {
+        "show":"show",
         "target":"about1",
         "ques": {
           "en": "1) WHAT IS NAVGURUKUL PROGRAM?",
@@ -25,7 +26,7 @@
           "hi": "Will come soon in hindi"
         },
         "ans": {
-          "en":"One year at Navgurukul is divided into three key phases:<br/><b>1.Foundation Bootcamp:</b>The students work on their foundational learning habits for logical and English skills. This lasts for 1-2 months.</br><b> 2.Coding Camp:</b> This lasts for 5-6 months where the students learn coding skills and continue working on their English and leadership skills </br><b>3. Interview Camp:</b> This lasts for 1-2 months where the students practice working in an office environment on Navgurukul campus and work on their resumes, interview skills and give interviews in companies.",
+          "en":"<div class='en'>One year at Navgurukul is divided into three key phases:<br><ol> <li style=' margin-top: 5px; '><b>Foundation Bootcamp:</b>The students work on their foundational learning habits for logical and English skills. This lasts for 1-2 months.</li> <li style=' margin-top: 5px; '><b>Coding Camp:</b> This lasts for 5-6 months where the students learn coding skills and continue working on their English and leadership skills </li> <li style=' margin-top: 5px; '><b>Interview Camp:</b> This lasts for 1-2 months where the students practice working in an office environment on Navgurukul campus and work on their resumes, interview skills and give interviews in companies.</li></ol> </div>",
           "hi": "Will come soon in hindi"
         }
       },
@@ -58,7 +59,7 @@
           "hi": "Will come soon in hindi"
         },
         "ans": {
-          "en":"We have two campuses, one is in Bangalore for girls and second in Dharamshala (Himachal) for Boys. Here is an address for both the campuses:-<br/><b>Pune Girls Campus:</b>Address to be updated. Starting May 1, 2020.<br/><b>Bangalore Girls Campus:</b>45/1, 45/2, Avalahalli Huskur Panchayath, Sarjapura Hobli, Anekal Taluk Dist, Bengaluru, Karnataka 560099.<br/><b>Dharamshala Boys Campus:</b>Ward number 202, Sukkhad (Garh, Dharamshala, Himachal Pradesh 176057.",
+          "en":"<div class='en'>We have two campuses, one is in Bangalore for girls and second in Dharamshala (Himachal) for Boys.Here is an address for both the campuses:-<br><ol> <li style=' margin-top: 5px; '><b>Pune Girls Campus:</b>Address to be updated. Starting May 1, 2020 .</li> <li style=' margin-top: 5px; '><b>Bangalore Girls Campus:</b> ​ ​ 45/1, 45/2, Avalahalli Huskur Panchayath, Sarjapura Hobli, Anekal Taluk Dist, Bengaluru, Karnataka 560099.</li> <li style=' margin-top: 5px; '><b>Dharamshala Boys Campus:</b> ​ Ward number 202, Sukkhad (Garh, Dharamshala, Himachal Pradesh 176057.</li></ol> </div>",
           "hi": "Will come soon in hindi"
         }
       },
@@ -100,11 +101,12 @@
   {
     "tab" : "Admissions",
     "name": {
-      "en": "ADMISSION",
+      "en": "Admissions",
       "hi": "Will come soon in hindi"
     },
     "set": [
       {
+        "show":"show",
         "target":"Admissions1",
         "ques": {
           "en": "1) WHAT IS THE ADMISSION CRITERIA?",
@@ -165,11 +167,12 @@
   {
     "tab" : "partnership",
     "name": {
-      "en": "MOBILIZE STUDENTS",
+      "en": "Mobalize Students",
       "hi": "Will come soon in hindi"
     },
     "set": [
       {
+        "show":"show",
         "target":"partnership1",
         "ques": {
           "en": "1) HOW CAN AN ORGANISATION CONDUCT AN INFORMATION SESSION AND TEST FOR THEIR COMMUNITY?",
@@ -197,11 +200,12 @@
   {
     "tab": "job",
     "name": {
-      "en": "JOBS",
+      "en": "Jobs",
       "hi": "Will come soon in hindi" 
     },
     "set": [
       {
+        "show":"show",
         "target":"job1",
         "ques": {
           "en": "1) HOW DO STUDENTS GET JOBS?",
@@ -228,11 +232,12 @@
   {
     "tab": "success",
     "name": {
-      "en": "SUCCESS CASES",
+      "en": "Success Cases",
       "hi": "Will come soon in hindi" 
     },
     "set": [
       {
+        "show":"show",
         "target":"success1",
         "ques": {
           "en": "1) ANY SUCCESS CASES",
