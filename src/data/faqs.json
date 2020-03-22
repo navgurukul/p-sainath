@@ -3,11 +3,12 @@
     "tab": "about",
     "display":"show active",
     "name": {
-      "en": "ABOUT THE PROGRAM",
+      "en": "About The Program",
       "hi": "Will come soon in hindi" 
     },
     "set": [
       {
+        "show":"show",
         "target":"about1",
         "ques": {
           "en": "1) WHAT IS NAVGURUKUL PROGRAM?",
@@ -25,7 +26,7 @@
           "hi": "Will come soon in hindi"
         },
         "ans": {
-          "en":"One year at Navgurukul is divided into three key phases:<br/><b>1.Foundation Bootcamp:</b>The students work on their foundational learning habits for logical and English skills. This lasts for 1-2 months.</br><b> 2.Coding Camp:</b> This lasts for 5-6 months where the students learn coding skills and continue working on their English and leadership skills </br><b>3. Interview Camp:</b> This lasts for 1-2 months where the students practice working in an office environment on Navgurukul campus and work on their resumes, interview skills and give interviews in companies.",
+          "en":"<div class='en'>One year at Navgurukul is divided into three key phases:<br><ol> <li style=' margin-top: 5px; '><b>Foundation Bootcamp:</b>The students work on their foundational learning habits for logical and English skills. This lasts for 1-2 months.</li> <li style=' margin-top: 5px; '><b>Coding Camp:</b> This lasts for 5-6 months where the students learn coding skills and continue working on their English and leadership skills </li> <li style=' margin-top: 5px; '><b>Interview Camp:</b> This lasts for 1-2 months where the students practice working in an office environment on Navgurukul campus and work on their resumes, interview skills and give interviews in companies.</li></ol> </div>",
           "hi": "Will come soon in hindi"
         }
       },
@@ -58,7 +59,7 @@
           "hi": "Will come soon in hindi"
         },
         "ans": {
-          "en":"We have two campuses, one is in Bangalore for girls and second in Dharamshala (Himachal) for Boys. Here is an address for both the campuses:-<br/><b>Pune Girls Campus:</b>Address to be updated. Starting May 1, 2020.<br/><b>Bangalore Girls Campus:</b>45/1, 45/2, Avalahalli Huskur Panchayath, Sarjapura Hobli, Anekal Taluk Dist, Bengaluru, Karnataka 560099.<br/><b>Dharamshala Boys Campus:</b>Ward number 202, Sukkhad (Garh, Dharamshala, Himachal Pradesh 176057.",
+          "en":"<div class='en'>We have two campuses, one is in Bangalore for girls and second in Dharamshala (Himachal) for Boys.Here is an address for both the campuses:-<br><ol> <li style=' margin-top: 5px; '><b>Pune Girls Campus:</b>Address to be updated. Starting May 1, 2020 .</li> <li style=' margin-top: 5px; '><b>Bangalore Girls Campus:</b> ​ ​ 45/1, 45/2, Avalahalli Huskur Panchayath, Sarjapura Hobli, Anekal Taluk Dist, Bengaluru, Karnataka 560099.</li> <li style=' margin-top: 5px; '><b>Dharamshala Boys Campus:</b> ​ Ward number 202, Sukkhad (Garh, Dharamshala, Himachal Pradesh 176057.</li></ol> </div>",
           "hi": "Will come soon in hindi"
         }
       },
@@ -100,11 +101,12 @@
   {
     "tab" : "Admissions",
     "name": {
-      "en": "ADMISSION",
+      "en": "Admissions",
       "hi": "Will come soon in hindi"
     },
     "set": [
       {
+        "show":"show",
         "target":"Admissions1",
         "ques": {
           "en": "1) WHAT IS THE ADMISSION CRITERIA?",
@@ -122,7 +124,7 @@
           "hi": "Will come soon in hindi"
         },
         "ans": {
-          "en": "Each applicant has to go through four steps during the admission process - all of this is completed within a week of the student taking the first test: </br><b>1. Maths Written Test</b> - It contains questions on 8th-10th grade maths on four topics: ratios and proportions, unitary method, percentages, and basic algebra. This test is 1.5 hrs long. The students can give the test on their smartphone or laptops on admissions.navgurukul.org . If a student doesn’t have phone, an NGO/School can conduct the test for interested students</br><b>2. English Interview:</b> Once a student clears the written test, they will get a call within 2 days for taking their English Interview. In this interview, the interviewer will talk about general things to the applicant for 10-15 minutes. Here assessment will be done on checking the levels of fluency, grammar, sentence structure and confidence. Imperfect English is acceptable.<br><b>3. Algebra Interview </b>- If the second step is cleared, a 40-50 mins telephonic interview will be taken to test the applicant’s knowledge about basic algebra (linear equations). The applicant will be asked 3-4 algebra questions and will be asked to explain how to solve them.<br><b>4. Culture-Fit Interview </b>- If all the above is cleared, a 30 mins telephonic interview will be taken to understand whether the applicant will enjoy Navgurukul’s community and learning culture. This conversation would be centered around your upbringing, your family background, your beliefs and understanding about social issues etc.",
+          "en": "<div class='en'> Each applicant has to go through four steps during the admission process - all of this is completed within a week of the student taking the first test:<br> <ol> <li style=' margin-top: 5px; '><b> Maths Written Test: </b> It contains questions on 8th-10th grade maths on four topics: ratios and proportions, unitary method, percentages, and basic algebra. This test is 1.5 hrs long. The students can give the test on their smartphone or laptops on admissions.navgurukul.org . If a student doesn’t have phone, an NGO/School can conduct the test for interested students</li> <li style=' margin-top: 5px; '><b>English Interview:</b>Once a student clears the written test, they will get a call within 2 days for taking their English Interview. In this interview, the interviewer will talk about general things to the applicant for 10-15 minutes. Here assessment will be done on checking the levels of fluency, grammar, sentence structure and confidence. Imperfect English is acceptable.</li> <li style=' margin-top: 5px; '><b> Algebra Interview: </b> If the second step is cleared, a 40-50 mins telephonic interview will be taken to test the applicant’s knowledge about basic algebra (linear equations). The applicant will be asked 3-4 algebra questions and will be asked to explain how to solve them.</li> <li style=' margin-top: 5px; '><b> Culture-Fit Interview: </b> If all the above is cleared, a 30 mins telephonic interview will be taken to understand whether the applicant will enjoy Navgurukul’s community and learning culture. This conversation would be centered around your upbringing, your family background, your beliefs and understanding about social issues etc.</li> </ol> </div>",
           "hi": "Will come soon in hindi"
         }
       },
@@ -133,7 +135,7 @@
           "hi": "Will come soon in hindi"
         },
         "ans": {
-          "en": "<b>ONLINE :</b>  The students can give the test on their smartphone by calling or laptop using admissions.navgurukul.org </br><b>OFFLINE </b> :A non-profit organisation, school, college or some other group can conduct a test for interested applicants. We send them a question paper and instructions to conduct the test. Once the test is over, the person-in-charge has to email us to the pictures of the answer sheets. The interviews happen on phone or whatsapp video calls.",
+          "en": "<div class='en'> <ol> <li style=' margin-top: 5px; '><b>ONLINE : </b> The students can give the test on their smartphone by calling or laptop using admissions.navgurukul.org</li> <li style=' margin-top: 5px; '><b>OFFLINE :</b> :A non-profit organisation, school, college or some other group can conduct a test for interested applicants. We send them a question paper and instructions to conduct the test. Once the test is over, the person-in-charge has to email us to the pictures of the answer sheets. The interviews happen on phone or whatsapp video calls.</li> </ol> </div>",
           "hi": "Will come soon in hindi"
         }
       },
@@ -155,7 +157,7 @@
           "hi": "Will come soon in hindi"
         },
         "ans": {
-          "en": "The test is fully based on 9-10th level mathematics. It involves basic algebra problems and logical problem solving. So revising these concepts would be enough. The test is fairly simple than many entrance exams.  There are going to be easy/medium level hard questions for the following topics:<b> number patterns </b>(like 2, 7, 12, 17, __ what's the next number?), <b> ratios/proportions </b> (  10% of the solution is lemon. How much  ml o f lemon should we add in the new solution such that 20% of the new solution is lemon?)  ,  <b>unitary method, and basic algebra linear equations</b> etc. An applicant can use following study guide to prepare for our admission test.<br><h3><b>Study Guide:</h3></b>",
+          "en": "The test is fully based on 9-10th level mathematics. It involves basic algebra problems and logical problem solving. So revising these concepts would be enough. The test is fairly simple than many entrance exams.  There are going to be easy/medium level hard questions for the following topics:<b> number patterns </b>(like 2, 7, 12, 17, __ what's the next number?), <b> ratios/proportions </b> (  10% of the solution is lemon. How much  ml o f lemon should we add in the new solution such that 20% of the new solution is lemon?)  ,  <b>unitary method, and basic algebra linear equations</b> etc. An applicant can use following study guide to prepare for our admission test.<br>",
           "hi":"Will come soon in hindi"
         }
       }
@@ -165,18 +167,19 @@
   {
     "tab" : "partnership",
     "name": {
-      "en": "MOBILIZE STUDENTS",
+      "en": "Mobalize Students",
       "hi": "Will come soon in hindi"
     },
     "set": [
       {
+        "show":"show",
         "target":"partnership1",
         "ques": {
           "en": "1) HOW CAN AN ORGANISATION CONDUCT AN INFORMATION SESSION AND TEST FOR THEIR COMMUNITY?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
-          "en": "<b>1. Mobilize people</b> to attend the information session using your on-going communications activities. You can use the posters and Whatsapp/phone messages sent by Navgurukul.</br><b> 2. Go through this information package</b> and our youtube channel to understand fully about the program. If you have any additional questions, write to us on  s@navgurukul.o rg or Whatsapp us at 9870326110. </br><b>3. Talk about our program, show our students’ videos on youtube</b>to help the attendees of your information session. If critical, we can also arrange a video session with one of our students or team members during the workshop.</br><b> 4. We will send you sets of question papera and instructions for conducting the test.</b>  The test is one and a half hour long. Once the test<>is over, the person in charge will have to email us pictures of the answer sheets. We will follow-up with the people who clear the written test for a telephonic interview.",
+          "en": "<div class='en'> <ol> <li style=' margin-top: 5px; '><b> Mobilize people</b> to attend the information session using your on-going communications activities. You can use the posters and Whatsapp/phone messages sent by Navgurukul.</li> <li style=' margin-top: 5px; '><b> Go through this information package</b> and our youtube channel to understand fully about the program. If you have any additional questions, write to us on <i>s@navgurukul.org</i> or Whatsapp us at 9870326110. </li> <li style=' margin-top: 5px; '><b> Talk about our program, show our students’ videos on youtube</b> to help the attendees of your information session. If critical, we can also arrange a video session with one of our students or team members during the workshop.</li> <li style=' margin-top: 5px; '><b> We will send you sets of question papera and instructions for conducting the test.</b> The test is one and a half hour long. Once the test is over, the person in charge will have to email us pictures of the answer sheets. We will follow-up with the people who clear the written test for a telephonic interview.</li> </ol> </div>",
           "hi": "Will come soon in hindi"
         }
       },
@@ -187,7 +190,7 @@
           "hi": "Will come soon in hindi"
         },
         "ans": {
-          "en": "We have many NGOs as our impact partners. We need their valuable efforts and time to reach out to the most vulnerable groups who could use this program for their benefit. The expenses for mobilization can be discussed and negotiated. The partnership begins with collaborating with NGOs to maximize outreach to their communities. Once the students are selected through the admission tests (either conducted by the organisation or given individually on phones), we provide regular updates to our partners about the students’ growth. This helps the organisations notonly keep in touch with their community members who came to Navgurukul but also help others in the community to connect with his/her journey. We keep in touch with our partners to understand their needs and expectations from us during a student’s journey. Many partners also take workshops on various issues with our Navgurukul students such as theatre, gender sensitization, time management, etc. If you are interested in working with us in that regard, please reach out to us at s@navgurukul.org ",
+          "en": "We have many NGOs as our impact partners. We need their valuable efforts and time to reach out to the most vulnerable groups who could use this program for their benefit. The expenses for mobilization can be discussed and negotiated. The partnership begins with collaborating with NGOs to maximize outreach to their communities. Once the students are selected through the admission tests (either conducted by the organisation or given individually on phones), we provide regular updates to our partners about the students’ growth. This helps the organisations notonly keep in touch with their community members who came to Navgurukul but also help others in the community to connect with his/her journey. We keep in touch with our partners to understand their needs and expectations from us during a student’s journey. Many partners also take workshops on various issues with our Navgurukul students such as theatre, gender sensitization, time management, etc. If you are interested in working with us in that regard, please reach out to us at <i>s@navgurukul.org</i> ",
           "hi": "Will come soon in hindi"
         }
       }
@@ -197,11 +200,12 @@
   {
     "tab": "job",
     "name": {
-      "en": "JOBS",
+      "en": "Jobs",
       "hi": "Will come soon in hindi" 
     },
     "set": [
       {
+        "show":"show",
         "target":"job1",
         "ques": {
           "en": "1) HOW DO STUDENTS GET JOBS?",
@@ -228,11 +232,12 @@
   {
     "tab": "success",
     "name": {
-      "en": "SUCCESS CASES",
+      "en": "Success Cases",
       "hi": "Will come soon in hindi" 
     },
     "set": [
       {
+        "show":"show",
         "target":"success1",
         "ques": {
           "en": "1) ANY SUCCESS CASES",
