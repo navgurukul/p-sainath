@@ -1,0 +1,45 @@
+<section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+  <div class="container">
+    <h2 class="mb-3 text-dark text-center ">Frequently Asked Questions</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="nav nav-pills faq-nav" id="faq-tabs" role="tablist" aria-orientation="vertical">
+            {{#each faqs as |category|}}
+            <a href="#{{category.tab}}" class="nav-link text-primary" data-toggle="pill" role="tab"
+              aria-controls="{{category.tab}}" aria-selected="false">
+              {{#lang category.name}}{{/lang}}
+            </a>
+            {{/each}}
+          </div>
+        </div>
+        <div class="col-lg-8 mb-3 ">
+          <div class="tab-content border" id="faq-tab-content">
+            {{#each faqs as |category|}}
+            <div class="tab-pane  {{category.display}}" id="{{category.tab}}" role="tabpanel"
+              aria-labelledby="{{category.tab}}">
+              <div class="accordion" id="{{category.tab}}">
+                <h3 class="mt-4 text-dark text-center text-capitalize">{{#lang category.name}}{{/lang}}</h3>
+                <div class="card ">
+                  {{#each category.set as |qna|}}
+                  <div class="card-header">
+                    <h5>
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#{{qna.target}}"
+                        aria-expanded="false" aria-controls="accordion-tab-2-content-1">
+                        {{#lang qna.ques}}{{/lang}}
+                      </button>
+                    </h5>
+                  </div>
+                  <div class="collapse {{qna.show}}" id="{{qna.target}}" data-parent="#{{category.tab}}">
+                    <div class="card-body">
+                      <p> {{#lang qna.ans}}{{/lang}}</p>
+                    </div>
+                  </div>
+                  {{/each}}
+                </div>
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+</section>

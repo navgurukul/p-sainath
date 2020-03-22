@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "bootstrap": "^4.4.1",
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
     "gifsicle": "^5.0.0",
@@ -49,5 +48,7 @@
     "sass": "^1.24.1",
     "yargs": "^15.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
 }
