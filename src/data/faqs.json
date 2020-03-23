@@ -11,7 +11,7 @@
         "show":"show",
         "target":"about1",
         "ques": {
-          "en": "1) WHAT IS NAVGURUKUL PROGRAM?",
+          "en": " WHAT IS NAVGURUKUL PROGRAM?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
@@ -22,7 +22,7 @@
       {
         "target":"about2",
         "ques": {
-          "en": "2) HOW DOES ONE YEAR EDUCATION AT NAVGURUKUL LOOK LIKE ?",
+          "en": " HOW DOES ONE YEAR EDUCATION AT NAVGURUKUL LOOK LIKE ?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
@@ -33,7 +33,7 @@
       {
         "target":"about3",
         "ques": {
-          "en": "3) WHO IS THIS PROGRAM FOR?",
+          "en": " WHO IS THIS PROGRAM FOR?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
@@ -44,7 +44,7 @@
       {
         "target":"about4",
         "ques": {
-          "en": "4) WHAT THINGS DO STUDENTS LEARN AT NAVGURUKUL?",
+          "en": " WHAT THINGS DO STUDENTS LEARN AT NAVGURUKUL?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
@@ -55,18 +55,18 @@
       {
         "target":"about5",
         "ques": {
-          "en": "5) WHERE IS THIS RESIDENTIAL PROGRAM?",
+          "en": " WHERE IS THIS RESIDENTIAL PROGRAM?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
-          "en":"<div class='en'>We have two campuses, one is in Bangalore for girls and second in Dharamshala (Himachal) for Boys.Here is an address for both the campuses:-<br><ol> <li style=' margin-top: 5px; '><b>Pune Girls Campus:</b>Address to be updated. Starting May 1, 2020 .</li> <li style=' margin-top: 5px; '><b>Bangalore Girls Campus:</b> ​ ​ 45/1, 45/2, Avalahalli Huskur Panchayath, Sarjapura Hobli, Anekal Taluk Dist, Bengaluru, Karnataka 560099.</li> <li style=' margin-top: 5px; '><b>Dharamshala Boys Campus:</b> ​ Ward number 202, Sukkhad (Garh, Dharamshala, Himachal Pradesh 176057.</li></ol> </div>",
+          "en":"<div class='en'>We have two campuses, one is in Bangalore for girls and second in Dharamshala (Himachal) for Boys.Here is an address for both the campuses:-<br><ol> <li style=' margin-top: 5px; '><b>Pune Girls Campus:</b> Address to be updated. Starting May 1, 2020 .</li> <li style=' margin-top: 5px; '><b>Bangalore Girls Campus:</b> ​ ​ 45/1, 45/2, Avalahalli Huskur Panchayath, Sarjapura Hobli, Anekal Taluk Dist, Bengaluru, Karnataka 560099.</li> <li style=' margin-top: 5px; '><b>Dharamshala Boys Campus:</b> ​Ward number 202, Sukkhad (Garh, Dharamshala, Himachal Pradesh 176057.</li></ol> </div>",
           "hi": "Will come soon in hindi"
         }
       },
       {
         "target":"about6",
         "ques": {
-          "en": "6) WHAT ARE THE FACILITIES PROVIDED BY NAVGURUKUL?",
+          "en": " WHAT ARE THE FACILITIES PROVIDED BY NAVGURUKUL?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
@@ -77,7 +77,7 @@
       {
         "target":"about7",
         "ques": {
-          "en": "7) DO STUDENTS HAVE TO PAY ANYTHING?",
+          "en": " DO STUDENTS HAVE TO PAY ANYTHING?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
@@ -88,7 +88,7 @@
       {
         "target":"qabout8",
         "ques": {
-          "en": "8) WHAT IS THE LIFESTYLE AND CULTURE AT NAVGURUKUL?",
+          "en": " WHAT IS THE LIFESTYLE AND CULTURE AT NAVGURUKUL?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
@@ -109,7 +109,7 @@
         "show":"show",
         "target":"Admissions1",
         "ques": {
-          "en": "1) WHAT IS THE ADMISSION CRITERIA?",
+          "en": "WHAT IS THE ADMISSION CRITERIA?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
@@ -120,7 +120,7 @@
       {
         "target":"Admissions2",
         "ques": {
-          "en": "2) HOW TO GET ADMISSION IN NAVGURUKUL?",
+          "en": " HOW TO GET ADMISSION IN NAVGURUKUL?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
@@ -131,7 +131,7 @@
       {
         "target":"Admissions3",
         "ques": {
-          "en": "3) HOW TO GIVE ADMISSION TEST?",
+          "en": " HOW TO GIVE ADMISSION TEST?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
@@ -142,7 +142,7 @@
       {
         "target":"Admissions4",
         "ques": {
-          "en": "4) IS THERE UPPER AND MINIMUM AGE LIMIT FOR ADMISSION?",
+          "en": " IS THERE UPPER AND MINIMUM AGE LIMIT FOR ADMISSION?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
@@ -153,7 +153,7 @@
       {
         "target":"Admissions5",
         "ques": {
-          "en": "5) HOW CAN STUDENTS PREPARE FOR THE ADMISSION TEST?",
+          "en": " HOW CAN STUDENTS PREPARE FOR THE ADMISSION TEST?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
@@ -175,7 +175,7 @@
         "show":"show",
         "target":"partnership1",
         "ques": {
-          "en": "1) HOW CAN AN ORGANISATION CONDUCT AN INFORMATION SESSION AND TEST FOR THEIR COMMUNITY?",
+          "en": " HOW CAN AN ORGANISATION CONDUCT AN INFORMATION SESSION AND TEST FOR THEIR COMMUNITY?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
@@ -186,7 +186,7 @@
       {
         "target":"partnership2",
         "ques": {
-          "en": "2) HOW DOES A PARTNERSHIP WITH NAVGURUKUL LOOK LIKE?",
+          "en": " HOW DOES A PARTNERSHIP WITH NAVGURUKUL LOOK LIKE?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
@@ -208,7 +208,7 @@
         "show":"show",
         "target":"job1",
         "ques": {
-          "en": "1) HOW DO STUDENTS GET JOBS?",
+          "en": " HOW DO STUDENTS GET JOBS?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
@@ -219,7 +219,7 @@
       {
         "target":"job2",
         "ques": {
-          "en": "2) WHAT KIND OF JOBS DO STUDENTS GET?",
+          "en": " WHAT KIND OF JOBS DO STUDENTS GET?",
           "hi": "Will come soon in hindi"
         },
         "ans": {
@@ -240,7 +240,7 @@
         "show":"show",
         "target":"success1",
         "ques": {
-          "en": "1) ANY SUCCESS CASES",
+          "en": " ANY SUCCESS CASES",
           "hi": "Will come soon in hindi"
         },
         "ans": {
