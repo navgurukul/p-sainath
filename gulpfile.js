@@ -22,11 +22,20 @@ Handlebars.registerHelper("lang", function(context, options) {
   return new Handlebars.SafeString('<span class="en">' + context.en + "</span>"+'<span class="hi d-none">' + context.hi + "</span>");
 });
 
+Handlebars.registerHelper("log", function(context, options) {
+  console.log(context, options);
+});
+
+
 Handlebars.registerHelper('assign', function (varName, varValue, options) {
   if (!options.data.root) {
     options.data.root = {};
   }
   options.data.root[varName] = varValue;
+});
+
+Handlebars.registerHelper('incremented', function (index) {
+  return index++;
 });
 
 // BrowserSync
@@ -39,6 +48,7 @@ const browserSync = (done) => {
   });
   done();
 }
+
 
 // BrowserSync Reload
 const browserSyncReload = (done) => {
@@ -140,6 +150,7 @@ const watchFiles = (done) => {
   gulp.watch('src/assets/js/*', gulp.series(scripts, browserSyncReload));
   gulp.watch('src/assets/img/**/*', images);
   gulp.watch('src/assets/static/*.*', static);
+  gulp.watch('node_modules/bootstrap/scss/*', gulp.series(sassT, browserSyncReload));
   gulp.watch('src/assets/scss/*', gulp.series(sassT, browserSyncReload));
   gulp.watch('src/assets/scss/**/*', gulp.series(sassT, browserSyncReload));
   gulp.watch('src/**/*.html', gulp.series(resetPages, compileHtml, browserSyncReload));

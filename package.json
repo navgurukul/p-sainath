@@ -10,9 +10,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "bootstrap": "^4.4.1",
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
+    "gifsicle": "^5.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-babel": "^8.0.0",
@@ -39,12 +39,16 @@
     "gulp-uncss": "^1.0.6",
     "gulp-yml": "^0.1.1",
     "handlebars": "^4.7.3",
+    "jpegtran-bin": "^4.0.0",
     "mappy-breakpoints": "^0.2.3",
+    "optipng-bin": "^6.0.0",
     "panini": "^1.6.3",
     "postcss-scss": "^2.0.0",
     "run-sequence": "^2.2.1",
     "sass": "^1.24.1",
     "yargs": "^15.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
 }

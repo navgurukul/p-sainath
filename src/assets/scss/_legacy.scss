@@ -237,7 +237,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Dosis', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Open Sans','Helvetica Neue','Arial','sans-serif';
 }
 
 p {
@@ -548,10 +548,6 @@ img.netbanking {
 
 .call-to-action h2 {
   margin: 0 auto 20px;
-}
-
-.text-primary {
-  color: #f05f40!important;
 }
 
 .no-gutter>[class*=col-] {
@@ -904,6 +900,22 @@ body {
   background-color: #fff;
   border: 1px solid #fff;
   color: #222;
+}
+
+.playicon {
+  position:absolute;
+  top: calc(50% - 60px);
+  width: 120px;
+  cursor: pointer;
+  left: calc(50% - 60px);
+}
+
+@media(max-width:780px) {
+  .playicon {
+    top: calc(50% - 30px);
+    width: 60px;
+    left: calc(50% - 30px);
+  }
 }
 
 .btn-round {
