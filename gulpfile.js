@@ -34,6 +34,10 @@ Handlebars.registerHelper('assign', function (varName, varValue, options) {
   options.data.root[varName] = varValue;
 });
 
+Handlebars.registerHelper('incremented', function (index) {
+  return index++;
+});
+
 // BrowserSync
 const browserSync = (done) => {
   browsersync.init({
@@ -44,6 +48,7 @@ const browserSync = (done) => {
   });
   done();
 }
+
 
 // BrowserSync Reload
 const browserSyncReload = (done) => {
