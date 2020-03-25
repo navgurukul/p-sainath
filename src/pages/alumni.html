@@ -14,23 +14,24 @@
       <div class="alumni">
         <div class="pic">
           <img src="{{root}}{{this.img}}" alt="">
-          <ul class="social">
-            <li>
-              <a target="_blank" href="{{this.linkedin}}" class="fa fa-linkedin"></a>
-            </li>
-          </ul>
         </div>
-        <div class="team-content introduction">
-          <!-- text-align: justify -->
-          <h3 class="team-title">{{this.name}}</h3>
-          <span class="post">{{this.post}}</span>
-          <p class="card-text">
-            {{this.about}}
-          </p>
-        </div>
+        <ul class="social">
+          <li>
+            <a target="_blank" href="{{this.linkedin}}" class="fa fa-linkedin"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="team-content introduction">
+        <!-- text-align: justify -->
+        <h3 class="team-title">{{this.name}}</h3>
+        <span class="post">{{this.post}}</span>
+        <p class="card-text">
+          {{this.about}}
+        </p>
       </div>
     </div>
-    {{/each}}
+  </div>
+  {{/each}}
   </div>
 
 </section>

@@ -24,13 +24,13 @@
                   {{#each category.set as |qna|}}
                   <div class="card-header">
                     <h5>
-                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#{{qna.target}}"
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#{{md5 qna.ques}}"
                         aria-expanded="false" aria-controls="accordion-tab-2-content-1">
-                        {{incremented @index }}: {{#lang qna.ques}}{{/lang}}
+                        {{incremented @index }}: {{#lang qna.ques}} {{/lang}}
                       </button>
                     </h5>
                   </div>
-                  <div class="collapse {{qna.show}}" id="{{qna.target}}" data-parent="#{{category.tab}}">
+                  <div class="collapse {{qna.show}}" id="{{md5 qna.ques}}" data-parent="#{{category.tab}}">
                     <div class="card-body">
                       <p> {{#lang qna.ans}}{{/lang}}</p>
                     </div>

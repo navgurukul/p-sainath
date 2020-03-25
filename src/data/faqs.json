@@ -1,254 +1,110 @@
 [
   {
     "tab": "about",
-    "display":"show active",
-    "name": {
-      "en": "About The Program",
-      "hi": "Will come soon in hindi" 
-    },
+    "display": "show active",
+    "name": "About The Program",
     "set": [
       {
-        "show":"show",
-        "target":"about1",
-        "ques": {
-          "en": "WHAT IS NAVGURUKUL PROGRAM?",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en":"NavGurukul offers a <b> free one-year residential program for underprivileged students to </b>learn software engineering</b> and get guaranteed high paying aspirational jobs. Apart from software engineering, there is an intense focus on English training and personality development. It is a meaningful alternative to a college for the job-seeking young adults.",
-          "hi": "Will come soon in hindi"
-        }
+        "show": "show",
+        "ques": "WHAT IS NAVGURUKUL PROGRAM?",
+        "ans": "NavGurukul offers a <b> free one-year residential program for underprivileged students to </b>learn software engineering</b> and get guaranteed high paying aspirational jobs. Apart from software engineering, there is an intense focus on English training and personality development. It is a meaningful alternative to a college for the job-seeking young adults."
       },
       {
-        "target":"about2",
-        "ques": {
-          "en": "HOW DOES ONE YEAR EDUCATION AT NAVGURUKUL LOOK LIKE ?",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en":"<div class='en'>One year at Navgurukul is divided into three key phases:<br><ol> <li style=' margin-top: 5px; '><b>Foundation Bootcamp:</b>The students work on their foundational learning habits for logical and English skills. This lasts for 1-2 months.</li> <li style=' margin-top: 5px; '><b>Coding Camp:</b> This lasts for 5-6 months where the students learn coding skills and continue working on their English and leadership skills </li> <li style=' margin-top: 5px; '><b>Interview Camp:</b> This lasts for 1-2 months where the students practice working in an office environment on Navgurukul campus and work on their resumes, interview skills and give interviews in companies.</li></ol> </div>",
-          "hi": "Will come soon in hindi"
-        }
+        "ques": "HOW DOES ONE YEAR EDUCATION AT NAVGURUKUL LOOK LIKE?",
+        "ans": "<div>One year at Navgurukul is divided into three key phases:<br><ol> <li style=' margin-top: 5px; '><b>Foundation Bootcamp:</b>The students work on their foundational learning habits for logical and English skills. This lasts for 1-2 months.</li> <li style=' margin-top: 5px; '><b>Coding Camp:</b> This lasts for 5-6 months where the students learn coding skills and continue working on their English and leadership skills </li> <li style=' margin-top: 5px; '><b>Interview Camp:</b> This lasts for 1-2 months where the students practice working in an office environment on Navgurukul campus and work on their resumes, interview skills and give interviews in companies.</li></ol> </div>"
       },
       {
-        "target":"about3",
-        "ques": {
-          "en": "WHO IS THIS PROGRAM FOR?",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en": "This program is for youth from underserved or low-income communities who can’t afford or access college education. We also take students who have done college degrees but can’t get a good job becauseof lack of their social and economic means. Anyone who is above 16 years of age and can clear our 10th grade level maths test and interviews, can get into this program. Our current students come from low-income and socially marginalized communities where family incomes are often less than 15000 (in urban areas) and 8000 (in rural areas). Navgurukul is for the students who don’t have easy access to growth opportunities in the job market but have a desire to be successful. Many of our current students have parents working as househelp, auto-drivers, from orphanages etc.",
-          "hi": "Will come soon in hindi"
-        }
+        "ques": "WHO IS THIS PROGRAM FOR?",
+        "ans": "This program is for youth from underserved or low-income communities who can’t afford or access college education. We also take students who have done college degrees but can’t get a good job becauseof lack of their social and economic means. Anyone who is above 16 years of age and can clear our 10th grade level maths test and interviews, can get into this program. Our current students come from low-income and socially marginalized communities where family incomes are often less than 15000 (in urban areas) and 8000 (in rural areas). Navgurukul is for the students who don’t have easy access to growth opportunities in the job market but have a desire to be successful. Many of our current students have parents working as househelp, auto-drivers, from orphanages etc."
       },
       {
-        "target":"about4",
-        "ques": {
-          "en": "WHAT THINGS DO STUDENTS LEARN AT NAVGURUKUL?",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en":"Students learn Software engineering during one year like how to make mobile applications such as Whatsapp, Facebook and website by different programming languages for both front end and back end web development. The technology curriculum includes following coding languages: Python, JavaScript, Java, Node.js and React.js. Apart from that to get a standard job in corporates we provide them with a platform where they can build leadership, management, emotional intelligence, team-work skills and English speaking skills. These skills help in the overall development of an individual.",
-          "hi": "Will come soon in hindi"
-        }
+        "ques": "WHAT THINGS DO STUDENTS LEARN AT NAVGURUKUL?",
+        "ans": "Students learn Software engineering during one year like how to make mobile applications such as Whatsapp, Facebook and website by different programming languages for both front end and back end web development. The technology curriculum includes following coding languages: Python, JavaScript, Java, Node.js and React.js. Apart from that to get a standard job in corporates we provide them with a platform where they can build leadership, management, emotional intelligence, team-work skills and English speaking skills. These skills help in the overall development of an individual."
       },
       {
-        "target":"about5",
-        "ques": {
-          "en": "WHERE IS THIS RESIDENTIAL PROGRAM?",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en":"<div class='en'>We have two campuses, one is in Bangalore for girls and second in Dharamshala (Himachal) for Boys.Here is an address for both the campuses:-<br><ol> <li style=' margin-top: 5px; '><b>Pune Girls Campus:</b> Address to be updated. Starting May 1, 2020 .</li> <li style=' margin-top: 5px; '><b>Bangalore Girls Campus:</b> ​ ​ 45/1, 45/2, Avalahalli Huskur Panchayath, Sarjapura Hobli, Anekal Taluk Dist, Bengaluru, Karnataka 560099.</li> <li style=' margin-top: 5px; '><b>Dharamshala Boys Campus:</b> ​Ward number 202, Sukkhad (Garh, Dharamshala, Himachal Pradesh 176057.</li></ol> </div>",
-          "hi": "Will come soon in hindi"
-        }
+        "ques": "WHERE IS THIS RESIDENTIAL PROGRAM?",
+        "ans": "<div>We have two campuses, one is in Bangalore for girls and second in Dharamshala (Himachal) for Boys.Here is an address for both the campuses:-<br><ol> <li style=' margin-top: 5px; '><b>Pune Girls Campus:</b> Address to be updated. Starting May 1, 2020 .</li> <li style=' margin-top: 5px; '><b>Bangalore Girls Campus:</b> ​ ​ 45/1, 45/2, Avalahalli Huskur Panchayath, Sarjapura Hobli, Anekal Taluk Dist, Bengaluru, Karnataka 560099.</li> <li style=' margin-top: 5px; '><b>Dharamshala Boys Campus:</b> ​Ward number 202, Sukkhad (Garh, Dharamshala, Himachal Pradesh 176057.</li></ol> </div>"
       },
       {
-        "target":"about6",
-        "ques": {
-          "en": "WHAT ARE THE FACILITIES PROVIDED BY NAVGURUKUL?",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en":"The residential campuses are equipped with facilities needed for living i.e shared dorms, beds, fully functional kitchen, and other amenities. In each facility, there are classrooms and residential spaces. We provide all the facilities which are necessary to become a good Software engineer such as Laptop, Internet, mentoring by experts/professionals, English classes, mental health counselling. All the expenses are paid by Navgurukul until a student gets a job.",
-          "hi": "Will come soon in hindi"
-        }
+        "ques": "WHAT ARE THE FACILITIES PROVIDED BY NAVGURUKUL?",
+        "ans": "The residential campuses are equipped with facilities needed for living i.e shared dorms, beds, fully functional kitchen, and other amenities. In each facility, there are classrooms and residential spaces. We provide all the facilities which are necessary to become a good Software engineer such as Laptop, Internet, mentoring by experts/professionals, English classes, mental health counselling. All the expenses are paid by Navgurukul until a student gets a job."
       },
       {
-        "target":"about7",
-        "ques": {
-          "en": "DO STUDENTS HAVE TO PAY ANYTHING?",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en": "This is a free course - we don’t charge anything for it. But we work on the value of givingness. If a student gets a job we encourage her to take responsibility for supporting another student’s education at Navgurukul. Most of our alumni donate INR ~1 Lac to Navgurukul in small installments within 2 to 2.5 years after getting a job.",
-          "hi": "Will come soon in hindi"
-        }
+        "ques": "DO STUDENTS HAVE TO PAY ANYTHING?",
+        "ans": "This is a free course - we don’t charge anything for it. But we work on the value of givingness. If a student gets a job we encourage her to take responsibility for supporting another student’s education at Navgurukul. Most of our alumni donate INR ~1 Lac to Navgurukul in small installments within 2 to 2.5 years after getting a job."
       },
       {
-        "target":"qabout8",
-        "ques": {
-          "en": "WHAT IS THE LIFESTYLE AND CULTURE AT NAVGURUKUL?",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en": "The students are responsible to take care of activities in the residential campus. With the help of facility in-charge, students divide themselves into discipline, budget, and learning councils. Each council takes care of the efficient working of the residence campus and learning. Starting the day at the morning circle they set their learning targets for the day and also resolve their challenges.During the day they divide their time between working on real world projects with their peers, understanding the hindi curriculum and getting help from their mentors.There are a lot of fun activities which focus on skills like english learning and becoming a more aware human. The culture of Navgurukul is driven by empathy and inclusivity. We strongly believe in being compassionate and understanding towards each other by offering safe-space for dialogue, open-mindedness, and respectful disagreement. We constantly work towards diversity in terms of caste, class, gender, and life experiences. We believe in listening and understanding from each other’s lived experiences and world views. We believe in growing together and thus, take responsibility for each other’s learning and growth.",
-          "hi": "Will come soon in hindi"
-        }
+        "ques": "WHAT IS THE LIFESTYLE AND CULTURE AT NAVGURUKUL?",
+        "ans": "The students are responsible to take care of activities in the residential campus. With the help of facility in-charge, students divide themselves into discipline, budget, and learning councils. Each council takes care of the efficient working of the residence campus and learning. Starting the day at the morning circle they set their learning targets for the day and also resolve their challenges.During the day they divide their time between working on real world projects with their peers, understanding the hindi curriculum and getting help from their mentors.There are a lot of fun activities which focus on skills like english learning and becoming a more aware human. The culture of Navgurukul is driven by empathy and inclusivity. We strongly believe in being compassionate and understanding towards each other by offering safe-space for dialogue, open-mindedness, and respectful disagreement. We constantly work towards diversity in terms of caste, class, gender, and life experiences. We believe in listening and understanding from each other’s lived experiences and world views. We believe in growing together and thus, take responsibility for each other’s learning and growth."
       }
     ]
   },
   {
-    "tab" : "Admissions",
-    "name": {
-      "en": "Admissions",
-      "hi": "Will come soon in hindi"
-    },
+    "tab": "Admissions",
+    "name": "Admissions",
     "set": [
       {
-        "show":"show",
-        "target":"Admissions1",
-        "ques": {
-          "en": "WHAT IS THE ADMISSION CRITERIA?",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en": "Any applicant who is above 16 years of age and can clear test and interviews based on 10th level Maths and 8th level, they can become part of Navgurukul. Our current students have different education levles - school dropouts, college drop outs, 10th or 12th pass, people going to colleges for BSc, BA, BTech. A person can be from commerce, arts or science and still learn coding with us. The knowledge of coding is also not necessary. Just 10th level maths and some English will be good.</br> All of our students come from families with monthly incomes of less than 15,000 INR in urban areas and 10,000 INR in rural areas.",
-          "hi": "Will come soon in hindi"
-        }
+        "show": "show",
+        "ques": "WHAT IS THE ADMISSION CRITERIA?",
+        "ans": "Any applicant who is above 16 years of age and can clear test and interviews based on 10th level Maths and 8th level, they can become part of Navgurukul. Our current students have different education levles - school dropouts, college drop outs, 10th or 12th pass, people going to colleges for BSc, BA, BTech. A person can be from commerce, arts or science and still learn coding with us. The knowledge of coding is also not necessary. Just 10th level maths and some English will be good.</br> All of our students come from families with monthly incomes of less than 15,000 INR in urban areas and 10,000 INR in rural areas."
       },
       {
-        "target":"Admissions2",
-        "ques": {
-          "en": "HOW TO GET ADMISSION IN NAVGURUKUL?",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en": "<div class='en'> Each applicant has to go through four steps during the admission process - all of this is completed within a week of the student taking the first test:<br> <ol> <li style=' margin-top: 5px; '><b> Maths Written Test: </b> It contains questions on 8th-10th grade maths on four topics: ratios and proportions, unitary method, percentages, and basic algebra. This test is 1.5 hrs long. The students can give the test on their smartphone or laptops on admissions.navgurukul.org . If a student doesn’t have phone, an NGO/School can conduct the test for interested students</li> <li style=' margin-top: 5px; '><b>English Interview:</b>Once a student clears the written test, they will get a call within 2 days for taking their English Interview. In this interview, the interviewer will talk about general things to the applicant for 10-15 minutes. Here assessment will be done on checking the levels of fluency, grammar, sentence structure and confidence. Imperfect English is acceptable.</li> <li style=' margin-top: 5px; '><b> Algebra Interview: </b> If the second step is cleared, a 40-50 mins telephonic interview will be taken to test the applicant’s knowledge about basic algebra (linear equations). The applicant will be asked 3-4 algebra questions and will be asked to explain how to solve them.</li> <li style=' margin-top: 5px; '><b> Culture-Fit Interview: </b> If all the above is cleared, a 30 mins telephonic interview will be taken to understand whether the applicant will enjoy Navgurukul’s community and learning culture. This conversation would be centered around your upbringing, your family background, your beliefs and understanding about social issues etc.</li> </ol> </div>",
-          "hi": "Will come soon in hindi"
-        }
+        "ques": "HOW TO GET ADMISSION IN NAVGURUKUL?",
+        "ans": "<div> Each applicant has to go through four steps during the admission process - all of this is completed within a week of the student taking the first test:<br> <ol> <li style=' margin-top: 5px; '><b> Maths Written Test: </b> It contains questions on 8th-10th grade maths on four topics: ratios and proportions, unitary method, percentages, and basic algebra. This test is 1.5 hrs long. The students can give the test on their smartphone or laptops on admissions.navgurukul.org . If a student doesn’t have phone, an NGO/School can conduct the test for interested students</li> <li style=' margin-top: 5px; '><b>English Interview:</b>Once a student clears the written test, they will get a call within 2 days for taking their English Interview. In this interview, the interviewer will talk about general things to the applicant for 10-15 minutes. Here assessment will be done on checking the levels of fluency, grammar, sentence structure and confidence. Imperfect English is acceptable.</li> <li style=' margin-top: 5px; '><b> Algebra Interview: </b> If the second step is cleared, a 40-50 mins telephonic interview will be taken to test the applicant’s knowledge about basic algebra (linear equations). The applicant will be asked 3-4 algebra questions and will be asked to explain how to solve them.</li> <li style=' margin-top: 5px; '><b> Culture-Fit Interview: </b> If all the above is cleared, a 30 mins telephonic interview will be taken to understand whether the applicant will enjoy Navgurukul’s community and learning culture. This conversation would be centered around your upbringing, your family background, your beliefs and understanding about social issues etc.</li> </ol> </div>"
       },
       {
-        "target":"Admissions3",
-        "ques": {
-          "en": "HOW TO GIVE ADMISSION TEST?",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en": "<div class='en'> <ol> <li style=' margin-top: 5px; '><b>ONLINE : </b> The students can give the test on their smartphone by calling or laptop using admissions.navgurukul.org</li> <li style=' margin-top: 5px; '><b>OFFLINE :</b> :A non-profit organisation, school, college or some other group can conduct a test for interested applicants. We send them a question paper and instructions to conduct the test. Once the test is over, the person-in-charge has to email us to the pictures of the answer sheets. The interviews happen on phone or whatsapp video calls.</li> </ol> </div>",
-          "hi": "Will come soon in hindi"
-        }
+        "ques": "HOW TO GIVE ADMISSION TEST?",
+        "ans": "<div> <ol> <li style=' margin-top: 5px; '><b>ONLINE : </b> The students can give the test on their smartphone by calling or laptop using admissions.navgurukul.org</li> <li style=' margin-top: 5px; '><b>OFFLINE :</b> :A non-profit organisation, school, college or some other group can conduct a test for interested applicants. We send them a question paper and instructions to conduct the test. Once the test is over, the person-in-charge has to email us to the pictures of the answer sheets. The interviews happen on phone or whatsapp video calls.</li> </ol> </div>"
       },
       {
-        "target":"Admissions4",
-        "ques": {
-          "en": "IS THERE UPPER AND MINIMUM AGE LIMIT FOR ADMISSION?",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en": "We take 16+ students. We don’t have any upper age limit for students. Right now, our students are in the age bracket of 17-28 years old.",
-          "hi":"Will come soon in hindi"
-        }
+        "ques": "IS THERE UPPER AND MINIMUM AGE LIMIT FOR ADMISSION?",
+        "ans": "We take 16+ students. We don’t have any upper age limit for students. Right now, our students are in the age bracket of 17-28 years old."
       },
       {
-        "target":"Admissions5",
-        "ques": {
-          "en": "HOW CAN STUDENTS PREPARE FOR THE ADMISSION TEST?",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en": "The test is fully based on 9-10th level mathematics. It involves basic algebra problems and logical problem solving. So revising these concepts would be enough. The test is fairly simple than many entrance exams.  There are going to be easy/medium level hard questions for the following topics:<b> number patterns </b>(like 2, 7, 12, 17, __ what's the next number?), <b> ratios/proportions </b> (  10% of the solution is lemon. much  ml o f lemon should we add in the new solution such that 20% of the new solution is lemon?)  ,  <b>unitary method, and basic algebra linear equations</b> etc. An applicant can use following study guide to prepare for our admission test.<br>",
-          "hi":"Will come soon in hindi"
-        }
+        "ques": "HOW CAN STUDENTS PREPARE FOR THE ADMISSION TEST?",
+        "ans": "The test is fully based on 9-10th level mathematics. It involves basic algebra problems and logical problem solving. So revising these concepts would be enough. The test is fairly simple than many entrance exams.  There are going to be easy/medium level hard questions for the following topics:<b> number patterns </b>(like 2, 7, 12, 17, __ what's the next number?), <b> ratios/proportions </b> (  10% of the solution is lemon. much  ml o f lemon should we add in the new solution such that 20% of the new solution is lemon?)  ,  <b>unitary method, and basic algebra linear equations</b> etc. An applicant can use following study guide to prepare for our admission test.<br>"
       }
-      
     ]
   },
   {
-    "tab" : "partnership",
-    "name": {
-      "en": "Mobilise Students",
-      "hi": "Will come soon in hindi"
-    },
+    "tab": "partnership",
+    "name": "Mobilise Students",
     "set": [
       {
-        "show":"show",
-        "target":"partnership1",
-        "ques": {
-          "en": "HOW CAN AN ORGANISATION CONDUCT AN INFORMATION SESSION AND TEST FOR THEIR COMMUNITY?",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en": "<div class='en'> <ol> <li style=' margin-top: 5px; '><b> Mobilize people</b> to attend the information session using your on-going communications activities. You can use the posters and Whatsapp/phone messages sent by Navgurukul.</li> <li style=' margin-top: 5px; '><b> Go through this information package</b> and our youtube channel to understand fully about the program. If you have any additional questions, write to us on <i>s@navgurukul.org</i> or Whatsapp us at 9870326110. </li> <li style=' margin-top: 5px; '><b> Talk about our program, show our students’ videos on youtube</b> to help the attendees of your information session. If critical, we can also arrange a video session with one of our students or team members during the workshop.</li> <li style=' margin-top: 5px; '><b> We will send you sets of question papera and instructions for conducting the test.</b> The test is one and a half hour long. Once the test is over, the person in charge will have to email us pictures of the answer sheets. We will follow-up with the people who clear the written test for a telephonic interview.</li> </ol> </div>",
-          "hi": "Will come soon in hindi"
-        }
+        "show": "show",
+        "ques": "HOW CAN AN ORGANISATION CONDUCT AN INFORMATION SESSION AND TEST FOR THEIR COMMUNITY?",
+        "ans": "<div> <ol> <li style=' margin-top: 5px; '><b> Mobilize people</b> to attend the information session using your on-going communications activities. You can use the posters and Whatsapp/phone messages sent by Navgurukul.</li> <li style=' margin-top: 5px; '><b> Go through this information package</b> and our youtube channel to understand fully about the program. If you have any additional questions, write to us on <i>s@navgurukul.org</i> or Whatsapp us at 9870326110. </li> <li style=' margin-top: 5px; '><b> Talk about our program, show our students’ videos on youtube</b> to help the attendees of your information session. If critical, we can also arrange a video session with one of our students or team members during the workshop.</li> <li style=' margin-top: 5px; '><b> We will send you sets of question papera and instructions for conducting the test.</b> The test is one and a half hour long. Once the test is over, the person in charge will have to email us pictures of the answer sheets. We will follow-up with the people who clear the written test for a telephonic interview.</li> </ol> </div>"
       },
       {
-        "target":"partnership2",
-        "ques": {
-          "en": "HOW DOES A PARTNERSHIP WITH NAVGURUKUL LOOK LIKE?",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en": "We have many NGOs as our impact partners. We need their valuable efforts and time to reach out to the most vulnerable groups who could use this program for their benefit. The expenses for mobilization can be discussed and negotiated. The partnership begins with collaborating with NGOs to maximize outreach to their communities. Once the students are selected through the admission tests (either conducted by the organisation or given individually on phones), we provide regular updates to our partners about the students’ growth. This helps the organisations notonly keep in touch with their community members who came to Navgurukul but also help others in the community to connect with his/her journey. We keep in touch with our partners to understand their needs and expectations from us during a student’s journey. Many partners also take workshops on various issues with our Navgurukul students such as theatre, gender sensitization, time management, etc. If you are interested in working with us in that regard, please reach out to us at <i>s@navgurukul.org</i> ",
-          "hi": "Will come soon in hindi"
-        }
+        "ques": "HOW DOES A PARTNERSHIP WITH NAVGURUKUL LOOK LIKE?",
+        "ans": "We have many NGOs as our impact partners. We need their valuable efforts and time to reach out to the most vulnerable groups who could use this program for their benefit. The expenses for mobilization can be discussed and negotiated. The partnership begins with collaborating with NGOs to maximize outreach to their communities. Once the students are selected through the admission tests (either conducted by the organisation or given individually on phones), we provide regular updates to our partners about the students’ growth. This helps the organisations notonly keep in touch with their community members who came to Navgurukul but also help others in the community to connect with his/her journey. We keep in touch with our partners to understand their needs and expectations from us during a student’s journey. Many partners also take workshops on various issues with our Navgurukul students such as theatre, gender sensitization, time management, etc. If you are interested in working with us in that regard, please reach out to us at <i>s@navgurukul.org</i> "
       }
-      
     ]
   },
   {
     "tab": "job",
-    "name": {
-      "en": "Jobs",
-      "hi": "Will come soon in hindi" 
-    },
+    "name": "Jobs",
     "set": [
       {
-        "show":"show",
-        "target":"job1",
-        "ques": {
-          "en": "HOW DO STUDENTS GET JOBS?",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en":"We have an in-house Training and Placement coordinator and team. The team is in-charge to provide students essential soft skills such as communication, interview preparation, resume building etc. Each student is helped through internal interview preparation before appearing for an interview outside.The Training and Placement coordinator also gets each student interviews opportunities and offers help through-out the whole process.",
-          "hi": "Will come soon in hindi"
-        }
+        "show": "show",
+        "ques": "HOW DO STUDENTS GET JOBS?",
+        "ans": "We have an in-house Training and Placement coordinator and team. The team is in-charge to provide students essential soft skills such as communication, interview preparation, resume building etc. Each student is helped through internal interview preparation before appearing for an interview outside.The Training and Placement coordinator also gets each student interviews opportunities and offers help through-out the whole process."
       },
       {
-        "target":"job2",
-        "ques": {
-          "en": "WHAT KIND OF JOBS DO STUDENTS GET?",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en":"A student becomes a software developer and gets standard pay job(25,000-50,000). Some of our students working in big corporations such as MindTree, Directi, ThoughtWorks and some with reputed startups like Mahtti, Gamingmonk, Codeyug, Safal Solutions, BSD Technologies, FTwo, Repup, WhiteHat, Momspresso etc. Some of our students have also decided to work as freelancers i.e. taking coding assignments across the country/world and work at their own convenience. These are high-growth jobs in which students can keep progressing professionally with the help of their ability to pick up more technologies and projects",
-          "hi": "Will come soon in hindi"
-        }
+        "ques": "WHAT KIND OF JOBS DO STUDENTS GET?",
+        "ans": "A student becomes a software developer and gets standard pay job(25,000-50,000). Some of our students working in big corporations such as MindTree, Directi, ThoughtWorks and some with reputed startups like Mahtti, Gamingmonk, Codeyug, Safal Solutions, BSD Technologies, FTwo, Repup, WhiteHat, Momspresso etc. Some of our students have also decided to work as freelancers i.e. taking coding assignments across the country/world and work at their own convenience. These are high-growth jobs in which students can keep progressing professionally with the help of their ability to pick up more technologies and projects"
       }
     ]
   },
   {
     "tab": "success",
-    "name": {
-      "en": "Success Cases",
-      "hi": "Will come soon in hindi" 
-    },
+    "name": "Success Cases",
     "set": [
       {
-        "show":"show",
-        "target":"success1",
-        "ques": {
-          "en": "ANY SUCCESS CASES",
-          "hi": "Will come soon in hindi"
-        },
-        "ans": {
-          "en":"Around 90 students have gotten jobs in companies and startups as software developers. We also have some students who chose to become digital literacy trainers in NGOs. Some of our students started their own freelancing unit.<br/> You can read about some of our alumni profiles here: ​ <a href = https://navgurukul.org/alumni.html> Please visit </a>",
-          "hi": "Will come soon in hindi"
-        }
+        "show": "show",
+        "ques": "ANY SUCCESS CASES",
+        "ans": "Around 90 students have gotten jobs in companies and startups as software developers. We also have some students who chose to become digital literacy trainers in NGOs. Some of our students started their own freelancing unit.<br/> You can read about some of our alumni profiles here: ​ <a href = https://navgurukul.org/alumni.html> Please visit </a>"
       }
-     
     ]
   }
 ]

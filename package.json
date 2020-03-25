@@ -49,6 +49,7 @@
     "yargs": "^15.1.0"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1"
+    "bootstrap": "^4.4.1",
+    "js-md5": "^0.7.3"
   }
 }
