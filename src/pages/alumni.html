@@ -10,7 +10,7 @@
 
   <div class="row col-10 offset-1 mt-4">
     {{#each alumni}}
-    <div class="col-md-4 col-lg-3 col-sm-6 col-12 mt-4">
+    <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
       <div class="alumni">
         <div class="pic">
           <img src="{{root}}{{this.img}}" alt="">
@@ -20,15 +20,16 @@
             <a target="_blank" href="{{this.linkedin}}" class="fa fa-linkedin"></a>
           </li>
         </ul>
-        <div class="team-content introduction">
-          <h3 class="team-title">{{this.name}}</h3>
-          <span class="post">{{this.post}}</span>
-          <p class='description'>
-            {{this.about}}
-          </p>
-        </div>
+      </div>
+      <div class="team-content introduction">
+        <!-- text-align: justify -->
+        <h3 class="team-title">{{this.name}}</h3>
+        <span class="post">{{this.post}}</span>
+        <p class="card-text">
+          {{this.about}}
+        </p>
       </div>
     </div>
-    {{/each}}
+  {{/each}}
   </div>
 </section>

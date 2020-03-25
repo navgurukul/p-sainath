@@ -15,11 +15,15 @@ var gulp = require('gulp'),
   cssnano = require('gulp-cssnano'),
   autoprefixer = require('gulp-autoprefixer'),
   inject = require('gulp-inject');
+  md5 = require('js-md5');
 
 const Handlebars = require("handlebars");
 
 Handlebars.registerHelper("lang", function(context, options) {
-  return new Handlebars.SafeString('<span class="en">' + context.en + "</span>"+'<span class="hi d-none">' + context.hi + "</span>");
+  if(context.constructor === Object){
+    return new Handlebars.SafeString('<span class="en">' + context.en + "</span>"+'<span class="hi d-none">' + context.hi + "</span>");
+  }
+  return new Handlebars.SafeString('<span>' + context + "</span>");
 });
 
 Handlebars.registerHelper("log", function(context, options) {
@@ -35,8 +39,12 @@ Handlebars.registerHelper('assign', function (varName, varValue, options) {
 });
 
 Handlebars.registerHelper('incremented', function (index) {
-  return index++;
+  return ++index;
 });
+
+Handlebars.registerHelper('md5',(text) => {
+  return "c"+ md5(text);
+})
 
 // BrowserSync
 const browserSync = (done) => {
