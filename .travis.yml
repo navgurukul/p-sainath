@@ -11,7 +11,7 @@ env:
 script: gulp build
 deploy:
   provider: pages
-  cleanup: true
+  cleanup: false
   keep_history: true
   strategy: git
   local_dir: dist
