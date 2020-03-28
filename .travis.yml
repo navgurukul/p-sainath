@@ -1,6 +1,8 @@
 language: node_js
+os: linux
+dist: xenial
 deploy:
-  provider: pages:git
+  provider: pages
   cleanup: true
   keep_history: true
   on:
