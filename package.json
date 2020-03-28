@@ -42,7 +42,6 @@
     "js-md5": "^0.7.3"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1",
-    "js-md5": "^0.7.3"
+    "bootstrap": "^4.4.1"
   }
 }

@@ -42,7 +42,7 @@ Handlebars.registerHelper('incremented', function (index) {
   return ++index;
 });
 
-Handlebars.registerHelper('md5',(text) => {
+Handlebars.registerHelper('md5', function (text) {
   return "c"+ md5(text);
 })
 

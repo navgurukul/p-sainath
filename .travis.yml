@@ -1,9 +1,14 @@
 language: node_js
-os: linux
-dist: xenial
+before_script:
+  - npm install -g gulp
+script: gulp build
 deploy:
-  provider: pages
+  provider: pages:git
+  script: npm run deploy
   cleanup: true
   keep_history: true
+  strategy: git
+  local_dir: dist
+  edge: true
   on:
     branch: master
