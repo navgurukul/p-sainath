@@ -1,6 +1,7 @@
 deploy:
-  provider: pages
-  skip_cleanup: true
+  provider: pages:git
+  cleanup: true
   keep_history: true
+  language: node_js
   on:
     branch: master
