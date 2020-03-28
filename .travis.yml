@@ -7,7 +7,7 @@ before_script:
   - npm install -g gulp@4.0.2
 script: gulp build
 deploy:
-  provider: pages:git
+  provider: pages
   cleanup: true
   keep_history: true
   strategy: git
