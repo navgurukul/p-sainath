@@ -81,6 +81,11 @@ const sassT = () => {
     .pipe(browsersync.stream());
 };
 
+const cname = () => {
+  return gulp.src('CNAME')
+    .pipe(gulp.dest('dist'));
+}
+
 // Using panini, template, page and partial files are combined to form html markup
 const compileHtml = () => {
   var sources = gulp.src(['./dist/assets/js/*-min.js', './dist/assets/css/*.css'], { read: false });
@@ -172,7 +177,7 @@ const watch = gulp.parallel(watchFiles, browserSync);
 const byd = gulp.series(clean, gulp.parallel(font, sassT, scripts, images, static, resetPages), compileHtml, watch);
 
 // Creates production ready assets in dist folder
-const build = gulp.series(clean, gulp.parallel(sassT, scripts, images, static, font), compileHtml);
+const build = gulp.series(clean, gulp.parallel(sassT, scripts, images, static, font), cname, compileHtml);
 
 exports.default = byd;
 exports.build = build;
