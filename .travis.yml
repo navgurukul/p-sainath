@@ -1,14 +1,18 @@
 language: node_js
+os: linux
+dist: xenial
+node_js:
+  12
 before_script:
-  - npm install -g gulp
+  - npm install -g gulp@4.0.2
 script: gulp build
 deploy:
   provider: pages:git
-  script: npm run deploy
   cleanup: true
   keep_history: true
   strategy: git
   local_dir: dist
   edge: true
+  token: JUiXd5tuTEbDAkHf2SckHO0Bdqbva3Tl0BeNj6YnT1pd4iFUg6PIdEu6LACamY2eVf5C2jh70/aYLxQt3pMV66RNWA7JHsnXcL8dGLFhRx12n2aeypG+giB5SZer0v71IrD5XIdvj9HVJQf7o3FaDabu8vFinCTmTdNL5HdYDNfVngBZ3CsIS2xdCIBusGL5YrQVlWeJQP3kpS8ZKqzb3XTgLsJ5NPy45YlHqxBIIgfsPJ8yPjFWoIYa7OPjoPKjRX9s0cnAtpYSkjnYLYtznzz5C1gygPJAwpCbv6b6e7derWTUiKVXhSC47+4PM7h+IY7Tu2WseKwXCHqIm7BRmrFBcvfF6B5fmyiRsbjUwLNJYkmptD05J2yqRgt97R2s1aO2UntKwVYz0qEXcQlWLx0CqVBDKghmEsN+0v2x3Z4dC2EKw3j0HIah+ZEuS+YnxPsLUh+M6OZhftIv0ne6GGGMm/AgPeC2BsLU3OTfXV3AZVAAtd7iRW1LsbhMIFqRzPe6cWugqnzi/wXSK+qEABkdl4Q4e/kae6xnZy0M0hV/S7HW9kWgG9LKs7VlkcxIIG9VjHn2XLHWF9gcGdWy17/wiZrXKZk/apnPNmVy8vKXjJoWINoZHH5CAVk05D/q84vP6SHoevHzHkaZ90mZaxZyq1QhOJRdG/ae3ATI/Oo=
   on:
     branch: master
