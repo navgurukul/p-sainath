@@ -1,7 +1,7 @@
+language: node_js
 deploy:
   provider: pages:git
   cleanup: true
   keep_history: true
-  language: node_js
   on:
     branch: master
