@@ -154,6 +154,13 @@
     "linkedin": "https://www.linkedin.com/in/deepa-sinha-06a79716a"
   },
   {
+    "name": "Nilam Kumari",
+    "img": "assets/img/alumni/nilu.jpeg",
+    "about": "Nilam belongs to Kishangan, Bihar. She has done graduation. Her father a small farmer. She wants to explore tech and non teach.Currently she is working as an team member with Navgurukul and she wants to work with girls.",
+    "post": "Facility-in-charge,angalore",
+    "linkedin": "https://www.linkedin.com/in/nilam-kumari-53379816a/"
+  },
+  {
     "name": "Pralhad Jadhav",
     "img": "assets/img/alumni/pralhad-jadhav.jpg",
     "about": "A Navgurkul alumnus, Pralhad completed BE from Electronics & Telecommunication engineering stream Graduate in 2017 from Pune Univercity. Now working with Navgurukul as Software Engineer",
@@ -180,5 +187,5 @@
     "about": "He belongs to a low-income family and he has completed Intermediate then joined navgurukul. Now he is working  as a python developer in Bsd technology. Aman likes to play Cricket.",
     "post": "Python developer, Bsd technology",
     "linkedin": "https://www.linkedin.com/in/aman-jha-815532168/"
-  }
+  } 
 ]
