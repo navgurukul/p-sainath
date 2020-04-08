@@ -23,5 +23,10 @@
     "img": "assets/img/quartz.jpg",
     "headLine": "IIT grads? No, it’s the school dropouts...",
     "link": "https://qz.com/1086297/iit-grads-no-its-the-school-dropouts-who-are-hot-property-in-indian-it-now/"
+  },
+  {
+    "img": "assets/img/forbesIndia.png",
+    "headLine": "NavGurukul: Cracking the code to success...",
+    "link": "https://www.forbesindia.com/article/30-under-30-2020/navgurukul-cracking-the-code-to-success/57717/1"
   }
 ]
