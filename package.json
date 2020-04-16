@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "gulp",
     "imgSetup": "bash squarify.sh",
     "test": "true",
     "build": "gulp build",

@@ -11,7 +11,7 @@ function getCookie(cname) {
       return c.substring(name.length, c.length);
     }
   }
-  return "en";
+  return undefined;
 }
 
 function setCookie(cname, cvalue, exdays) {
@@ -21,8 +21,15 @@ function setCookie(cname, cvalue, exdays) {
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
-function setLang() {
-  var lang = getLang();
+var g_lang = getLang();
+
+function getLang() {
+  return g_lang || getCookie("lang") || "en";
+};
+
+setLang(g_lang);
+
+function setLang(lang) {
   var olang = lang == 'en' ? 'hi' : 'en';
   var language1 = lang == "en" ? "English" : "हिंदी";
   var language2 = lang == "en" ? "हिंदी " : "English";
@@ -32,16 +39,10 @@ function setLang() {
   $('.'+olang).addClass('d-none');
 }
 
-function getLang() {
-  return getCookie("lang");
-};
-
-setLang();
-
 function changeLang() {
-  var language = getCookie("lang");
-  var lang = language == "en" ? "hi" : "en";
-  setCookie("lang", lang, 365);
-  setLang();
-  return lang;
+  var language = getLang();
+  g_lang = language == "en" ? "hi" : "en";
+  setCookie("lang", g_lang, 365);
+  setLang(g_lang);
+  return g_lang;
 }
