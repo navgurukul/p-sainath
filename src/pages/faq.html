@@ -6,8 +6,8 @@
         <div class="col-lg-3">
           <div class="nav nav-pills faq-nav" id="faq-tabs" role="tablist" aria-orientation="vertical">
             {{#each faqs as |category|}}
-            <a href="#{{category.tab}}" class="nav-link text-primary" data-toggle="pill" role="tab"
-              aria-controls="{{category.tab}}" aria-selected="false">
+            <a href="#{{md5 category.name}}" class="nav-link text-primary" data-toggle="pill" role="tab"
+              aria-controls="{{md5 category.name}}" aria-selected="false">
               {{#lang category.name}}{{/lang}}
             </a>
             {{/each}}
@@ -16,9 +16,9 @@
         <div class="col-lg-8 mb-3 ">
           <div class="tab-content border" id="faq-tab-content">
             {{#each faqs as |category|}}
-            <div class="tab-pane  {{category.display}}" id="{{category.tab}}" role="tabpanel"
-              aria-labelledby="{{category.tab}}">
-              <div class="accordion" id="{{category.tab}}">
+            <div class="tab-pane  {{#if_eq @index 0}}show active{{/if_eq}}" id="{{md5 category.name}}" role="tabpanel"
+              aria-labelledby="{{md5 category.name}}">
+              <div class="accordion" id="{{md5 category.name}}">
                 <h3 class="mt-4 text-dark text-center text-capitalize">{{#lang category.name}}{{/lang}}</h3>
                 <div class="card ">
                   {{#each category.set as |qna|}}
@@ -30,7 +30,7 @@
                       </button>
                     </h5>
                   </div>
-                  <div class="collapse {{qna.show}}" id="{{md5 qna.ques}}" data-parent="#{{category.tab}}">
+                  <div class="collapse {{#if_eq @index 0}}show{{/if_eq}}" id="{{md5 qna.ques}}" data-parent="#{{md5 category.name}}">
                     <div class="card-body">
                       <p> {{#lang qna.ans}}{{/lang}}</p>
                     </div>

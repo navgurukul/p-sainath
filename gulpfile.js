@@ -19,6 +19,14 @@ var gulp = require('gulp'),
 
 const Handlebars = require("handlebars");
 
+Handlebars.registerHelper('if_eq', function(a, b, opts) {
+  if (a == b) {
+      return opts.fn(this);
+  } else {
+      return opts.inverse(this);
+  }
+});
+
 Handlebars.registerHelper("lang", function(context, options) {
   if(context.constructor === Object){
     return new Handlebars.SafeString('<span class="en">' + context.en + "</span>"+'<span class="hi d-none">' + context.hi + "</span>");
@@ -43,7 +51,11 @@ Handlebars.registerHelper('incremented', function (index) {
 });
 
 Handlebars.registerHelper('md5', function (text) {
-  return "c"+ md5(text);
+  if (text.constructor == Object) {
+    return "c"+ md5(text.en);
+  } else {
+    return "c"+ md5(text);
+  }
 })
 
 // BrowserSync

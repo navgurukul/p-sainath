@@ -1,12 +1,15 @@
 [
   {
-    "tab": "about",
-    "display": "show active",
-    "name": "About The Program",
+    "name": {
+      "en": "About The Program",
+      "hi": "Program ke baarei mei"
+    },
     "set": [
       {
-        "show": "show",
-        "ques": "WHAT IS NAVGURUKUL PROGRAM?",
+        "ques": {
+          "en": "WHAT IS NAVGURUKUL PROGRAM?",
+          "hi": "Navgurukul program kya hai?"
+        },
         "ans": "NavGurukul offers a <b> free one-year residential program for underprivileged students to </b>learn software engineering</b> and get guaranteed high paying aspirational jobs. Apart from software engineering, there is an intense focus on English training and personality development. It is a meaningful alternative to a college for the job-seeking young adults."
       },
       {
@@ -40,11 +43,9 @@
     ]
   },
   {
-    "tab": "Admissions",
     "name": "Admissions",
     "set": [
       {
-        "show": "show",
         "ques": "WHAT IS THE ADMISSION CRITERIA?",
         "ans": "Any applicant who is above 16 years of age and can clear test and interviews based on 10th level Maths and 8th level, they can become part of Navgurukul. Our current students have different education levles - school dropouts, college drop outs, 10th or 12th pass, people going to colleges for BSc, BA, BTech. A person can be from commerce, arts or science and still learn coding with us. The knowledge of coding is also not necessary. Just 10th level maths and some English will be good.</br> All of our students come from families with monthly incomes of less than 15,000 INR in urban areas and 10,000 INR in rural areas."
       },
@@ -67,11 +68,9 @@
     ]
   },
   {
-    "tab": "partnership",
     "name": "Mobilise Students",
     "set": [
       {
-        "show": "show",
         "ques": "HOW CAN AN ORGANISATION CONDUCT AN INFORMATION SESSION AND TEST FOR THEIR COMMUNITY?",
         "ans": "<div> <ol> <li style=' margin-top: 5px; '><b> Mobilize people</b> to attend the information session using your on-going communications activities. You can use the posters and Whatsapp/phone messages sent by Navgurukul.</li> <li style=' margin-top: 5px; '><b> Go through this information package</b> and our youtube channel to understand fully about the program. If you have any additional questions, write to us on <i>s@navgurukul.org</i> or Whatsapp us at 9870326110. </li> <li style=' margin-top: 5px; '><b> Talk about our program, show our students’ videos on youtube</b> to help the attendees of your information session. If critical, we can also arrange a video session with one of our students or team members during the workshop.</li> <li style=' margin-top: 5px; '><b> We will send you sets of question papera and instructions for conducting the test.</b> The test is one and a half hour long. Once the test is over, the person in charge will have to email us pictures of the answer sheets. We will follow-up with the people who clear the written test for a telephonic interview.</li> </ol> </div>"
       },
@@ -82,11 +81,9 @@
     ]
   },
   {
-    "tab": "job",
     "name": "Jobs",
     "set": [
       {
-        "show": "show",
         "ques": "HOW DO STUDENTS GET JOBS?",
         "ans": "We have an in-house Training and Placement coordinator and team. The team is in-charge to provide students essential soft skills such as communication, interview preparation, resume building etc. Each student is helped through internal interview preparation before appearing for an interview outside.The Training and Placement coordinator also gets each student interviews opportunities and offers help through-out the whole process."
       },
@@ -97,11 +94,9 @@
     ]
   },
   {
-    "tab": "success",
     "name": "Success Cases",
     "set": [
       {
-        "show": "show",
         "ques": "ANY SUCCESS CASES",
         "ans": "Around 90 students have gotten jobs in companies and startups as software developers. We also have some students who chose to become digital literacy trainers in NGOs. Some of our students started their own freelancing unit.<br/> You can read about some of our alumni profiles here: ​ <a href = https://navgurukul.org/alumni.html> Please visit </a>"
       }
