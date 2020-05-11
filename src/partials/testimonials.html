@@ -2,20 +2,20 @@
   <div class="text-center">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Partner Testimonials</h2>
+        <h2 class="section-heading">{{#lang testimonials.Partner}}{{/lang}}</h2>
         <hr class="primary">
       </div>
     </div>
 
     <p>
-      We currently have 35+ NGOs, schools and colleges across India who support us in our efforts to reach out to as many deserving youth as possible. Many individuals become champions in their localities or workspaces to help youth around them know about our
-      program.
+      {{#lang testimonials.support}}{{/lang}}
     </p>
 
     <div class="testimonials">
-      {{#each testimonials}}
+      {{#each testimonials.slide}}
       <div class="slide-content">
-        <p class="text-left">{{this.text}}</p>
+        <p class="text-left">{{#lang this}}{{/lang}}</p>
+        
         <p class="text-right font-weight-bold font-italic">{{this.name}}</p>
       </div>
       {{/each}}
