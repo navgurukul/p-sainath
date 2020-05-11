@@ -1,0 +1,10 @@
+{
+    "mainHeadline" : {
+        "en": "Who are we looking for?",
+        "hi": "हम किसकी तलाश कर रहे हैं?" 
+    },
+    "about_nav":{
+        "en":"<p>If you are an organisation or an individual who works with youth and/or in education, we have a great potential to collaborate. Our partners motivate and inform their communities about our software engineering program and its benefits. They identify youth who could use this opportunity and conduct the admissions test for them if needed.We support our partners in this mobilization process by understanding the needs of the youth in their community, offering them content for information sessions and admissions tests.Once the students are selected with the help of any partner, we offer the progress reports of the students to the partner and help them share their inspirational stories in their impact reports and talks.</p>",
+        "hi":"<p>यदि आप एक organation या एक व्यक्ति हैं जो youth और  education  शिक्षा के साथ काम करते हैं, तो हम  साथ में काम कर सकते है।</br> हमारे partner हमारे सॉफ्टवेयर इंजीनियरिंग course और इसके लाभों के बारे में अपनी community को motivate and inform करते हैं। वे ऐसे युवाओं की पहचान करते हैं जो इस अवसर का उपयोग कर सकते हैं और यदि आवश्यक हो तो उनके लिए admissions test आयोजित कर सकते हैं।</br> हम अपने Partners को समुदाय में युवाओं की जरूरतों को समझने,  information sessions और admissions tests के लिए उन्हें सामग्री प्रदान करके इस mobilization process में support करते हैं।</br>एक बार जब students को किसी भी partner की help से select किया जाता है, तो हम students की progress reports को partner को देते हैं और उनकी progress reports और inspirational stories को Share करने में उनकी help करते हैं।</p>"
+    }
+}
