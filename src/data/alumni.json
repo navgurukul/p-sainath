@@ -14,6 +14,13 @@
     "linkedin": "https://www.linkedin.com/in/anurag-rawat-79a541168/"
   },
   {
+    "name": "Jagannath Swarnkar",
+    "img": "assets/img/alumni/jagan.jpg",
+    "about": "Jagan is from Pilibhit, Uttar Pradesh. He completed his 12th and joined Navgurukul. He started his programming journey at Navgurukul and today he is financially supporting his family. He is working as a full stack web developer at Appscrip, Bengaluru. Currently working with Reactjs, Angularjs, and Nodejs",
+    "post": "Appscrip, Bangaluru",
+    "linkedin": "https://www.linkedin.com/in/jagannath-swarnkar-906664170/"
+  },
+  {
     "name": "Jai Kishan",
     "img": "assets/img/alumni/jai.jpg",
     "about": "Jai has passed his 12th and He is from Delhi, now working as a Python developer in Mahiti Infotech, Bangalore. Interested in social welfare and intracting with new peoples.",
@@ -152,13 +159,6 @@
     "about": "Deepa has passed her 12th and she is from Guwahati, Assam, her father have a small shop and she completed her training in just 7 months. Now working as a Android developer in Mindtree, Bangalore.",
     "post": "Mindtree, Bangalore",
     "linkedin": "https://www.linkedin.com/in/deepa-sinha-06a79716a"
-  },
-  {
-    "name": "Nilam Kumari",
-    "img": "assets/img/alumni/nilu.jpeg",
-    "about": "Nilam belongs to Kishangan, Bihar. She has done graduation. Her father a small farmer. She wants to explore tech and non teach.Currently she is working as an team member with Navgurukul and she wants to work with girls.",
-    "post": "Technical Associate, Bangalore",
-    "linkedin": "https://www.linkedin.com/in/nilam-kumari-53379816a/"
   },
   {
     "name": "Pralhad Jadhav",
