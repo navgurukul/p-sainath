@@ -4,8 +4,9 @@
   </div>
 </a>
 
-<section id="partners" class="container">
+<section id="partners" class="container mb-4">
   <div class="text-center">
+
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">Choose where you want to contribute</h2>
@@ -20,6 +21,7 @@
       </div>
       {{/each}}
     </div>
+
     <div class="volunteerSlider mt-3">
       {{#each volunteer}}
       <div class="slide-content mt-3" style="outline: none !important;">
@@ -27,8 +29,8 @@
           <h4 style="margin-bottom:10px;">{{this.headline}}</h4 style="margin-bottom:15px;">
           <div style="margin: 10px; margin-top: 20px;">
             Skills needed: <b>{{this.skills}}</b><br/>
-            Time commitment: <b>{{this.time}}</b><br/><br/>
-            Location: <b>Remote</b>
+            Time commitment: <b>{{this.time}}</b><br/>
+            Location: <b>Remote</b><br/><br/>
             {{this.description}}<br/>
           </div>
         </div>
