@@ -13,6 +13,19 @@
       </div>
     </div>
 
+    <div class="volunteerSlider">
+      {{#each volunteer}}
+      <div class="slide-content">
+        <div class="mx-3">
+          <h4 style="margin-bottom:10px;">{{this.headline}}</h4 style="margin-bottom:15px;">
+          <div style="margin: 10px;">
+            {{this.description}}
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+
   </div>
 </section>
 

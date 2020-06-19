@@ -11,6 +11,16 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+  $(".volunteerSlider").slick({
+    arrows: true,
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  });
+});
+
+$(document).ready(function () {
   $(".newsArticles").slick({
     arrows: true,
     dots: true,
