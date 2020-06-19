@@ -1,0 +1,45 @@
+[
+    {
+      "img": "assets/img/timesofindia.jpg",
+      "headline": "Programming Mentorship",
+      "skills": "Skills Toh Banti hai",
+      "time": "Time bhi chahiye",
+      "description" : "We are expanding the scope of NavGurukul’s programs to introduce thousands of deserving children to the magic of programming. To do this, we conduct a three-month remote introductory course in programming using Python. The course covers basics such as loops and functions that are delivered through bi-weekly masterclasses and doubt sessions. These masterclasses are conducted on Zoom/Google Meets and have upto ~100 students across villages and different states of India attending and doubt sessions have upto ~20 students each."
+    },
+    {
+      "img": "assets/img/thebetterindia.jpeg",
+      "headline": "Interview & Project Mentorship",
+      "skills": "Skills Toh Banti hai",
+      "time": "Time bhi chahiye",
+      "description" : "Just as the students in our one-year residential course approach the finish-line, they need more organised help to prepare for the interviews and work on the projects. During this intervention, mentors are expected to help the students in understanding agile methodology, communication during projects, nuances about github and proper coding practices. As a mentor, you would be expected to emulate a real life internship/job for the student and provide essential feedback towards the students growth and preparation for their first job."
+    },
+    {
+      "img": "assets/img/timesofindia.jpg",
+      "headline": "Sensitisation & Awareness (Gender/Ecology/Economy etc.)",
+      "skills": "Skills Toh Banti hai",
+      "time": "Time bhi chahiye",
+      "description" : "DESCRIPTION HERE"
+    },
+    {
+      "img": "assets/img/thelogicalindia.png",
+      "headline": "Programming Mentorship",
+      "skills": "Skills Toh Banti hai",
+      "time": "Time bhi chahiye",
+      "description" : "DESCRIPTION HERE"
+    },
+    {
+      "img": "assets/img/quartz.jpg",
+      "headline": "Programming Mentorship",
+      "skills": "Skills Toh Banti hai",
+      "time": "Time bhi chahiye",
+      "description" : "DESCRIPTION HERE"
+    },
+    {
+      "img": "assets/img/forbesIndia.png",
+      "headline": "Programming Mentorship",
+      "skills": "Skills Toh Banti hai",
+      "time": "Time bhi chahiye",
+      "description" : "DESCRIPTION HERE"
+    }
+    
+  ]
