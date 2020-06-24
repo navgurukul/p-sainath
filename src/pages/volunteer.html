@@ -1,0 +1,49 @@
+<a data-fancybox href="https://www.youtube.com/watch?v=dLVT1fJeWHI&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0">
+  <div style="background:url(https://img.youtube.com/vi/dLVT1fJeWHI/maxresdefault.jpg); position:relative; background-repeat: no-repeat; background-position: center; background-size: cover; min-height:560px; min-width:100%; max-width: 100%; cursor: pointer;" id="imageP">
+    <img src="{{root}}assets/img/playicon.png" style="position:absolute; top: 250px; width: 120px; cursor: pointer; left: calc(50% - 60px);" />
+  </div>
+</a>
+
+<section id="partners" class="container mb-4">
+  <div class="text-center">
+
+    <div class="row mb-3">
+      <div class="col-lg-12 text-center">
+        <h3 class="section-heading">Choose an area of your interest</h3>
+        <hr class="primary">
+      </div>
+    </div>
+
+    <div class="volunteerNav mb-3">
+      {{#each volunteer}}
+      <div class="px-3" style="outline: none !important;">
+        <img src={{this.img}} style="height:120px;"/>
+      </div>
+      {{/each}}
+    </div>
+
+    <div class="volunteerSlider mt-3">
+      {{#each volunteer}}
+      <div class="slide-content mt-3" style="outline: none !important;">
+        <div class="mx-3">
+          <h4 style="margin-bottom:10px;">{{this.headline}}</h4 style="margin-bottom:15px;">
+          <div style="margin: 10px; margin-top: 20px;">
+            Skills needed: <b>{{this.skills}}</b><br/>
+            Time commitment: <b>{{this.time}}</b><br/>
+            Location: <b>Remote</b><br/><br/>
+            {{this.description}}<br/>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+
+    <a href="https://forms.gle/mcB15XoUj2CSpNZy7" target="_blank" class="badge badge-primary p-3 px-5 mt-3 mb-5 badgeOverrides">
+      <span style="font-size:15px">VOLUNTEER NOW</span>
+    </a>
+
+
+  </div>
+</section>
+
+
