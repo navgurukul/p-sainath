@@ -17,7 +17,7 @@ $(document).ready(function () {
     arrows: false,
     fade: true,
     asNavFor: '.volunteerNav'
-  });
+    });
   $('.volunteerNav').slick({
     slidesToScroll: 1,
     variableWidth: true,
