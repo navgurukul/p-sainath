@@ -772,7 +772,8 @@ body {
 
 .minHeight {
   padding-top: 0;
-  min-height: calc(100vh - 41px)
+  min-height: calc(100vh - 41px);
+  overflow:hidden
 }
 
 .skyblue {
