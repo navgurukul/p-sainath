@@ -8,13 +8,22 @@
       {
         "ques": {
           "en": "WHAT IS NAVGURUKUL PROGRAM?",
-          "hi": "Navgurukul program kya hai?"
+          "hi": "नवगुरुकुल program क्या है ?"
         },
-        "ans": "NavGurukul offers a <b> free one-year residential program for underprivileged students to </b>learn software engineering</b> and get guaranteed high paying aspirational jobs. Apart from software engineering, there is an intense focus on English training and personality development. It is a meaningful alternative to a college for the job-seeking young adults."
+        "ans": {
+          "en":"NavGurukul offers a <b> free one-year residential program for underprivileged students to </b>learn software engineering</b> and get guaranteed high paying aspirational jobs. Apart from software engineering, there is an intense focus on English training and personality development. It is a meaningful alternative to a college for the job-seeking young adults.",
+          "hi":"नवगुरुकुल one-year residential program है, जो underprivileged Students को सॉफ्टवेयर इंजीनियरिंग सीखने और guaranteed high paying aspirational job लेने में मदद करता हैं । हम सॉफ्टवेयर इंजीनियरिंग के अलावा English training और personality development पर भी Focus करते हैं । नवगुरुकुल नौकरी चाहने वाले युवक और युवतियों के लिए कॉलेज का एक alternative विकल्प है।"
+        }
       },
       {
-        "ques": "HOW DOES ONE YEAR EDUCATION AT NAVGURUKUL LOOK LIKE?",
-        "ans": "<div>One year at Navgurukul is divided into three key phases:<br><ol> <li style=' margin-top: 5px; '><b>Foundation Bootcamp:</b>The students work on their foundational learning habits for logical and English skills. This lasts for 1-2 months.</li> <li style=' margin-top: 5px; '><b>Coding Camp:</b> This lasts for 5-6 months where the students learn coding skills and continue working on their English and leadership skills </li> <li style=' margin-top: 5px; '><b>Interview Camp:</b> This lasts for 1-2 months where the students practice working in an office environment on Navgurukul campus and work on their resumes, interview skills and give interviews in companies.</li></ol> </div>"
+        "ques":{
+          "en": "HOW DOES ONE YEAR EDUCATION AT NAVGURUKUL LOOK LIKE?",
+          "hi":"नवगुरुकुल में एक साल में क्या पढ़ाया जाता है?"
+        },
+        "ans": {
+          "en":"<div>One year at Navgurukul is divided into three key phases:<br><ol> <li style=' margin-top: 5px; '><b>Foundation Bootcamp:</b>The students work on their foundational learning habits for logical and English skills. This lasts for 1-2 months.</li> <li style=' margin-top: 5px; '><b>Coding Camp:</b> This lasts for 5-6 months where the students learn coding skills and continue working on their English and leadership skills </li> <li style=' margin-top: 5px; '><b>Interview Camp:</b> This lasts for 1-2 months where the students practice working in an office environment on Navgurukul campus and work on their resumes, interview skills and give interviews in companies.</li></ol> </div>",
+          "hi":"<div>नवगुरुकुल में एक वर्ष को तीन प्रमुख चरणों में विभाजित किया गया है :<br><ol> <li style=' margin-top: 5px; '><b>Foundation Bootcamp:</b>यह 1-2 महीने तक चलता हैं, इसमें students English speaking और  logics के fundamentals  सीखने पर काम करते हैं।</li> <li style=' margin-top: 5px; '><b>Coding Camp:</b>  यह 5-6 महीने तक चलता हैं, जहां students coding skills सीखते हैं और अपने English और leadership skills पर काम करना जारी रखते हैं। </li> <li style=' margin-top: 5px; '><b>Interview Camp:</b> यह 1-2 महीने तक चलता हैं, जहां Students नवगुरुकुल campus में office के वातावरण में काम करते हैं और अपने resume, interview skills और companies में interview देने का काम करते हैं।</li></ol> </div>"
+        }
       },
       {
         "ques": "WHO IS THIS PROGRAM FOR?",
