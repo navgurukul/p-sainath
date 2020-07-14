@@ -189,10 +189,68 @@
     "linkedin": "https://www.linkedin.com/in/aman-jha-815532168/"
   },
   {
+<<<<<<< HEAD
+=======
     "name": "Akhil Rawat",
     "img": "assets/img/alumni/akhil.jpeg",
     "about": "Akhil comes from Dehradun. He joined NavGurukul after completing his Intermediate Studies. Presently, he is working as a Web Developer in CodeChef.",
     "post": "Web Developer, CodeChef",
     "linkedin": "https://www.linkedin.com/in/akhil-rawat-111545168/"
+  },
+  {
+>>>>>>> 97bbe862f4b35c2604274261cebdf77509f25d9c
+    "name": "Manoj Kumar",
+    "img": "assets/img/alumni/manoj-kumar.png",
+    "about": "Manoj graduated from Delhi University. His father works as a peon. He learnt programming at NavGurukul and now working as a Web Development & Digital Marketing Manager at iDream Education Pvt Ltd. He loves to travel and meet new people.",
+    "post": "Web Developer, iDream Education Pvt Ltd",
+    "linkedin": "https://www.linkedin.com/in/manoj-kumar-3b06a2148/"
+  },
+  {
+    "name": "Aslam",
+    "img": "assets/img/alumni/Aslam.jpeg",
+    "about": "Aslam currently works and lives in Delhi. His father works as a rickshaw driver. He is a person who is positive about every aspect of life. He is a software developer who studied from NavGurukul. He is currently a freelancer.",
+    "post": "Software Developer, Freelancer",
+    "linkedin": "https://www.linkedin.com/in/aslam-desusa-4a9647148/"
+  },
+  {
+    "name": "Ravina",
+    "img": "assets/img/alumni/Ravina.jpeg",
+    "about": "Ravina is from Mohamari, Bihar. Her father works as a farmer. It was very difficult for Ravina to continue her study after completing 12th class due to  lack of money. She chose NavGurukul and is now working as a Backend Developer in Juspay - world’s first mobile payment browser for Secure 1–click experience.",
+    "post": "Backend Developer, Juspay",
+    "linkedin": "https://www.linkedin.com/in/ravina-kumari-76279616a/"
+  },
+  {
+    "name": "Nilam Kumari",
+    "img": "assets/img/alumni/nilu.jpeg",
+    "about": "Nilam belongs to Kishanganj, Bihar. She has done her graduation. Her father works as small farmer. She wants to explore working in technology. Currently she is working as a core team member with NavGurukul.",
+    "post": "Technical Associate, NavGurukul",
+    "linkedin": "https://www.linkedin.com/in/nilam-kumari-53379816a/"
+  },
+  {
+    "name": "Pooja Saini",
+    "img": "assets/img/alumni/Pooja_Saini.jpeg",
+    "about": "Pooja is from Delhi. Her mother works as a tailor, after her dad's death her mother was the only person to take care of her family. Pooja has aspiration to do something big is in her life. Currently she is working as a Frontend Developer in SmallWorld Digital Service - software-powered integrated solution that combines technology, analytics & automation to enable brands to improve their own-website revenues.",
+    "post": "Frontend Developer, SmallWorld Digital Services",
+    "linkedin": "https://www.linkedin.com/mwlite/in/pooja-saini-1910bb158"
+  },
+  {
+    "name": "Pavan Vishwakarma",
+    "img": "assets/img/alumni/Pavan.jpeg",
+    "about": "Pavan is from MP. His dad works as a carpenter. He also start his career as a carpenter to support his dad. After his education in NavGurukul he is working as Software developer in Mobiroller- self-service mobile app platform that enables anyone to create apps without coding.",
+    "linkedin": "https://www.linkedin.com/mwlite/in/pavan-vishwkarma-96a81a182"
+  },
+  {
+    "name": "Pratik Deshmukh",
+    "img": "assets/img/alumni/Pratik.jpeg",
+    "about": "Pratik comes from a family which traditionally works into farming in the tribal village of Lobhi, Bhandara district, Maharashtra. His dad works as a sugarcane farmer and mom is a housewife. He has completed class 8th and joined NavGurukul. He works in Auroville with Leap club as a Software Developer.",
+    "post": "Software Developer, Leap Club",
+    "linkedin": "https://www.linkedin.com/mwlite/in/pratik-deshmukh-b2a135185"
+  },
+  {
+    "name": "Venu Bhaktpralhad Jibhakate",
+    "img": "assets/img/alumni/Venu.jpeg",
+    "about": "Venu has completed class 12th from Maharashtra. Her father has a small shop. She dropped out from BSc and joined NavGurukul. She felt deeply interested in Frontend Engineering because of her interest in design. Currently, woking as a ReactJs Developer in SmallWorld Digital Service - software-powered integrated solution that combines technology, analytics & automation to enable brands to improve their own-website revenues.",
+    "post": "ReactJs Developer, SmallWorld Digital Services",
+    "linkedin": "https://www.linkedin.com/in/venu-jibhakate-9633a3180/ "
   }
 ]
