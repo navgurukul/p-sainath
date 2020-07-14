@@ -11,6 +11,33 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+  $('.volunteerSlider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.volunteerNav'
+    });
+  $('.volunteerNav').slick({
+    slidesToScroll: 1,
+    variableWidth: true,
+    asNavFor: '.volunteerSlider',
+    dots: true,
+    centerMode: true,
+    centerPadding: '40px',
+    focusOnSelect: true
+  });
+
+  // $(".volunteerSlider").slick({
+  //   arrows: true,
+  //   dots: true,
+  //   infinite: true,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  // });
+});
+
+$(document).ready(function () {
   $(".newsArticles").slick({
     arrows: true,
     dots: true,

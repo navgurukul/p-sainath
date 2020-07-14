@@ -189,6 +189,16 @@
     "linkedin": "https://www.linkedin.com/in/aman-jha-815532168/"
   },
   {
+<<<<<<< HEAD
+=======
+    "name": "Akhil Rawat",
+    "img": "assets/img/alumni/akhil.jpeg",
+    "about": "Akhil comes from Dehradun. He joined NavGurukul after completing his Intermediate Studies. Presently, he is working as a Web Developer in CodeChef.",
+    "post": "Web Developer, CodeChef",
+    "linkedin": "https://www.linkedin.com/in/akhil-rawat-111545168/"
+  },
+  {
+>>>>>>> 97bbe862f4b35c2604274261cebdf77509f25d9c
     "name": "Manoj Kumar",
     "img": "assets/img/alumni/manoj-kumar.png",
     "about": "Manoj graduated from Delhi University. His father works as a peon. He learnt programming at NavGurukul and now working as a Web Development & Digital Marketing Manager at iDream Education Pvt Ltd. He loves to travel and meet new people.",
