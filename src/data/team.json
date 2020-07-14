@@ -28,11 +28,32 @@
     "linkedin": "https://www.linkedin.com/in/nilam-kumari-53379816a/"
   },
   {
+    "name": "Komal Bhatt",
+    "img": "assets/img/main/komal.jpeg",
+    "about": "A NavGurukul alumna, she learned about herself more as a council member & through volunteering opportunities. She leads the curriculum development.",
+    "post": "Tech and Academics Associate",
+    "linkedin": "https://www.linkedin.com/in/komal-bhatt-a1779716a/"
+  },
+  {
+    "name": "Savita Verma",
+    "img": "assets/img/main/savita.jpg",
+    "about": "She is a content writer and serves as an EA to the CEO office. A B.Com graduate, Savita is National level debater and passionate about working on gender related and mental health issues.",
+    "post": "Executive Assistant to CEO",
+    "linkedin": "https://www.linkedin.com/in/savita-verma-133782167"
+  },
+  {
     "name": "Nitesh Sharma",
     "img": "assets/img/alumni/nitesh-sharma.jpg",
     "about": "A NavGurukul alumnus, Nitesh completed BCA from Sant Singaji Institute Of Science & Management. Interested in social welfare and solving problems through facilitation and ground-work.",
     "post": "Facility-in-Charge",
     "linkedin": "#"
+  },
+  {
+    "name": "Jai Kishan",
+    "img": "assets/img/main/jai.jpg",
+    "about": "A NavGurukul alumna, he has passed his 12th. Jai is a python developer and placement related outreach. He loves to make friend and interact with new people.",
+    "post": "Placement & Partner Associate.",
+    "linkedin": "https://www.linkedin.com/in/jai-dev-84a8b2157/"
   },
   {
     "name": "Pralhad Jadhav",
