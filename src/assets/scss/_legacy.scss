@@ -30,6 +30,11 @@
     height: 569px;
 }
 
+.slick-slide img{
+  cursor: pointer;
+
+}
+
 @media only screen and (max-width: 600px) {
     .iframe-container iframe {
         border: 0;
@@ -767,7 +772,8 @@ body {
 
 .minHeight {
   padding-top: 0;
-  min-height: calc(100vh - 41px)
+  min-height: calc(100vh - 41px);
+  overflow:hidden
 }
 
 .skyblue {
