@@ -189,8 +189,6 @@
     "linkedin": "https://www.linkedin.com/in/aman-jha-815532168/"
   },
   {
-<<<<<<< HEAD
-=======
     "name": "Akhil Rawat",
     "img": "assets/img/alumni/akhil.jpeg",
     "about": "Akhil comes from Dehradun. He joined NavGurukul after completing his Intermediate Studies. Presently, he is working as a Web Developer in CodeChef.",
@@ -198,7 +196,6 @@
     "linkedin": "https://www.linkedin.com/in/akhil-rawat-111545168/"
   },
   {
->>>>>>> 97bbe862f4b35c2604274261cebdf77509f25d9c
     "name": "Manoj Kumar",
     "img": "assets/img/alumni/manoj-kumar.png",
     "about": "Manoj graduated from Delhi University. His father works as a peon. He learnt programming at NavGurukul and now working as a Web Development & Digital Marketing Manager at iDream Education Pvt Ltd. He loves to travel and meet new people.",
@@ -251,6 +248,6 @@
     "img": "assets/img/alumni/Venu.jpeg",
     "about": "Venu has completed class 12th from Maharashtra. Her father has a small shop. She dropped out from BSc and joined NavGurukul. She felt deeply interested in Frontend Engineering because of her interest in design. Currently, woking as a ReactJs Developer in SmallWorld Digital Service - software-powered integrated solution that combines technology, analytics & automation to enable brands to improve their own-website revenues.",
     "post": "ReactJs Developer, SmallWorld Digital Services",
-    "linkedin": "https://www.linkedin.com/in/venu-jibhakate-9633a3180/ "
+    "linkedin": "https://www.linkedin.com/in/venu-jibhakate-9633a3180/"
   }
 ]
