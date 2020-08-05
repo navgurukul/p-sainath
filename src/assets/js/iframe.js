@@ -5,4 +5,5 @@ $(document).ready(function () {
   $("iframe#leftTextContent").height(iHeight);
 
   $("#calendarIframe").width(document.body.clientWidth);
+  $(".minHeight").css('margin-top',Math.floor($('#mainNav').height()));
 });
