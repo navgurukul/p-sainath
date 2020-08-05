@@ -30,7 +30,6 @@ function getLang() {
 setLang(g_lang);
 
 function setLang(lang) {
-  console.log(lang,"komal")
   var olang = lang == 'en' ? 'hi' : 'en';
   var language1 = lang == "en" ? "English" : "हिंदी";
   var language2 = lang == "en" ? "हिंदी " : "English";
