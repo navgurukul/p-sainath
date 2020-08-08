@@ -187,7 +187,7 @@ const watch = gulp.parallel(watchFiles, browserSync);
 
 // ------------ Build Sequence -------------
 // Simply run 'gulp' in terminal to run local server and watch for changes
-const byd = gulp.series(clean, gulp.parallel(font, sassT, scripts, images, static, resetPages), compileHtml, watch);
+const byd = gulp.series(clean, compileHtml, gulp.parallel(font, sassT, scripts, images, static, resetPages), watch);
 
 // Creates production ready assets in dist folder
 const build = gulp.series(clean, gulp.parallel(sassT, scripts, images, static, font), cname, compileHtml);

@@ -20,6 +20,23 @@
   }  
 }
 
+@media only screen and (min-width: 600px) {
+  #videoIntro {
+    margin-left: -15px;
+  }  
+}
+
+#videoIntro {
+  position: relative;
+}
+
+#video_overlay {
+  position:absolute;
+  float:left;
+  background-color:rgba(10, 10, 10, .6);
+  z-index:500000;
+}
+
 .iframe-container {
     position: relative;
 }
