@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "audit:fix": "npx yarn-audit-fix",
     "dev": "gulp",
     "imgSetup": "bash squarify.sh",
     "test": "true",
@@ -25,24 +26,24 @@
   "author": "Navgurukul",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.12",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-cache": "^1.1.3",
-    "gulp-cli": "^2.2.0",
+    "gulp-cli": "^2.3.0",
     "gulp-cssnano": "^2.1.3",
-    "gulp-imagemin": "^6.2.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-inject": "^5.0.5",
     "gulp-minify": "^3.1.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
-    "handlebars": "^4.7.3",
-    "panini": "^1.6.3",
-    "sass": "^1.24.1",
+    "handlebars": "^4.7.6",
+    "panini": "^1.7.1",
+    "sass": "^1.26.10",
     "js-md5": "^0.7.3"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1"
+    "bootstrap": "^4.5.2"
   }
 }

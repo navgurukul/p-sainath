@@ -20,3 +20,16 @@ $(document).ready(function () {
   $("#video_overlay").css('max-height', iHeight);
   $("#video_overlay").css('max-width', iWidth);
 });
+
+function copy(obj) {
+  var text = $(obj).data('text');
+  console.log(text);
+  var input = document.createElement('input');
+  input.setAttribute('value', text);
+  document.body.appendChild(input);
+  input.select();
+  var result = document.execCommand('copy');
+  document.body.removeChild(input);
+  alert("Text Copied!")
+  return result;
+}

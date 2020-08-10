@@ -126,7 +126,7 @@ const images = () => {
   return gulp.src('src/assets/img/**/*.+(png|jpg|jpeg|gif|svg)')
     .pipe(cache(imagemin([
       imagemin.gifsicle({ interlaced: true }),
-      imagemin.jpegtran({ progressive: true }),
+      imagemin.mozjpeg({ progressive: true }),
       imagemin.optipng({ optimizationLevel: 5 })
     ]))) // Caching images that ran through imagemin
     .pipe(gulp.dest('dist/assets/img/'));
