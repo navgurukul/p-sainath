@@ -1,12 +1,12 @@
 <section class="container">
   <div class="col-12 mb-5">
-    {{#each classes_en as |slots|}}
+    {{#each classes_hi as |slots|}}
     <div class="mt-5">
       <div class="text-center">
         <h4>{{slots.date}}</h4>
       </div>
       <hr class="primary my-2">
-      <div class="text-center d-flex justify-content-center">
+      <div class="text-center d-flex justify-content-center flex-md-row flex-column align-items-center">
         {{#each slots.slots as |slot|}}
         <span class="d-flex">
           <a href="{{slot.link}}" target="_blank" class="badge p-3 m-1 px-5 badgeOverrides bgRandom align-left">
@@ -24,7 +24,7 @@ Please join the class at least 10 mins before the scheduled time."><i class="fa 
               </a>
             </span>
             <span class="icon" style="font-size:20px;">
-              <i class="fa fa-clipboard" data-text="=Doubt Class on {{slot.topic}} by *{{slot.mentor}}* would happen at {{slot.time}}, {{slots.date}}.
+              <i class="fa fa-clipboard" data-text="Doubt Class on {{slot.topic}} by *{{slot.mentor}}* would happen at {{slot.time}}, {{slots.date}}.
 
 Here's the link to the class : {{this.link}}.
 
@@ -34,7 +34,7 @@ Please join the class at least 10 mins before the scheduled time." onclick="copy
         </span>
         {{/each}}
       </div>
-      {{/each}}
     </div>
+    {{/each}}
   </div>
 </section>
