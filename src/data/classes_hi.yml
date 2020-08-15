@@ -1,66 +1,93 @@
 ---
-- date: 11 August, 2020 (Tuesday)
+- date: 17 August, 2020 (Monday)
   slots:
   - link: https://meet.google.com/bzx-dghm-nmn
     type: info
-    topic: Variable
-    mentor: Neha Israni
-    time: 5:00 PM - 6:00 PM
-- date: 12 August, 2020 (Wednesday)
-  slots:
-  - link: https://meet.google.com/hnc-nrzz-ogs
-    type: info
     topic: If-Else
-    mentor: Sunil Parcha
-    time: 2:00 PM - 3:00 PM
-  - link: https://meet.google.com/dgp-jqpn-qti
+    mentor: Harshita Gupta
+    pair: Rakesh Sharma
+    time: 5:00 PM - 6:00 PM
+    
+ - date: 17 August, 2020 (Tuesday)
+  slots:
+  - link: https://meet.google.com/bzx-dghm-nmn
     type: info
     topic: Loop
-    mentor: Shahnaaz
-    time: 4:00 PM - 5:00 PM
-  - link: https://meet.google.com/csm-acim-zoh
-    type: info
-    topic: Variable
-    mentor: Kajal Sharma
-    time: 6:00 PM - 7:00 PM
-- date: 13 August, 2020 (Thursday)
+    mentor: Krishana Aseri
+    pair: Atul Porwal
+    time: 3:00 PM - 4:00 PM
+    
+- date: 18 August, 2020 (Tuesday)
   slots:
-  - link: https://meet.google.com/nhe-bgtn-kcc
+  - link: https://meet.google.com/bzx-dghm-nmn
     type: info
-    topic: If-Else
-    mentor: Priyanka
+    topic: Variables
+    mentor: Sonam Kumavat
+    pair: Prabhakar sarkar
     time: 5:00 PM - 6:00 PM
-  - link: https://meet.google.com/gvx-hdck-gwk
-    type: info
-    topic: If-Else
-    mentor: Isha Bharti
-    time: 6:00 PM - 7:00 PM
-- date: 14 August, 2020 (Friday)
+    
+ - date: 18 August, 2020 (Tuesday)
   slots:
-  - link: https://meet.google.com/jid-rdxh-fpf
+  - link: https://meet.google.com/bzx-dghm-nmn
+    type: info
+    topic: Loop
+    mentor: Zeba Parveen
+    pair: Komal Kumari
+    time: 3:00 PM - 4:00 PM
+    
+ - date: 19 August, 2020 (Wednasday)
+  slots:
+    - link: https://meet.google.com/bzx-dghm-nmn
+    type: info
+    topic: Loop
+    mentor: Isha Bharati
+    pair: Aadil Raza
+    time: 4:00 PM - 5:00 PM
+    
+  - date: 19 August, 2020 (Wednasday)
+  slots:
+    - link: https://meet.google.com/bzx-dghm-nmn
+    type: info
+    topic: List
+    mentor: Aman Kumar
+    pair: Sonia Aseri
+    time: 6:00 PM - 7:00 PM
+    
+  - date: 20 August, 2020 (Thursday)
+  slots:    
+  - link: https://meet.google.com/bzx-dghm-nmn
     type: info
     topic: Operators
-    mentor: Aakash
-    time: 11:00 AM - 12:00 PM
-  - link: https://meet.google.com/efn-xvgv-baf
+    mentor: Poonam
+    pair : Mohit
+    time: 2:30 PM - 3:30 PM
+    
+  - date: 20 August, 2020 (Thursday)
+  slots:    
+  - link: https://meet.google.com/bzx-dghm-nmn
     type: info
-    topic: If-Else
-    mentor:  Rinky Kumari
-    time: 3:30 PM - 4:30 PM
-  - link: https://meet.google.com/beu-avnp-zjs
-    type: info
-    topic: Loop
-    mentor: Prabhakar
+    topic: Operators
+    mentor: Piter
+    pair : Swati Bagmare
     time: 4:00 PM - 5:00 PM
-  - link: https://meet.google.com/hjy-cotb-coa
+    
+- date:  21 August, 2020 (Friday)
+  slots:
+  - link: https://meet.google.com/bzx-dghm-nmn
     type: info
-    topic: Variable
-    mentor:  Rupa Sharma
+    topic: 
+    mentor: Rupa Shrma
+    pair : Yousuf Hassan
+    time: 6:30 PM - 7:30 PM
+    
+- date:  21 August, 2020 (Friday)
+  slots:
+  - link: https://meet.google.com/bzx-dghm-nmn
+    type: info
+    topic: Operators
+    mentor: Shubhangi Pawar
+    pair : Priya Mishra
     time: 5:00 PM - 6:00 PM
-  - link: https://meet.google.com/nuy-cfcm-zjd
-    type: info
-    topic: Loop
-    mentor: Aadil Raza
-    time: 6:00 PM - 7:00 PM
+  
     
     
