@@ -7,8 +7,6 @@
     mentor: Harshita Gupta
     pair: Rakesh Sharma
     time: 5:00 PM - 6:00 PM  
- - date: 17 August, 2020 (Tuesday)
-  slots:
   - link: https://meet.google.com/bzx-dghm-nmn
     type: info
     topic: Loop
@@ -22,16 +20,13 @@
     topic: Variables
     mentor: Sonam Kumavat
     pair: Prabhakar sarkar
-    time: 5:00 PM - 6:00 PM  
- - date: 18 August, 2020 (Tuesday)
-  slots:
+    time: 5:00 PM - 6:00 PM
   - link: https://meet.google.com/bzx-dghm-nmn
     type: info
     topic: Loop
     mentor: Zeba Parveen
     pair: Komal Kumari
     time: 3:00 PM - 4:00 PM
-    
  - date: 19 August, 2020 (Wednasday)
   slots:
     - link: https://meet.google.com/bzx-dghm-nmn
@@ -40,9 +35,7 @@
     mentor: Isha Bharati
     pair: Aadil Raza
     time: 4:00 PM - 5:00 PM 
-  - date: 19 August, 2020 (Wednasday)
-  slots:
-    - link: https://meet.google.com/bzx-dghm-nmn
+ - link: https://meet.google.com/bzx-dghm-nmn
     type: info
     topic: List
     mentor: Aman Kumar
@@ -64,7 +57,7 @@
     mentor: Piter
     pair : Swati Bagmare
     time: 4:00 PM - 5:00 PM
-- date:  21 August, 2020 (Friday)
+- date: 21 August, 2020 (Friday)
   slots:
   - link: https://meet.google.com/bzx-dghm-nmn
     type: info
@@ -72,8 +65,6 @@
     mentor: Rupa Shrma
     pair : Yousuf Hassan
     time: 6:30 PM - 7:30 PM
-- date:  21 August, 2020 (Friday)
-  slots:
   - link: https://meet.google.com/bzx-dghm-nmn
     type: info
     topic: Operators
