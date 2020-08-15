@@ -49,14 +49,13 @@
     time: 6:30 PM - 7:30 PM 
 - date: 21 August, 2020 (Friday)
   slots:
- - link: https://meet.google.com/bzx-dghm-nmn
+  - link: https://meet.google.com/bzx-dghm-nmn
     type: info
     topic: Operators
     mentor: Shubhangi Pawar
     time: 5:00 PM - 6:00 PM
- - link: https://meet.google.com/bzx-dghm-nmn
+  - link: https://meet.google.com/bzx-dghm-nmn
     type: info
     topic: If-Else
     mentor: Rupa Shrma
     time: 6:30 PM - 7:30 PM
-  
