@@ -3,28 +3,29 @@
   slots:
   - link: https://meet.google.com/bzx-dghm-nmn
     type: info
+    topic: Loop
+    mentor: Krishana Aseri
+    time: 3:00 PM - 4:00 PM 
+  - link: https://meet.google.com/bzx-dghm-nmn
+    type: info
     topic: If-Else
     mentor: Harshita Gupta
     time: 5:00 PM - 6:00 PM
-    type: info
-    topic: Loop
-    mentor: Krishana Aseri
-    time: 3:00 PM - 4:00 PM  
 - date: 18 August, 2020 (Tuesday)
   slots:
   - link: https://meet.google.com/bzx-dghm-nmn
     type: info
-    topic: Variables
-    mentor: Sonam Kumavat
-    time: 5:00 PM - 6:00 PM
-  - link: https://meet.google.com/bzx-dghm-nmn
-    type: info
     topic: Loop
     mentor: Zeba Parveen
-    time: 3:00 PM - 4:00 PM 
+    time: 4:00 PM - 5:00 PM 
+  - link: https://meet.google.com/bzx-dghm-nmn
+    type: info
+    topic: Variables
+    mentor: Sonam Kumavat
+    time: 6:00 PM - 7:00 PM
  - date: 19 August, 2020 (Wednasday)
   slots:
-    - link: https://meet.google.com/bzx-dghm-nmn
+  - link: https://meet.google.com/bzx-dghm-nmn
     type: info
     topic: Loop
     mentor: Isha Bharati
@@ -39,22 +40,23 @@
   - link: https://meet.google.com/bzx-dghm-nmn
     type: info
     topic: Operators
-    mentor: Poonam
-    time: 2:30 PM - 3:30 PM  
+    mentor: Piter
+    time: 4:00 PM - 5:00 PM
   - link: https://meet.google.com/bzx-dghm-nmn
     type: info
     topic: Operators
-    mentor: Piter
-    time: 4:00 PM - 5:00 PM
+    mentor: Poonam
+    time: 6:30 PM - 7:30 PM 
 - date: 21 August, 2020 (Friday)
   slots:
-  - link: https://meet.google.com/bzx-dghm-nmn
-    type: info
-    topic: If-Else
-    mentor: Rupa Shrma
-    time: 6:30 PM - 7:30 PM
-  - link: https://meet.google.com/bzx-dghm-nmn
+ - link: https://meet.google.com/bzx-dghm-nmn
     type: info
     topic: Operators
     mentor: Shubhangi Pawar
     time: 5:00 PM - 6:00 PM
+ - link: https://meet.google.com/bzx-dghm-nmn
+    type: info
+    topic: If-Else
+    mentor: Rupa Shrma
+    time: 6:30 PM - 7:30 PM
+  
