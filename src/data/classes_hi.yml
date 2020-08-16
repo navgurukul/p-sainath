@@ -23,7 +23,7 @@
     topic: Variables
     mentor: Sonam Kumavat
     time: 6:00 PM - 7:00 PM
- - date: 19 August, 2020 (Wednasday)
+- date: 19 August, 2020 (Wednesday)
   slots:
   - link: https://meet.google.com/bzx-dghm-nmn
     type: info
@@ -35,7 +35,13 @@
     topic: List
     mentor: Aman Kumar
     time: 6:00 PM - 7:00 PM
- - date: 20 August, 2020 (Thursday)
+  - link: https://meet.google.com/ykm-txxd-orh
+    type: info
+    topic: English And Communication
+    mentor: Annu Bharati
+    time: 2:00 PM - 3:00 PM
+    
+- date: 20 August, 2020 (Thursday)
   slots:    
   - link: https://meet.google.com/bzx-dghm-nmn
     type: info
@@ -59,3 +65,12 @@
     topic: If-Else
     mentor: Rupa Shrma
     time: 6:30 PM - 7:30 PM
+    topic: Operators
+    mentor: Shubhangi Pawar
+    time: 5:00 PM - 6:00 PM
+  - link: https://meet.google.com/bzx-dghm-nmn
+    type: info
+    topic: If-Else
+    mentor: Rupa Shrma
+    time: 6:30 PM - 7:30 PM
+
