@@ -1,32 +1,22 @@
 ---
-- date: 12 August, 2020 (Wednesday)
-  slots:
-  - link: https://meet.google.com/ykm-txxd-orh
-    type: info
-    topic: Variable
-    mentor: Rashami
-    time: 5:00 PM - 6:00 PM
-- date: 13 August, 2020 (Thursday)
-  slots:
-  - link: https://meet.google.com/vgw-xfgx-pmm
-    type: info
-    topic: If-Else
-    mentor: Apeksha
-    time: 4:00 PM - 5:00 PM
-  - link: https://meet.google.com/wdv-reyx-iuh
-    type: info
-    topic: If-Else
-    mentor: Ramesh
-    time: 5:00 PM - 6:00 PM
-  - link: https://meet.google.com/buk-rthm-yxv
-    type: info
-    topic: Operators
-    mentor: Somesh Shakya
-    time: 5:00 PM - 6:00 PM
-- date: 15 August, 2020 (Saturday)
+- date: 18 August, 2020 (Tuesday)
   slots:
   - link: https://meet.google.com/sar-pisw-ngt
     type: info
-    topic: Nested Loop
-    mentor: Kirithiv
+    topic: If-Else
+    mentor: Somesh
+    time: 5:00 PM - 6:00 PM
+- date: 19 August, 2020 (Wednesday)
+  slots:
+  - link: https://meet.google.com/vgw-xfgx-pmm
+    type: info
+    topic: Operators
+    mentor: Apeksha
     time: 4:00 PM - 5:00 PM
+- date: 20 August, 2020 (Thursday)
+  slots:
+  - link: https://meet.google.com/sar-pisw-ngt
+    type: info
+    topic: Variables
+    mentor: Rashami
+    time: 5:00 PM - 6:00 PM
