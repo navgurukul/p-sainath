@@ -1,22 +1,22 @@
 ---
-- date: 18 August, 2020 (Tuesday)
+- date: 24 August, 2020 (Monday)
   slots:
   - link: https://meet.google.com/sar-pisw-ngt
     type: info
-    topic: If-Else
-    mentor: Somesh
-    time: 5:00 PM - 6:00 PM
-- date: 19 August, 2020 (Wednesday)
+    topic: List
+    mentor: Ramesh
+    time: 3:00 PM - 4:00 PM
+- date: 26 August, 2020 (Wednesday)
   slots:
   - link: https://meet.google.com/sar-pisw-ngt
     type: info
-    topic: Operators
-    mentor: Apeksha
+    topic: Loops
+    mentor: Kumar Nayak
+    time: 10:00 PM - 11:00 AM
+- date: 27 August, 2020 (Thursday)
+  slots:
+  - link: https://meet.google.com/sar-pisw-ngt
+    type: info
+    topic: List
+    mentor: Biju
     time: 4:00 PM - 5:00 PM
-- date: 20 August, 2020 (Thursday)
-  slots:
-  - link: https://meet.google.com/sar-pisw-ngt
-    type: info
-    topic: Variables
-    mentor: Rashami
-    time: 5:00 PM - 6:00 PM
