@@ -13,6 +13,11 @@
     topic: List
     mentor: Somesh
     time: 3:00 PM - 4:00 PM
+  - link: https://meet.google.com/sar-pisw-ngt
+    type: info
+    topic: Social Emotional Learning (Workshop)
+    mentor: Moksha Miskeen
+    time: 6:30 PM - 7:30 PM
 - date: 26 August, 2020 (Wednesday)
   slots:
   - link: https://meet.google.com/sar-pisw-ngt
@@ -20,6 +25,11 @@
     topic: Loops
     mentor: Kumar Nayak
     time: 10:00 AM - 11:00 AM
+  - link: https://meet.google.com/sar-pisw-ngt
+    type: info
+    topic: Effective Communication(Workshop)
+    mentor: Tammineni Rajitha
+    time: 6:30 PM - 7:30 PM
 - date: 27 August, 2020 (Thursday)
   slots:
   - link: https://meet.google.com/sar-pisw-ngt
@@ -27,3 +37,10 @@
     topic: List
     mentor: Biju
     time: 4:00 PM - 5:00 PM
+- date: 29 August, 2020 (Saturday)
+  slots:
+  - link: https://meet.google.com/sar-pisw-ngt
+    type: info
+    topic: Mental Health(Workshop)
+    mentor: Malvika Fernandes
+    time: 11:00 AM - 12:30 PM
