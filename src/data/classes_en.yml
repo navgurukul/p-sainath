@@ -1,46 +1,32 @@
 ---
-- date: 24 August, 2020 (Monday)
-  slots:
-  - link: https://meet.google.com/sar-pisw-ngt
-    type: info
-    topic: List
-    mentor: Ramesh
-    time: 4:00 PM - 5:00 PM
-- date: 25 August, 2020 (Tuesday)
-  slots:
-  - link: https://meet.google.com/sar-pisw-ngt
-    type: info
-    topic: List
-    mentor: Somesh
-    time: 3:00 PM - 4:00 PM
-  - link: https://meet.google.com/sar-pisw-ngt
-    type: info
-    topic: Social Emotional Learning (Workshop)
-    mentor: Moksha Miskeen
-    time: 6:30 PM - 7:30 PM
-- date: 26 August, 2020 (Wednesday)
+- date: 2 September, 2020 (Wednesday)
   slots:
   - link: https://meet.google.com/sar-pisw-ngt
     type: info
     topic: Loops
+    mentor: Ramya
+    time: 3:00 PM - 4:00 PM
+- date: 3 September, 2020 (Thursday)
+  slots:
+  - link: https://meet.google.com/sar-pisw-ngt
+    type: info
+    topic: Function
     mentor: Kumar Nayak
-    time: 10:00 AM - 11:00 AM
+    time: 2:00 PM - 3:00 PM
   - link: https://meet.google.com/sar-pisw-ngt
     type: info
     topic: Effective Communication(Workshop)
     mentor: Tammineni Rajitha
-    time: 6:30 PM - 7:30 PM
-- date: 27 August, 2020 (Thursday)
+    time: 4:45 PM - 5:45 PM
+- date: 5 September, 2020 (Saturday)
   slots:
   - link: https://meet.google.com/sar-pisw-ngt
     type: info
-    topic: List
-    mentor: Biju
-    time: 4:00 PM - 5:00 PM
-- date: 29 August, 2020 (Saturday)
-  slots:
+    topic: Function
+    mentor: Kartik
+    time: 2:00 PM - 3:00 PM
   - link: https://meet.google.com/sar-pisw-ngt
     type: info
-    topic: Mental Health(Workshop)
+    topic: Mantel Health(Workshop)
     mentor: Malvika Fernandes
     time: 11:00 AM - 12:30 PM
