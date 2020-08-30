@@ -1,79 +1,54 @@
-
 ---
+- date: 31 September, 2020 (Monday)
+  slots:
+  - link: https://meet.google.com/bzx-dghm-nmn
+    type: info
+    topic: List
+    mentor: Sonam Kumavat
+    time: 4:00 PM - 5:00 PM
 - date: 1 September, 2020 (Tuesday)
   slots:
   - link: https://meet.google.com/bzx-dghm-nmn
     type: info
     topic: Loops
-    mentor: Shubhm Sarkar
-    time: 2:30 PM - 3:30 PM 
+    mentor: Isha Bharati
+    time: 2:30 PM - 3:30 PM    
+  - link: https://meet.google.com/bzx-dghm-nmn
+    type: info
+    topic: Non-Voilence Communication(Workshop)
+    mentor: Heta Dasai
+    time: 4:45 PM - 5:45PM  
+
+- date: 2 September, 2020 (Wednesday)
+  slots:
   - link: https://meet.google.com/bzx-dghm-nmn
     type: info
     topic: List
-    mentor: Isha Bharti
-    time: 4:00 PM - 5:00PM   
-- date: 25 August, 2020 (Tuesday)
-  slots:
-  - link: https://meet.google.com/bzx-dghm-nmn
-    type: info
-    topic: Operators
-    mentor: Tapas
+    mentor: Sahnaaz
     time: 2:30 PM - 3:30 PM
-  - link: https://meet.google.com/bzx-dghm-nmn
+- link: https://meet.google.com/bzx-dghm-nmn
     type: info
-    topic:  Operators
-    mentor: Swati Bagmare
-    time: 4:00 PM - 5:00 PM 
-  - link: https://meet.google.com/sar-pisw-ngt
-    type: info
-    topic: Social Emotional Learning (Workshop)
-    mentor: Moksha Miskeen
-    time: 6:30 PM - 7:30 PM
-- date: 26 August 2020 (Wednesday)
+    topic: Building a Product(Workshop)
+    mentor: Dr. Raunaq Pradhan
+    time: 6:30 PM - 7:30PM 
+
+- date: 3 September 2020 (Thursday)
   slots:
   - link: https://meet.google.com/bzx-dghm-nmn
     type: info
-    topic: Conversion
-    mentor: Harshita Gupta
+    topic: Loops
+    mentor: Zeba 
     time: 2:30 PM - 3:30PM
-  - link: https://meet.google.com/bzx-dghm-nmn
-    type: info
-    topic: Loop
-    mentor: Priyanka Kumari
-    time: 4:00 PM - 5:00 PM
-  - link: https://meet.google.com/sar-pisw-ngt
-    type: info
-    topic: Effective Communication(Workshop)
-    mentor: Tammineni Rajitha
-    time: 6:30 PM - 7:30 PM
-- date: 27 August, 2020 (Thursday)
+
+- date: 4 September, 2020 (Friday)
   slots:    
   - link: https://meet.google.com/bzx-dghm-nmn
     type: info
     topic: Operators
-    mentor: Poonam Bhaag
-    time: 2:30 PM - 3:30 PM
+    mentor: Poonam
+    time: 3:00 PM - 4:00 PM
   - link: https://meet.google.com/bzx-dghm-nmn
     type: info
-    topic: Flow Chart In Programming
-    mentor: Tariq
-    time: 4:00 PM - 5:00 PM  
-- date: 28 August, 2020(Friday)
-  slots:
-  - link: https://meet.google.com/bzx-dghm-nmn
-    type: info
-    topic: Loop
-    mentor: Aadil Raza
-    time: 2:30PM - 3:30 PM
-  - link: https://meet.google.com/bzx-dghm-nmn
-    type: info
-    topic: Flow Chart On loop
-    mentor: Sunil Parcha
-    time: 4:00 PM - 5:00PM
-- date: 29 August, 2020 (Saturday)
-  slots:
-  - link: https://meet.google.com/sar-pisw-ngt
-    type: info
-    topic: Mental Health(Workshop)
-    mentor: Malvika Fernandes
-    time: 11:00 AM - 12:30 PM
+    topic: Operators
+    mentor: Aman Kumar
+    time: 1:30 PM - 2:30 PM
