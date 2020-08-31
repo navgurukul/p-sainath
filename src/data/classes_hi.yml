@@ -41,14 +41,15 @@
     time: 2:30 PM - 3:30PM
 
 - date: 4 September, 2020 (Friday)
-  slots:    
-  - link: https://meet.google.com/bzx-dghm-nmn
-    type: info
-    topic: Operators
-    mentor: Poonam
-    time: 3:00 PM - 4:00 PM
+  slots: 
   - link: https://meet.google.com/bzx-dghm-nmn
     type: info
     topic: Operators
     mentor: Aman Kumar
     time: 1:30 PM - 2:30 PM
+  - link: https://meet.google.com/bzx-dghm-nmn
+    type: info
+    topic: Operators
+    mentor: Poonam
+    time: 3:00 PM - 4:00 PM
+ 
