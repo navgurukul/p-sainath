@@ -22,11 +22,12 @@
   slots:
   - link: https://meet.google.com/sar-pisw-ngt
     type: info
-    topic: Function
-    mentor: Kartik
-    time: 2:00 PM - 3:00 PM
-  - link: https://meet.google.com/sar-pisw-ngt
-    type: info
     topic: Mantel Health(Workshop)
     mentor: Malvika Fernandes
     time: 11:00 AM - 12:30 PM
+  - link: https://meet.google.com/sar-pisw-ngt
+    type: info
+    topic: Function
+    mentor: Kartik
+    time: 2:00 PM - 3:00 PM
+  
