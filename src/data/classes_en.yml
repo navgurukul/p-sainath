@@ -1,14 +1,25 @@
 ---
-- date: 2 September, 2020 (Wednesday)
+- date: 7 September, 2020 (Monday)
   slots:
-  - link: https://meet.google.com/sar-pisw-ngt
+  - link: https://meet.google.com/ggz-gomo-egr
     type: info
-    topic: Loops
-    mentor: Ramya
-    time: 3:00 PM - 4:00 PM
-- date: 3 September, 2020 (Thursday)
+    topic: Basic Information All About Python
+    mentor: Isha Bharati
+    time: 10:00 AM – 11:00 AM
+  - link: https://meet.google.com/ggz-gomo-egr 
+    type: info
+    topic: Nested Loop
+    mentor: Aakash varma 
+    time: 2:30 PM - 3:30 PM
+  - link: https://meet.google.com/ard-pfzy-ukg
+    type: info
+    topic: Learning Chess(Workshop)
+    mentor: Deendyal Singh
+    time: 4:45 PM – 5:45 PM
+
+- date: 8 September, 2020 (Tuesday)
   slots:
-  - link: https://meet.google.com/sar-pisw-ngt
+  - link: https://meet.google.com/ggz-gomo-egr
     type: info
     topic: Function
     mentor: Kumar Nayak
@@ -18,16 +29,47 @@
     topic: Effective Communication(Workshop)
     mentor: Tammineni Rajitha
     time: 4:45 PM - 5:45 PM
-- date: 5 September, 2020 (Saturday)
+
+- date: 9 September, 2020 (Wednesday)
   slots:
-  - link: https://meet.google.com/sar-pisw-ngt
+  - link: https://meet.google.com/ggz-gomo-egr
     type: info
-    topic: Mantel Health(Workshop)
-    mentor: Malvika Fernandes
-    time: 11:00 AM - 12:30 PM
-  - link: https://meet.google.com/sar-pisw-ngt
+    topic: Operators
+    mentor: Isha Bharati
+    time: 9:30 AM - 10:30 AM
+  - link: https://meet.google.com/ggz-gomo-egr
+    type: info
+    topic: If-Else
+    mentor: Ramya
+    time: 11:00 AM - 12:00 PM
+- date: 10 September, 2020 (Wednesday)
+  slots:
+  - link: https://meet.google.com/ggz-gomo-egr
+    type: info
+    topic: List
+    mentor: Nayak
+    time: 10:00 AM - 11:00 PM
+  - link: https://meet.google.com/abv-onhn-cqt
+    type: info
+    topic: Knowing Self(Workshop)
+    mentor: Tammineni Rajitha 
+    time: 6:30 PM – 7:30 PM
+- date: 11 September, 2020 (Friday)
+  slots: 
+  - link: https://meet.google.com/hyr-kyqn-eiv
+    type: info
+    topic: Non-Voilence Communication 
+    mentor: Heta Desai
+    time: 4:45 PM - 5:45 PM
+- date: 12 September, 2020 (Saturday)
+  slots:
+  - link: https://meet.google.com/ssz-icoh-nby
+    type: info
+    topic: Design Thinking(Workshop)
+    mentor: Raunaq Pradhan 
+    time: 12:30 PM – 1:30 PM
+  - link: https://meet.google.com/ggz-gomo-egr
     type: info
     topic: Function
     mentor: Kartik
     time: 2:00 PM - 3:00 PM
-  
