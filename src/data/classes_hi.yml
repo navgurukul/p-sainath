@@ -1,5 +1,5 @@
+--- 
 
----
 - date: 7 September, 2020 (Monday)
   slots:
   - link: https://meet.google.com/ggz-gomo-egr 
@@ -26,8 +26,14 @@
     topic: Loop
     mentor: Sarmista 
     time: 2:30 PM - 3:30 PM
+- link: https://meet.google.com/ggz-gomo-egr
+    type: info
+    topic: Design Thinking(Workshop)
+    mentor: Raunaq Pradhan 
+    time: 6:30 – 7:30pm
+
 - date: 10 September, 2020 (Thursday)
-  slots: 
+  slots:
   - link: https://meet.google.com/ggz-gomo-egr
     type: info
     topic: List
@@ -38,6 +44,8 @@
     topic: Basic Information All About Python
     mentor: Swati 
     time: 2:30 PM - 3:30 PM
+  
+
 - date: 11 September, 2020 (Friday)
   slots:
   - link: https://meet.google.com/ggz-gomo-egr
@@ -59,7 +67,7 @@
     time: 10:00 AM - 11:00 PM
   - link: https://meet.google.com/tia-wwqb-jct
     type: info
-    topic: Mental Health 
+    topic: Mental Health(Workshop) 
     mentor: MALVIKA FERNANDES 
     time: 11:15 AM - 12:30 PM
   - link: https://meet.google.com/ggz-gomo-egr
