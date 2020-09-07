@@ -1,11 +1,12 @@
 ---
+
 - date: 7 September, 2020 (Monday)
   slots:
   - link: https://meet.google.com/ggz-gomo-egr
     type: info
     topic: Basic Information All About Python
     mentor: Isha Bharati
-    time: 1:00 PM – 2:00 PM
+    time: 10:00 AM – 11:00 AM
   - link: https://meet.google.com/ggz-gomo-egr 
     type: info
     topic: Nested Loop
@@ -23,12 +24,7 @@
     topic: Function
     mentor: Kumar Nayak
     time: 2:00 PM - 3:00 PM
-  - link: https://meet.google.com/sar-pisw-ngt
-    type: info
-    topic: Effective Communication(Workshop)
-    mentor: Tammineni Rajitha
-    time: 4:45 PM - 5:45 PM
-- date: 9 September, 2020 (Wednesday) 
+- date: 9 September, 2020 (Wednesday)
   slots:
   - link: https://meet.google.com/ggz-gomo-egr
     type: info
@@ -40,6 +36,11 @@
     topic: If-Else
     mentor: Ramya
     time: 11:00 AM - 12:00 PM
+- link: https://meet.google.com/abv-onhn-cqt
+    type: info
+    topic: Knowing Self(Workshop)
+    mentor: Tammineni Rajitha 
+    time: 6:30 PM – 7:30 PM
 - date: 10 September, 2020 (Wednesday)
   slots:
   - link: https://meet.google.com/ggz-gomo-egr
@@ -47,18 +48,6 @@
     topic: List
     mentor: Nayak
     time: 10:00 AM - 11:00 PM
-  - link: https://meet.google.com/abv-onhn-cqt
-    type: info
-    topic: Knowing Self(Workshop)
-    mentor: Tammineni Rajitha 
-    time: 6:30 PM – 7:30 PM
-- date: 11 September, 2020 (Friday)
-  slots: 
-  - link: https://meet.google.com/hyr-kyqn-eiv
-    type: info
-    topic: Non-Voilence Communication 
-    mentor: Heta Desai
-    time: 4:45 PM - 5:45 PM
 - date: 12 September, 2020 (Saturday)
   slots:
   - link: https://meet.google.com/ssz-icoh-nby
