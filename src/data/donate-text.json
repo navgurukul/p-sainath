@@ -1,0 +1,30 @@
+{
+  "mainHeadline": {
+    "en": "Donate to Navgurukul",
+    "hi": "नवगुरुकुल को Donate करे"
+  },
+  "videoCredit": {
+    "en": "<p>Video Credits: <i>Give Foundation</i></p>",
+    "hi": "<b>ये वीडियो गिव फाउंडेशन द्वारा बनाई गई है.</b>"
+  },
+  "bankDetails": {
+    "en": "<p>You can <b><i>donate now</i></b> directly to our Bank Account:</p>",
+    "hi": "आप हमारे बैंक <b>खाता</b> में सीधे रुपये भेज सकते है."
+  },
+  "account": {
+    "en": "<p>you can pay directly (2% charge but quick) using the following option: </p>",
+    "hi": "यदि आप सीधे pay करना चाहते है तो इस ऑप्शन का उपयोग करके कर सकते है(2% चार्ज के  साथ)"
+  },
+  "pay": {
+    "en": "Pay Directly Now",
+    "hi": "सीधे pay करे"
+  },
+  "donation": {
+    "en": "You can pledge <b><i>monthly donation</i></b> as much as you can. The suggested amount is <b><i>4% of your monthly income</i></b>.",
+    "hi": "आपसे जितना हो सके <b><i>monthly donation</i></b> कर सकते हैं.हमारा सुझाव है की आप अपनी monthly salary का 4% दे सकते है."
+  },
+  "amount": {
+    "en": " Any amount when pledged monthly is a huge support for us. Just having you by our side fills us with gratitude &amp; an energy to do better.",
+    "hi": "आपकी छोटी सी amount भी हमें support करेगी कुछ अच्छा करने के लिए"
+  }
+}
