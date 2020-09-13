@@ -18,7 +18,6 @@
       },
     ]
   },
-  
   {
     "date": "15 September, 2020 (Tuesday)",
     "slots": [
@@ -29,16 +28,16 @@
         "mentor": "Isha Bharati",
         "time": "10:00 AM - 11:00 AM"
       },
-  {
+      {
         "link": "https://meet.google.com/kqr-cwfw-jkv",
         "type": "info",
         "topic": "Revision of Chess opening principles and solving tactics(Workshop)",
         "mentor": "Deendyal Singh",
         "time": "2:30 PM - 3:30 PM"
       }
-    ]
-  },
-  {
+          ]
+   },
+    {
     "date": "16 September, 2020 (Wednesday)",
     "slots": [
       {
@@ -48,9 +47,8 @@
         "mentor": "Kumar Nayak Vadtya",
         "time": "11:30 AM - 12:30 PM"
       },
-    ]
+            ]
   },
-
   {
     "date": "17 September, 2020 (Saturday)",
     "slots": [
@@ -68,7 +66,7 @@
         "mentor": "Shweta Sharma",
         "time": "11:30 PM – 12:30 PM"
       }
-    ]
+            ]
   },
   {
     "date": "18 September, 2020 (Friday)",
