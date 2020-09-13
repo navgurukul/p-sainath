@@ -50,21 +50,21 @@
             ]
   },
   {
-    "date": "17 September, 2020 (Saturday)",
+    "date": "17 September, 2020 (Thursday)",
     "slots": [
       {
         "link": "https://meet.google.com/wga-sgrx-zir",
         "type": "info",
         "topic": "List",
         "mentor": "Isha Bharati",
-        "time": "10:00 AM - 11:00 PM"
+        "time": "10:00 AM - 11:00 AM"
       },
       {
         "link": "https://meet.google.com/wfu-pmfh-jhy",
         "type": "info",
         "topic": "If Else",
         "mentor": "Shweta Sharma",
-        "time": "11:30 PM – 12:30 PM"
+        "time": "11:30 AM – 12:30 PM"
       }
             ]
   },
