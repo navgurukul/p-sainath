@@ -1,94 +1,95 @@
 [
-  {
-    "date": "14 September, 2020 (Monday)",
-    "slots": [
-      {
-        "link": "https://meet.google.com/bck-yymu-mxb",
-        "type": "info",
-        "topic": "List11:30 AM - 12:30 AM",
-        "mentor": "Ramesh Inumula",
-        "time": "10:00 AM – 11:00 AM"
-      },
-      {
-        "link": "https://meet.google.com/hdd-smzh-nas",
-        "type": "info",
-        "topic": "If-Else",
-        "mentor": "Isha Bharati",
-        "time": "11:30 AM - 12:30 AM"
-      }
-    ]
-  },
-  {
-    "date": "15 September, 2020 (Tuesday)",
-    "slots": [
-      {
-        "link": "https://meet.google.com/hdd-smzh-nas",
-        "type": "info",
-        "topic": "Loop",
-        "mentor": "Isha Bharati",
-        "time": "10:00 AM - 11:00 AM"
-      },
-      {
-        "link": "https://meet.google.com/kqr-cwfw-jkv",
-        "type": "info",
-        "topic": "Revision of Chess opening principles and solving tactics(Workshop)",
-        "mentor": "Deendyal Singh",
-        "time": "2:30 PM - 3:30 PM"
-      }
-          ]
-   },
     {
-    "date": "16 September, 2020 (Wednesday)",
-    "slots": [
-      {
-        "link": "https://meet.google.com/maw-szsn-jkv",
-        "type": "info",
-        "topic": "List",
-        "mentor": "Kumar Nayak Vadtya",
-        "time": "11:30 AM - 12:30 PM"
-      }
-            ]
-  },
-  {
-    "date": "17 September, 2020 (Thursday)",
-    "slots": [
-      {
-        "link": "https://meet.google.com/wga-sgrx-zir",
-        "type": "info",
-        "topic": "List",
-        "mentor": "Isha Bharati",
-        "time": "10:00 AM - 11:00 AM"
-      },
-      {
-        "link": "https://meet.google.com/wfu-pmfh-jhy",
-        "type": "info",
-        "topic": "If Else",
-        "mentor": "Shweta Sharma",
-        "time": "11:30 AM – 12:30 PM"
-      }
-            ]
-  },
-  {
-    "date": "18 September, 2020 (Friday)",
-    "slots": [
-      {
-        "link": "https://meet.google.com/wjo-kfta-yax",
-        "type": "info",
-        "topic": "Basic Dafination About Python",
-        "mentor": "Isha Bharati",
-        "time": "2:30 PM - 3:30 PM "
-      }
-      ]
-  }, 
-  { "date": "19 September, 2020 (Saturday)",
-    "slots": [
-      {
-        "link": "https://meet.google.com/zbx-gkmf-zci",
-        "type": "info",
-        "topic": "Design Thinking(Workshop)",
-        "mentor": "Raunaq Pradhan",
-        "time": "1:00 PM - 2:00 PM"
-      }
-      ]
-  }
+        "date":"14 September, 2020 (Monday)",
+        "slots":[
+            {
+                "link":"https://meet.google.com/bck-yymu-mxb",
+                "type":"info",
+                "topic":"List11:30 AM - 12:30 AM",
+                "mentor":"Ramesh Inumula",
+                "time":"10:00 AM – 11:00 AM"
+            },
+            {
+                "link":"https://meet.google.com/hdd-smzh-nas",
+                "type":"info",
+                "topic":"If-Else",
+                "mentor":"Isha Bharati",
+                "time":"11:30 AM - 12:30 AM"
+            }
+        ]
+    },
+    {
+        "date":"15 September, 2020 (Tuesday)",
+        "slots":[
+            {
+                "link":"https://meet.google.com/hdd-smzh-nas",
+                "type":"info",
+                "topic":"Loop",
+                "mentor":"Isha Bharati",
+                "time":"10:00 AM - 11:00 AM"
+            },
+            {
+                "link":"https://meet.google.com/kqr-cwfw-jkv",
+                "type":"info",
+                "topic":"Revision of Chess opening principles and solving tactics(Workshop)",
+                "mentor":"Deendyal Singh",
+                "time":"2:30 PM - 3:30 PM"
+            }
+        ]
+    },
+    {
+        "date":"16 September, 2020 (Wednesday)",
+        "slots":[
+            {
+                "link":"https://meet.google.com/maw-szsn-jkv",
+                "type":"info",
+                "topic":"List",
+                "mentor":"Kumar Nayak Vadtya",
+                "time":"11:30 AM - 12:30 PM"
+            }
+        ]
+    },
+    {
+        "date":"17 September, 2020 (Thursday)",
+        "slots":[
+            {
+                "link":"https://meet.google.com/wga-sgrx-zir",
+                "type":"info",
+                "topic":"List",
+                "mentor":"Isha Bharati",
+                "time":"10:00 AM - 11:00 AM"
+            },
+            {
+                "link":"https://meet.google.com/wfu-pmfh-jhy",
+                "type":"info",
+                "topic":"If Else",
+                "mentor":"Shweta Sharma",
+                "time":"11:30 AM – 12:30 PM"
+            }
+        ]
+    },
+    {
+        "date":"18 September, 2020 (Friday)",
+        "slots":[
+            {
+                "link":"https://meet.google.com/wjo-kfta-yax",
+                "type":"info",
+                "topic":"Basic Dafination About Python",
+                "mentor":"Isha Bharati",
+                "time":"2:30 PM - 3:30 PM "
+            }
+        ]
+    },
+    {
+        "date":"19 September, 2020 (Saturday)",
+        "slots":[
+            {
+                "link":"https://meet.google.com/zbx-gkmf-zci",
+                "type":"info",
+                "topic":"Design Thinking(Workshop)",
+                "mentor":"Raunaq Pradhan",
+                "time":"1:00 PM - 2:00 PM"
+            }
+        ]
+    }
 ]
