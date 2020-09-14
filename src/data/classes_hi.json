@@ -34,7 +34,7 @@
                 "topic":"List",
                 "mentor":"Sonam Kumavat",
                 "time":"2:30 PM - 3:30 PM"
-            },
+            }
             
         ]
     },
@@ -60,7 +60,7 @@
     {
         "date":"17 September, 2020 (Thursday)",
         "slots":[
-                        {
+            {
                 "link":"https://meet.google.com/smq-ycdf-oys",
                 "type":"info",
                 "topic":"List",
