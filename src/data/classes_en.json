@@ -1,51 +1,65 @@
 [
     {
-        "date":"14 September, 2020 (Monday)",
+        "date":"21 September, 2020 (Monday)",
         "slots":[
             {
-                "link":"https://meet.google.com/bck-yymu-mxb",
+                "link":"https://meet.google.com/sse-nkxu-ihb",
                 "type":"info",
-                "topic":"List",
+                "topic":"Operators",
                 "mentor":"Ramesh Inumula",
-                "time":"10:00 AM – 11:00 AM"
+                "time":"2:00 AM – 3:00 AM"
             },
             {
-                "link":"https://meet.google.com/hdd-smzh-nas",
+                "link":"https://meet.google.com/qau-hmhz-kdp",
                 "type":"info",
-                "topic":"If-Else",
-                "mentor":"Isha Bharati",
-                "time":"11:30 AM - 12:30 PM"
+                "topic":"Self Awareness and Identity(Workshop)",
+                "mentor":"Moksha Miskeen",
+                "time":"4:45 AM - 5:45 PM"
             }
         ]
     },
     {
-        "date":"15 September, 2020 (Tuesday)",
+        "date":"22 September, 2020 (Tuesday)",
         "slots":[
             {
-                "link":"https://meet.google.com/hdd-smzh-nas",
+                "link":"https://meet.google.com/tfn-bkgx-hpr",
+                "type":"info",
+                "topic":"List",
+                "mentor":"Shahab Akhtar Rabbani",
+                "time":"2:00 PM - 3:00 PM"
+            },
+            {
+                "link":"https://meet.google.com/ync-dkid-duh",
                 "type":"info",
                 "topic":"Loop",
-                "mentor":"Isha Bharati",
-                "time":"10:00 AM - 11:00 AM"
-            },
-            {
-                "link":"https://meet.google.com/kqr-cwfw-jkv",
-                "type":"info",
-                "topic":"Revision of Chess opening principles and solving tactics(Workshop)",
-                "mentor":"Deendyal Singh",
-                "time":"2:30 PM - 3:30 PM"
+                "mentor":"Ramya Keerthy Thatikonda)",
+                "time":"3:30 PM - 4:30 PM"
             }
         ]
     },
     {
-        "date":"16 September, 2020 (Wednesday)",
+        "date":"23 September, 2020 (Wednesday)",
         "slots":[
             {
-                "link":"https://meet.google.com/maw-szsn-jkv",
+                "link":"https://meet.google.com/ppz-akkk-wfx",
                 "type":"info",
                 "topic":"List",
-                "mentor":"Kumar Nayak Vadtya",
-                "time":"11:30 AM - 12:30 PM"
+                "mentor":"Shahab Akhtar Rabbani",
+                "time":"2:00 PM - 3:00 PM"
+            },
+              {
+                "link":"https://meet.google.com/azf-jbaa-nep",
+                "type":"info",
+                "topic":"Variables",
+                "mentor":"Navya Shree",
+                "time":"2:00 PM - 3:00 PM"
+            },
+             {
+                "link":"https://meet.google.com/azf-jbaa-nep",
+                "type":"info",
+                "topic":"List",
+                "mentor":"Ramya Keerthy Thatikonda",
+                "time":"3:30 PM - 4:30 PM"
             }
         ]
     },
