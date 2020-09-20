@@ -8,29 +8,30 @@
       <hr class="primary my-2">
       <div class="text-center d-flex justify-content-center flex-md-row flex-column align-items-center">
         {{#each slots.slots as |slot|}}
-        <span class="d-flex">
-          <a href="{{slot.link}}" target="_blank" class="badge p-3 m-1 px-5 badgeOverrides bgRandom align-left">
-            <h5>{{slot.topic}}</h5>
-            <h6>{{slot.mentor}}</h6>
-            <h6 class="mt-3">{{slot.time}}</h6>          
-          </a>
-          <div class="ml-1 mr-4 d-flex flex-column">
-            <span class="icon" style="font-size:20px;">
+        <span>
+          <div class="d-flex">
+            <a href="{{slot.link}}" target="_blank" class="badge p-3 m-1 px-5 badgeOverrides bgRandom align-left">
+              <h5>{{slot.topic}}</h5>
+              <h6>{{slot.mentor}}</h6>
+              <h6 class="mt-3">{{slot.time}}</h6>
+            </a>
+            <div class="ml-1 mr-4 d-flex flex-column">
+              <span class="icon" style="font-size:20px;">
               <a href="https://api.whatsapp.com/send?text=Doubt Class on {{slot.topic}} by *{{slot.mentor}}* would happen at {{slot.time}}, {{slots.date}}.
-
-Here's the link to the class : {{this.link}}.
-
-Please join the class at least 10 mins before the scheduled time."><i class="fa fa-whatsapp"></i>
+                Here's the link to the class : {{this.link}}.
+                Please join the class at least 10 mins before the scheduled time."><i class="fa fa-whatsapp"></i>
               </a>
-            </span>
-            <span class="icon" style="font-size:20px;">
+              </span>
+              <span class="icon" style="font-size:20px;">
               <i class="fa fa-clipboard" data-text="Doubt Class on {{slot.topic}} by *{{slot.mentor}}* would happen at {{slot.time}}, {{slots.date}}.
-
-Here's the link to the class : {{this.link}}.
-
-Please join the class at least 10 mins before the scheduled time." onclick="copy(this)"></i>
-            </span>  
+                Here's the link to the class : {{this.link}}.
+                Please join the class at least 10 mins before the scheduled time." onclick="copy(this)"></i>
+              </span>
+            </div>
           </div>
+          {{#if slot.concept_link}}
+          <p><a href="{{slot.concept_link}}" target="_blank">&lt;&nbsp;Concept Link&nbsp;&gt;</a></p>
+          {{/if}}
         </span>
         {{/each}}
       </div>
