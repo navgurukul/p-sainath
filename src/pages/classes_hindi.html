@@ -12,8 +12,9 @@
           <a href="{{slot.link}}" target="_blank" class="badge p-3 m-1 px-5 badgeOverrides bgRandom align-left">
             <h5>{{slot.topic}}</h5>
             <h6>{{slot.mentor}}</h6>
-            <h6 class="mt-3">{{slot.time}}</h6>          
+            <h6 class="mt-3">{{slot.time}}</h6>
           </a>
+          {{#if slot.concept_link}}<p><a href="{{slot.concept_link}}>Concept Link</a></p>{{/if}}
           <div class="ml-1 mr-4 d-flex flex-column">
             <span class="icon" style="font-size:20px;">
               <a href="https://api.whatsapp.com/send?text=Doubt Class on {{slot.topic}} by *{{slot.mentor}}* would happen at {{slot.time}}, {{slots.date}}.
