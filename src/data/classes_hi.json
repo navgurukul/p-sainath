@@ -1,165 +1,169 @@
 [
    {
-      "date":"21 September, 2020 (Monday)",
+      "date":"28 September, 2020 (Monday)",
       "slots":[
-         {
-            "link":"https://meet.google.com/hvi-urfd-kdf",
-            "type":"info",
-            "topic":"If-Else(With Flow-Chart)",
-            "mentor":"Deepak Sharma",
-            "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
-            "time":"2:00 PM - 3:00 PM"
-         }
+          {
+                "link":"https://meet.google.com/nqr-rccd-hdh",
+                "type":"info",
+                "topic":"Operators",
+                "mentor":"Ayushi Jain",
+                "concept_link":"https://www.w3schools.com/python/python_operators.asp",
+                "time":"3:30 PM – 4:30 PM"
+            },
+           {
+                "link":"https://meet.google.com/suh-xmag-eau",
+                "type":"info",
+                "topic":"Variables",
+                "mentor":"Yashika Gora",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__variables",
+                "time":"3:30 PM – 4:30 PM"
+            }
       ]
    },
    {
-      "date":"22 September, 2020 (Tuesday)",
+      "date":"29 September, 2020 (Tuesday)",
       "slots":[
          {
-            "link":"https://meet.google.com/skg-ydwj-sdm",
+            "link":"https://meet.google.com/nda-yigq-snc",
+            "type":"info",
+            "topic":"Function",
+            "mentor":"Shehnaaz Nazmeen",
+            "concept_link":"https://saral.navgurukul.org/course/?id=103&slug=functions__functions-intro",
+            "time":"2:00 PM - 3:00 PM"
+         },
+         {
+            "link":"https://meet.google.com/pss-ncfz-zes",
             "type":"info",
             "topic":"Variables",
-            "mentor":"Kanav Gupta",
-            "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
-            "time":"2:00 PM - 3:00 PM"
+            "mentor":"Ritik Sawhney",
+            "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__variables",
+            "time":"3:30 PM - 4:30 PM"
          },
-         {
-            "link":"https://meet.google.com/tbj-dqfd-nki",
+           {
+            "link":"https://meet.google.com/qcv-wrpg-bfh",
             "type":"info",
-            "topic":"Loop",
-            "mentor":"Rani Solanki",
-            "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
-            "time":"2:00 PM - 3:00 PM"
+            "topic":"If-Else",
+            "mentor":"Kabita Kumari",
+            "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
+            "time":"3:30 PM - 4:30 PM"
          }
       ]
    },
    {
-      "date":"23 September, 2020 (Wednesday)",
+      "date":"30 September, 2020 (Wednesday)",
       "slots":[
          {
-            "link":"https://meet.google.com/abt-zicx-ywc",
+            "link":"https://meet.google.com/kgg-edqs-fct",
             "type":"info",
-            "topic":" visualization of flow of control(If-else ,loop )",
-            "mentor":"Pankaj Sharma",
-            "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
-            "time":"2:00 PM - 3:00 PM"
-         },
-         {
-            "link":"https://meet.google.com/abt-zicx-ywc",
-            "type":"info",
-            "topic":" Loop",
-            "mentor":"Kanav Gupta",
+            "topic":"Loop",
+            "mentor":"Deepak Sharma",
             "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
             "time":"2:00 PM - 3:00 PM"
          },
          {
-            "link":"https://meet.google.com/dig-bmqk-yee",
+            "link":"https://meet.google.com/abt-zicx-ywc",
             "type":"info",
-            "topic":"If-Else(With Flow Chart)",
-            "mentor":"Isha Bharati",
+            "topic":" If-Else(With Flow Chart)",
+            "mentor":"Ishika Singhania",
             "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
-            "time":"2:00 PM - 3:00 PM"
-         },
-         {
-            "link":"https://meet.google.com/qop-jdsz-kna",
-            "type":"info",
-            "topic":"List",
-            "mentor":"Sarmistha",
-            "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",
             "time":"3:30 PM - 4:30 PM"
          },
-         {
-            "link":"https://meet.google.com/bsb-xtnh-jvp",
+           {
+            "link":"https://meet.google.com/mmy-tgcp-hsv",
             "type":"info",
-            "topic":"Workshop on Go to Market(Workshop)",
-            "mentor":"Dr. Raunaq Pradhan",
+            "topic":"Workshop On Go To Market(Workshop)",
+            "mentor":"Raunaq Pradhan",
             "time":"6:30 PM - 7:30 PM"
          }
+ 
       ]
    },
    {
-      "date":"24 September, 2020 (Thursday)",
+      "date":"1 October, 2020 (Thursday)",
       "slots":[
          {
-            "link":"https://meet.google.com/xad-zjne-hmv",
+            "link":"https://meet.google.com/fke-oaiq-gqq",
             "type":"info",
-            "topic":"If-Else(With Flow-Chart)",
-            "mentor":"Sonam Kumavat",
-            "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
+            "topic":"Function",
+            "mentor":"Sarmistha Maity",
+            "concept_link":"https://saral.navgurukul.org/course/?id=103&slug=functions__functions-intro",
             "time":"2:00 PM - 3:00 PM"
          },
          {
-            "link":"https://meet.google.com/nas-tzgz-vtw",
+            "link":"https://meet.google.com/iry-ttpi-ois",
             "type":"info",
             "topic":"List",
-            "mentor":"Rupa Sharma",
+            "mentor":"Komal Kumari",
             "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",
             "time":"2:00 PM - 3:00 PM"
          },
          {
-            "link":"https://meet.google.com/man-gyyo-ezf",
+            "link":"https://meet.google.com/bew-uuxr-vmg",
             "type":"info",
             "topic":"Variables",
-            "mentor":"Kanav Gupta",
+            "mentor":"Shresha Singh",
             "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__variables",
-            "time":"2:00 PM - 3:00 PM"
+            "time":"3:30 PM - 4:30 PM"
          },
          {
-            "link":"https://meet.google.com/xkc-ysej-mnz",
+            "link":"https://meet.google.com/bpe-gfmi-bjf",
             "type":"info",
-            "topic":"Loop",
-            "mentor":"Deepak Sharma",
-            "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
-            "time":"2:00 PM - 3:00 PM"
+            "topic":"If-Else",
+            "mentor":"Ishika Singhania",
+            "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
+            "time":"3:30 PM - 4:30 PM"
          }
       ]
    },
    {
-      "date":"25 September, 2020 (Friday)",
+      "date":"2 October, 2020 (Friday)",
       "slots":[
          {
-            "link":"https://meet.google.com/fqr-kqeo-rea",
+            "link":"https://meet.google.com/shp-ihiz-pom",
             "type":"info",
-            "topic":"List",
-            "mentor":"Priyanka Kumari",
-            "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",
+            "topic":"Function",
+            "mentor":"Swati Singh",
+            "concept_link":"https://saral.navgurukul.org/course/?id=103&slug=functions__functions-intro",
+            "time":"2:00 PM - 3:00 PM"
+         },
+            {
+            "link":"https://meet.google.com/ffz-jybh-nxf",
+            "type":"info",
+            "topic":"Variables",
+            "mentor":"Shresha Singh",
+            "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__variables",
             "time":"3:30 PM - 4:30 PM"
          },
          {
-            "link":"https://meet.google.com/cur-bazo-czk",
+            "link":"https://meet.google.com/vmt-eugf-say",
             "type":"info",
-            "topic":"Workshop on Goal Setting",
-            "mentor":"Tammineni Rajitha",
+            "topic":"Workshop On Self Awareness And Identity(Workshop)",
+            "mentor":"Moksha Miskeen",
             "time":"4:45 PM - 5:45 PM"
          }
       ]
    },
    {
-      "date":"26 September, 2020 (Saturday)",
+      "date":"3 October, 2020 (Saturday)",
       "slots":[
          {
-            "link":"https://meet.google.com/fzo-vsff-sdm",
-            "type":"info",
-            "topic":"Operators",
-            "mentor":"Deepak Sharma",
-            "concept_link":"https://www.w3schools.com/python/python_operators.asp",
-            "time":"9:30 AM - 10:30 AM"
-         },
-         {
-            "link":"https://meet.google.com/dqq-ytoq-ckg",
-            "type":"info",
-            "topic":"Mental health webinar",
-            "mentor":"MALVIKA FERNANDES",
-            "time":"11:00 AM - 12:00 PM"
-         },
-         {
-            "link":"https://meet.google.com/aqz-wuny-niy",
+            "link":"https://meet.google.com/dig-bmqk-yee",
             "type":"info",
             "topic":"Loop",
-            "mentor":"Piyush Sharma",
+            "mentor":"Aman Kumar",
             "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
-            "time":"2:30:00 PM - 3:30 PM" 
+            "time":"1:00 PM - 2:00 PM"
+         },
+          {
+            "link":"https://meet.google.com/sse-nkxu-ihb",
+            "type":"info",
+            "topic":"If-Else",
+            "mentor":"Mohit Kumar",
+            "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
+            "time":"1:00 PM - 2:00 PM"
          }
+         
+      
       ]
    }
 ]
