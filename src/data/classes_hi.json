@@ -153,13 +153,20 @@
    {
       "date":"3 October, 2020 (Saturday)",
       "slots":[
+          {
+            "link":"https://meet.google.com/mym-xous-chj",
+            "type":"info",
+            "topic":"Workshop On Python Classes",
+            "mentor":"Itee Agarwal",
+            "time":"1:00 PM - 2:00 PM"
+         },
          {
             "link":"https://meet.google.com/dig-bmqk-yee",
             "type":"info",
             "topic":"Loop",
             "mentor":"Aman Kumar",
             "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
-            "time":"1:00 PM - 2:00 PM"
+            "time":"3:00 PM - 4:00 PM"
          },
           {
             "link":"https://meet.google.com/sse-nkxu-ihb",
@@ -167,7 +174,7 @@
             "topic":"If-Else",
             "mentor":"Mohit Kumar",
             "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
-            "time":"1:00 PM - 2:00 PM"
+            "time":"3:00 PM - 4:00 PM"
          }
          
       
