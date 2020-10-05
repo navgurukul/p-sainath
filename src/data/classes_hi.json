@@ -46,7 +46,15 @@
             "mentor":"Deepak Sharma",
             "concept_link":"https://www.w3schools.com/python/python_operators.asp",
             "time":"3:30 PM - 4:30 PM"
-         }
+         },
+         {
+                "link":"https://meet.google.com/oxp-iifh-bfc",
+                "type":"info",
+                "topic":"Loops",
+                "mentor":"Palak Pant",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
+                "time":"3:30 PM - 4:30 PM"
+            }
       ]
    },
    {
