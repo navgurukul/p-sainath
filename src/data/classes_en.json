@@ -99,20 +99,12 @@
                 "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
                 "time":"2:00 PM - 3:00 PM"
             },
-                 {
-                "link":"https://meet.google.com/jej-ipof-sjn",
+                {
+                "link":"https://meet.google.com/wao-psxg-uqy",
                 "type":"info",
-                "topic":"Function",
-                "concept_link":"https://saral.navgurukul.org/course/?id=103&slug=functions__functions-intro",
-                "mentor":"Sarmistha Maithy",
-                "time":"2:00 PM - 3:00 PM"
-            },
-               {
-                "link":"https://meet.google.com/fga-eeja-arq",
-                "type":"info",
-                "topic":"List",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",
-                "mentor":"Shahab Akhtar Rabbani",
+                "topic":"Variable",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__variables",
+                "mentor":"Mounika Kukudala",
                 "time":"2:00 PM - 3:00 PM"
             },
               {
@@ -150,6 +142,14 @@
                 "mentor":"Meda Sahithi",
                 "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists", 
                 "time":"3:30 PM - 4:30 PM"
+            },
+                 {
+                "link":"https://meet.google.com/jej-ipof-sjn",
+                "type":"info",
+                "topic":"Function",
+                "concept_link":"https://saral.navgurukul.org/course/?id=103&slug=functions__functions-intro",
+                "mentor":"Sarmistha Maithy",
+                "time":"2:00 PM - 3:00 PM"
             }
         ]
     },
