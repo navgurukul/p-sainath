@@ -31,6 +31,14 @@
                 "mentor":"Kartik Sharma",
                 "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",
                 "time":"3:30 PM - 4:30 PM"
+            },
+               {
+                "link":"https://meet.google.com/xey-wjgd-jta",
+                "type":"info",
+                "topic":"Workshop on Python Graphics",
+                "mentor":"Pankaj Sharma",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",
+                "time":"4:45 PM - 5:45 PM"
             }
           
         ]
@@ -53,6 +61,14 @@
                 "mentor":"Isha Bharati",
                 "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
                 "time":"3:30 PM - 4:30 PM"
+            },
+                {
+                "link":"https://meet.google.com/ahh-ggui-pfm",
+                "type":"info",
+                "topic":"Workshop on Competitive Programming",
+                "mentor":"Pankaj Sharma",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
+                "time":"4:45 PM - 5:45 PM"
             }
             
         ]
