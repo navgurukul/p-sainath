@@ -1,131 +1,27 @@
 [
     {
-        "date":"12 October, 2020 (Monday)",
+        "date":"19 October, 2020 (Monday)",
         "slots":[
             
             {
                 "link":"https://meet.google.com/kgz-geco-syp",
                 "type":"info",
-                "topic":"Loop",
+                "topic":"If-Else",
                 "mentor":"Isha bharti",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
-                "time":"3:30 PM - 4:30 PM"
-            }
-        ]
-    },
-    {
-        "date":"13 October, 2020 (Tuesday)",
-        "slots":[
-            {
-                "link":"https://meet.google.com/nms-qvau-oxb",
-                "type":"info",
-                "topic":"Loop",
-                "mentor":"Sarmistha Maity",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
-                "time":"2:00 PM - 3:00 PM"
-            },
-            {
-                "link":"https://meet.google.com/fpj-sufx-mfw",
-                "type":"info",
-                "topic":"List",
-                "mentor":"Kartik Sharma",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",
-                "time":"3:30 PM - 4:30 PM"
-            },
-               {
-                "link":"https://meet.google.com/xey-wjgd-jta",
-                "type":"info",
-                "topic":"Workshop on Python Graphics",
-                "mentor":"Pankaj Sharma",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",
-                "time":"4:45 PM - 5:45 PM"
-            }
-          
-        ]
-    },
-    {
-        "date":"14 October, 2020 (Wednesday)",
-        "slots":[
-              {
-                "link":"https://meet.google.com/wvm-ovmt-tty",
-                "type":"info",
-                "topic":"List",
-                "mentor":"parveen siddique",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",     
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
                 "time":"2:00 PM - 3:00 PM"
             },
              {
-                "link":"https://meet.google.com/prw-wdow-bqr",
+                "link":"https://meet.google.com/nms-qvau-oxb",
                 "type":"info",
-                "topic":"If-Else (With Flow-Chart)",
-                "mentor":"Isha Bharati",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
+                "topic":"List",
+                "mentor":"Shehnaaz Nazmeen",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",
                 "time":"3:30 PM - 4:30 PM"
-            },
-                {
-                "link":"https://meet.google.com/ahh-ggui-pfm",
-                "type":"info",
-                "topic":"Workshop on Competitive Programming",
-                "mentor":"Pankaj Sharma",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
-                "time":"4:45 PM - 5:45 PM"
-            }
-            
-        ]
-    },
-     {
-        "date":"15 October, 2020 (Thursday)",
-        "slots":[
-                {
-                "link":"https://meet.google.com/wao-psxg-uqy",
-                "type":"info",
-                "topic":"Variable",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__variables",
-                "mentor":"Ramesh Immamula",
-                "time":"2:00 PM - 3:00 PM"
-            },
-              {
-                "link":"https://meet.google.com/iyf-drec-jzt",
-                "type":"info",
-                "topic":"Function",
-                "concept_link":"https://saral.navgurukul.org/course/?id=103&slug=functions__functions-intro",
-                "mentor":"Somesh Shakya",
-                "time":"3:30 PM - 4:30 PM"
-            },
-              {
-                "link":"https://meet.google.com/qsf-kmxv-kzh",
-                "type":"info",
-                "topic":"Workshop on Habits as Principles For Success(Workshop)",
-                "mentor":"Tammineni Rajitha",
-                "time":"4:45 PM - 5:45 PM"
             }
         ]
-     },
-    {
-        "date":"16 October, 2020 (Friday)",
-        "slots":[
-                 {
-                "link":"https://meet.google.com/jej-ipof-sjn",
-                "type":"info",
-                "topic":"Function",
-                "concept_link":"https://saral.navgurukul.org/course/?id=103&slug=functions__functions-intro",
-                "mentor":"Sarmistha Maithy",
-                "time":"2:00 PM - 3:00 PM"
-            }
-        ]
-    },
-       {
-        "date":"17 October, 2020 (Saturday)",
-        "slots":[
-                 {
-                "link":"https://meet.google.com/ocw-nwtx-pps",
-                "type":"info",
-                "topic":"If-Else",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
-                "mentor":"Ishika Singhania",
-                "time":"2:30 PM - 3:30 PM" 
-            }
-        ]
+   
+        
     }
 
     
