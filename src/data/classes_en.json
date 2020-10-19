@@ -1,22 +1,23 @@
 [
     {
-        "date":"19 October, 2020 (Monday)",
+        "date":"20 October, 2020 (Tuesday)",
         "slots":[
             
             {
                 "link":"https://meet.google.com/kgz-geco-syp",
                 "type":"info",
-                "topic":"If-Else",
-                "mentor":"Isha Bharti",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
+                "topic":"loop",
+                "mentor":"Shehnaaz",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
                 "time":"2:00 PM - 3:00 PM"
             },
-             {
-                "link":"https://meet.google.com/nms-qvau-oxb",
+              
+            {
+                "link":"https://meet.google.com/kgz-geco-syp",
                 "type":"info",
-                "topic":"List",
-                "mentor":"Shehnaaz Nazmeen",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",
+                "topic":"If-Else",
+                "mentor":"Evanjali",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
                 "time":"3:30 PM - 4:30 PM"
             }
         ]
