@@ -1,25 +1,33 @@
 [
    {
-      "date":"19 October, 2020 (Monday)",
+      "date":"20 October, 2020 (Tuesday)",
       "slots":[
                        {
                 "link":"https://meet.google.com/ozi-mtjk-nrg",
                 "type":"info",
-                "topic":"If-Else",
-                "mentor":"Manisha Sharma",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
+                "topic":"List",
+                "mentor":"Shanti",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",
                 "time":"2:00 PM – 3:00 PM"
             },
               {
-                "link":"https://meet.google.com/wrx-quvy-wov",
+                "link":"https://meet.google.com/rho-xmat-iqb",
                 "type":"info",
-                "topic":"If-Else",
-                "mentor":"Yashika",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
+                "topic":"Loop",
+                "mentor":"Kanav",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
+                "time":"2:00 PM – 3:00 PM"
+            },
+           {
+                "link":"https://meet.google.com/uxo-oqfc-ghq",
+                "type":"info",
+                "topic":"Loop",
+                "mentor":"Ekta Raghuwanshi",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
                 "time":"3:30 PM – 4:30 PM"
             },
                {
-                "link":"https://meet.google.com/arw-sedf-djv",
+                "link":"https://meet.google.com/pqw-yxnb-brh",
                 "type":"info",
                 "topic":"Operators",
                 "mentor":"Ayushi Jain",
