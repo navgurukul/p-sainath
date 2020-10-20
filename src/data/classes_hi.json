@@ -1,39 +1,39 @@
 [
    {
-      "date":"20 October, 2020 (Tuesday)",
+      "date":"21 October, 2020 (Wednesday)",
       "slots":[
                        {
                 "link":"https://meet.google.com/ozi-mtjk-nrg",
                 "type":"info",
-                "topic":"List",
-                "mentor":"Shanti",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",
+                "topic":"Loop",
+                "mentor":"Deepak",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
                 "time":"2:00 PM – 3:00 PM"
             },
               {
-                "link":"https://meet.google.com/rho-xmat-iqb",
+                "link":"https://meet.google.com/ybk-asdu-hgy",
                 "type":"info",
-                "topic":"Loop",
-                "mentor":"Kanav",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
-                "time":"2:00 PM – 3:00 PM"
+                "topic":"List",
+                "mentor":"Kanav Gupta",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",
+                "time":"3:30 PM – 4:30 PM"
             },
            {
                 "link":"https://meet.google.com/uxo-oqfc-ghq",
                 "type":"info",
-                "topic":"Loop",
-                "mentor":"Ekta Raghuwanshi",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
+                "topic":"If-Else",
+                "mentor":"Shrestha Singh",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
                 "time":"3:30 PM – 4:30 PM"
             },
-               {
-                "link":"https://meet.google.com/pqw-yxnb-brh",
+            {
+                "link":"https://meet.google.com/iyn-msof-bmm",
                 "type":"info",
-                "topic":"Operators",
-                "mentor":"Ayushi Jain",
-                "concept_link":"https://www.w3schools.com/python/python_operators.asp",
-                "time":"3:30 PM – 4:30 PM"
+                "topic":"Emotional awareness(Workshop)",
+                "mentor":"Moksha Miskeen",
+                "time":"6:30 PM – 7:30 PM"
             }
+             
       ]
 
    }
