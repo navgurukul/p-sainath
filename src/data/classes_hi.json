@@ -1,12 +1,12 @@
 [
    {
-      "date":"22 October, 2020 (Thursday)",
+      "date":"23 October, 2020 (Friday)",
       "slots":[
                        {
-                "link":"https://meet.google.com/ozi-mtjk-nrg",
+                "link":"https://meet.google.com/wvp-nkeh-fiu",
                 "type":"info",
                 "topic":"Loop",
-                "mentor":"Jyoti Bhandari",
+                "mentor":"Kanav Gupta",
                 "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
                 "time":"2:00 PM – 3:00 PM"
             },
@@ -14,7 +14,7 @@
                 "link":"https://meet.google.com/uxo-oqfc-ghq",
                 "type":"info",
                 "topic":"If-Else",
-                "mentor":"Moni",
+                "mentor":"Kabita Kumari",
                 "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
                 "time":"3:30 PM – 4:30 PM"
             }
