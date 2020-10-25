@@ -1,20 +1,20 @@
 [
    {
-      "date":"24 October, 2020 (Saturday)",
+      "date":"26 October, 2020 (Monday)",
       "slots":[
                        {
-                "link":"https://meet.google.com/wvp-nkeh-fiu",
+                "link":"https://meet.google.com/bih-qrod-wgt",
                 "type":"info",
                 "topic":"Operators",
-                "mentor":"Poonam Bagh",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
+                "mentor":"Ayushi Jain",
+                "concept_link":"https://www.w3schools.com/python/python_operators.asp",
                 "time":"2:00 PM – 3:00 PM"
             },
            {
                 "link":"https://meet.google.com/uxo-oqfc-ghq",
                 "type":"info",
                 "topic":"If-Else",
-                "mentor":"Praveen Sidhiqui",
+                "mentor":"Reena",
                 "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
                 "time":"3:30 PM – 4:30 PM"
             }
