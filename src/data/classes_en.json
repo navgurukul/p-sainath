@@ -1,22 +1,14 @@
 [
     {
-        "date":"24 October, 2020 (Saturday)",
+        "date":"26 October, 2020 (Monday)",
         "slots":[ 
             {
                 "link":" https://meet.google.com/hmb-rfqs-qqe",
                 "type":"info",
-                "topic":"Loop",
-                "mentor":"Aayushi Jain",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
+                "topic":"Variable",
+                "mentor":"Jenny",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__variables",
                 "time":"2:30 PM - 3:30 PM"
-            },
-              {
-                "link":" https://meet.google.com/hmb-rfqs-qqe",
-                "type":"info",
-                "topic":"If-Else",
-                "mentor":"Salomi",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
-                "time":"3:45 PM - 4:45 PM"
             }
         ]
    
