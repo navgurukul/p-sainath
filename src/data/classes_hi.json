@@ -1,28 +1,20 @@
 [
    {
-      "date":"26 October, 2020 (Monday)",
+      "date":"27 October, 2020 (Tuesday)",
       "slots":[
                        {
                 "link":"https://meet.google.com/bih-qrod-wgt",
                 "type":"info",
-                "topic":"Operators",
-                "mentor":"Ayushi Jain",
-                "concept_link":"https://www.w3schools.com/python/python_operators.asp",
+                "topic":"List",
+                "mentor":"Sonam Kumavat",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",
                 "time":"2:00 PM – 3:00 PM"
             },
            {
                 "link":"https://meet.google.com/uxo-oqfc-ghq",
                 "type":"info",
                 "topic":"If-Else",
-                "mentor":"Reena",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
-                "time":"3:30 PM – 4:30 PM"
-            },
-            {
-                "link":"https://meet.google.com/xuw-uuiz-nvy",
-                "type":"info",
-                "topic":"Loop",
-                "mentor":"Ayushi Jain",
+                "mentor":"Sandhaya Budha",
                 "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
                 "time":"3:30 PM – 4:30 PM"
             }
