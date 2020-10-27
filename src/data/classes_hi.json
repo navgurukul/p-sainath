@@ -1,21 +1,21 @@
 [
    {
-      "date":"27 October, 2020 (Tuesday)",
+      "date":"28 October, 2020 (Wednesday)",
       "slots":[
                        {
                 "link":"https://meet.google.com/bih-qrod-wgt",
                 "type":"info",
-                "topic":"List",
-                "mentor":"Sonam Kumavat",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",
+                "topic":"If-Else",
+                "mentor":"Shanti",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__ifElse",
                 "time":"2:00 PM – 3:00 PM"
             },
            {
                 "link":"https://meet.google.com/uxo-oqfc-ghq",
                 "type":"info",
-                "topic":"If-Else",
-                "mentor":"Sandhaya Budha",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__loops-course-link",
+                "topic":"List",
+                "mentor":"Deepak Sharma",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",
                 "time":"3:30 PM – 4:30 PM"
             }
              
