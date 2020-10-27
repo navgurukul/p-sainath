@@ -1,14 +1,14 @@
 [
     {
-        "date":"27 October, 2020 (Tuesday)",
+        "date":"28 October, 2020 (Wednesday)",
         "slots":[ 
             {
-                "link":" https://meet.google.com/hmb-rfqs-qqe",
+                "link":"https://meet.google.com/zja-aupd-sit",
                 "type":"info",
                 "topic":"List",
-                "mentor":"Aakash Verma",
-                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__variables",
-                "time":"2:30 PM - 3:30 PM"
+                "mentor":"Matcha Jhansi",
+                "concept_link":"https://saral.navgurukul.org/course/?id=18&slug=python__lists",
+                "time":"3:30 PM - 4:30 PM"
             }
         ]
    
