@@ -6,7 +6,7 @@ git reset --hard origin/master
 
 npm run build
 
-cp -r build/* .
+cp -r dist/* .
 
 echo 'kabira.navgurukul.org' > CNAME
 
