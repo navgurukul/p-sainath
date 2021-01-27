@@ -1,7 +1,0 @@
-.DS_Store
-package-lock.json
-dist/
-node_modules/
-npm-debug.log
-yarn-error.log
-yarn.lock
