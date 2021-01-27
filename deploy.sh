@@ -8,7 +8,7 @@ npm run build
 
 cp -r dist/* .
 
-echo 'kabira.navgurukul.org' > CNAME
+echo 'navgurukul.org' > CNAME
 
 git add -A .
 
