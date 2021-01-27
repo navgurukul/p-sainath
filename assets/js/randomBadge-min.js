@@ -1,0 +1,1 @@
+$(document).ready(function(){var a=["info","warning","dark","secondary","danger","primary"];$(".bgRandom").each(function(n){console.log($(this).addClass("badge-"+a[Math.floor(Math.random()*a.length)]))})});
