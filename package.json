@@ -39,9 +39,13 @@
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "handlebars": "^4.7.6",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^8.0.0",
+    "js-md5": "^0.7.3",
     "panini": "^1.7.1",
-    "sass": "^1.26.10",
-    "js-md5": "^0.7.3"
+    "sass": "^1.26.10"
   },
   "dependencies": {
     "bootstrap": "^4.5.2"

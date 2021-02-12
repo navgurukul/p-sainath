@@ -1,3 +1,4 @@
+@import url("http://getbootstrap.com/dist/css/bootstrap.css");
 // FAQ
 .faq-nav {
   flex-direction: column;
@@ -31,7 +32,7 @@
   .card-header {
     padding: 15px 16px;
     border-radius: 0;
-    background-color:white;
+    background-color: white;
 
     h5 {
       margin: 0;
@@ -74,4 +75,28 @@
       border-top: 0;
     }
   }
+}
+
+.container {
+  margin-top: 10px;
+}
+
+// navbar........................................
+
+.drop-downs {
+  font-family: Dosis;
+  color: #222;
+
+  font-size: 12px;
+  
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+  
+}
+
+.dropdown-menu > a:hover {
+  background-color: hsl(0, 5%, 92%);
+  color: #f05f40 !important;
 }

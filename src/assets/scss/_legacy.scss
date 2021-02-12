@@ -1780,3 +1780,87 @@ ul.nav-footer>li a {
   margin-left: 10px;
   padding: 6px 9px;
 }
+
+
+
+// css for Fellowship page.
+
+.student-img{
+  margin-left: 5%;
+  height: 600px;
+  width: 1200%;
+ 
+}
+
+.hedding {
+  font-family: "Cantata One", serif;
+  line-height: 1.4;
+  font-size: 45px;
+  color: #111;
+}
+
+.content-of-page {
+  padding: 15% 10px 10px 10px;
+  font-size: 26px;
+}
+
+.primary-line {
+  max-width: 60px;
+  border-color: #f05f40;
+  border-width: 3px;
+}
+
+.khow-more {
+  font-size: large;
+}
+
+.khow-more:hover {
+  background-color: gray;
+}
+
+.become-Fellow {
+  color: #111;
+}
+
+.abou-fellow {
+  font-size: 19px;
+}
+
+.main-point {
+  // font-size: 19px;
+  padding: 15px 25px;
+  font-size: 19px;
+  background: rgba(234, 234, 236, 0.3);
+}
+
+.pb-2 {
+  margin-top: 30px !important;
+}
+
+.Our-Fellows {
+  background: rgba(234, 234, 236, 0.3);
+  padding: 15px 25px;
+  font-size: 19px;
+}
+
+
+.APPLY-NOW{
+ font-size: 20px;
+  border: solid;
+  border-radius: 20px;
+  border: none;
+  // margin: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body{
+    .student-img{
+      margin-left: 0px;
+      height: 400px;
+      width: 100%;
+
+    }
+  }
+}

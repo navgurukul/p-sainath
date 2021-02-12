@@ -14,11 +14,11 @@
     "linkedin": "http://linkedin.com/in/anuradhadaswani"
   },
   {
-    "name": "Alisha Sadana",
-    "img": "assets/img/main/alisha.png",
-    "about": "A feminist and social activist, one of the members of a 25-day people's movement/peace campaign. A student of Humanities & Social Work. Attended various training programs on gender equality, domestic violence, women rights & LGBT issues.",
-    "post": "Facility-in-charge",
-    "linkedin": "#"
+    "name": "Kriti Agarwal",
+    "img": "assets/img/main/kriti.png",
+    "about": "A TISS and Gandhi Fellowship Alumna has 4 years’ experience in working with State Govt. of Haryana, Odisha & Uttar Pradesh to transform Public Education System. Being an enthusiast to work in policy reformation, is now supporting NavGurkul in organisational development & project management.",
+    "post": "Office of CEO",
+    "linkedin": "https://www.linkedin.com/in/jai-dev-84a8b2157/"
   },
   {
     "name": "Nilam Kumari",
@@ -61,5 +61,13 @@
     "about": "Rishabh headed Navgurukul as the COO until September 2019, and is always going to be with us a co-founder. You can read his note <a href='https://medium.com/navgurukul/this-is-not-a-goodbye-whats-next-6e5665dc53e4'>here</a>. At 21 he was part of the founding team of Airwoot. He then took a break to spend a year travelling in the mountains. Later, Rishabh headed Technology for Grownout.",
     "post": "Ex-COO & Co-founder",
     "linkedin": "http://linkedin.com/in/rishmunk"
+  }, {
+    "name": "Shahnaaz Naazmeen",
+    "img": "assets/img/main/shehnaz.jpeg",
+    "about": "Shahnaaz hails from Gulberga, Karnataka. She joined NavGurukul a year back where she found her dream to work with Youth in Technology domain. While pursuing her course, she supported various students to prepare for their Aspirational jobs. Currently, she leads the tech curriculum development in NavGurukul and manages the Pune campus.",
+    "post": "Tech Facility Incharge",
+    "linkedin": "https://www.linkedin.com/in/shahnaaz-naazmeen-7b44641b2/"
   }
+
+  
 ]
