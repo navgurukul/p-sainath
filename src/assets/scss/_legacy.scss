@@ -1792,18 +1792,7 @@ ul.nav-footer > li a {
 
 // css for Codeindia page.
 
-.student-img {
-  margin-left: 5%;
-  height: 600px;
-  width: 1200%;
-}
 
-.hedding {
-  font-family: "Cantata One", serif;
-  line-height: 1.4;
-  font-size: 45px;
-  color: #111;
-}
 
 .content-of-page {
   padding: 15% 10px 10px 10px;
@@ -1814,10 +1803,6 @@ ul.nav-footer > li a {
   max-width: 60px;
   border-color: #f05f40;
   border-width: 3px;
-}
-
-.khow-more {
-  font-size: large;
 }
 
 .main-hedding {
@@ -1855,11 +1840,3 @@ ul.nav-footer > li a {
   border: none;
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  .student-img {
-    margin-left: 0px;
-    height: 400px;
-    width: 100%;
-  }
-}
