@@ -83,12 +83,11 @@
 
 // navbar........................................
 
-.drop-downs {
+.dropdown-item{
+  font-size: 14px;
+  font-weight: 600;
   font-family: Dosis;
-  color: #222;
-
-  font-size: 12px;
-  
+  letter-spacing: .8px
 }
 
 .dropdown:hover > .dropdown-menu {
@@ -100,3 +99,4 @@
   background-color: hsl(0, 5%, 92%);
   color: #f05f40 !important;
 }
+
