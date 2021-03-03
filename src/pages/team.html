@@ -1,0 +1,101 @@
+<section id="team" class="mb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Team</h2>
+          <hr class="primary" />
+        </div>
+      </div>
+    </div>
+  
+    <div class="row col-10 offset-1 mt-4">
+      {{#each team}}
+      <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+        <div class="alumni">
+          <div class="pic">
+            <img src="{{root}}{{this.img}}" alt="" />
+            <ul class="social">
+              <li>
+                <a target="_blank" href="{{this.linkedin}}" class="fa fa-linkedin"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="team-content">
+            <!-- text-align: justify -->
+            <h3 class="team-title">{{this.name}}</h3>
+            <span class="post">{{this.post}}</span>
+            <div class="card-text">
+                 {{{this.about}}}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Advisors</h2>
+          <hr class="primary" />
+        </div>
+      </div>
+    </div>
+   
+    <div class="row col-10 offset-1 mt-4">
+      {{#each advisors_team}}
+      <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+        <div class="alumni">
+          <div class="pic">
+            <img src="{{root}}{{this.img}}" alt="" />
+            <ul class="social">
+              <li>
+                <a target="_blank" href="{{this.linkedin}}" class="fa fa-linkedin"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="team-content">
+            <h3 class="team-title">{{this.name}}</h3>
+            <span class="post">{{this.post}}</span>
+            <div class="card-text">
+                 {{{this.about}}}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Ex-Team</h2>
+          <hr class="primary" />
+        </div>
+      </div>
+    </div>
+    <div class="row col-10 offset-1 mt-4">
+      {{#each ex_team}}
+      <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+        <div class="alumni">
+          <div class="pic">
+            <img src="{{root}}{{this.img}}" alt="" />
+            <ul class="social">
+              <li>
+                <a target="_blank" href="{{this.linkedin}}" class="fa fa-linkedin"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="team-content">
+            <h3 class="team-title">{{this.name}}</h3>
+            <span class="post">{{this.post}}</span>
+            <div class="card-text">
+                 {{{this.about}}}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </section>
