@@ -1,0 +1,170 @@
+<script>
+  function coverPage(img) {
+    var backSideImage = document.querySelectorAll("img[src='assets/img/activity_report/Program Report_NavGurukul_FCRA_Back Pages.jpg']")
+    for (var i=0; i<backSideImage.length; i++) {
+      backSideImage[i].style.width = '75%'
+      backSideImage[i].style.padding = '0 0 0 25%'
+    }
+  }  
+  function frontPage4() {
+    var front = document.getElementById('image4').src
+    if ( front == 'http://localhost:3000/assets/img/activity_report/Program%20Report_NavGurukul_FCRA_Front%20Pages%20(4).jpg') {  
+      var image = document.getElementById('image4')
+      image.style.width = '75%',
+      image.style.padding = '0 0 0 25%'
+    } 
+  }
+  function frontPage3() {
+    var front = document.getElementById('image3').src
+    if ( front == 'http://localhost:3000/assets/img/activity_report/Program%20Report_NavGurukul_FCRA_Front%20Pages(3).jpg') {  
+      var image = document.getElementById('image3')
+      image.style.width = '75%',
+      image.style.padding = '0 0 0 25%'
+    } 
+  }
+  function frontPage2() {
+    var front = document.getElementById('image2').src
+    if ( front == 'http://localhost:3000/assets/img/activity_report/Program%20Report_NavGurukul_FCRA_Front%20Pages%20(2).jpg') {  
+      var image = document.getElementById('image2')
+      image.style.width = '75%',
+      image.style.padding = '0 0 0 25%'
+    } 
+  }
+  function frontPage1() {
+    var front = document.getElementById('image1').src
+    if ( front == 'http://localhost:3000/assets/img/activity_report/Program%20Report_NavGurukul_FCRA_Front%20Pages(1).jpg') {  
+      var image = document.getElementById('image1')
+      image.style.width = '75%',
+      image.style.padding = '0 0 0 25%'
+    } 
+  }
+</script>
+
+<section>
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-center">Activity Report</h2>
+      <hr class="primary" />
+      <div class="sorttedby"> 
+        <div class="slide-content" style="outline: none !important;">
+          <img src="{{root}}{{activity_report_front_page.frontPage17-18}}" style="width: 100%; padding-left: 2%; padding-right: 2%; "/>   
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter1" onclick="frontPage1()">
+            Know More About
+          </button>
+        </div>
+        <div class="slide-content" style="outline: none !important;">
+          <img src="{{root}}{{activity_report_front_page.frontPage18-19}}" style="width: 100%; padding-left: 2%; padding-right: 2%; "/>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter2" onclick="frontPage2()">
+            Know More About
+          </button>
+        </div>
+        <div class="slide-content" style="outline: none !important;">
+          <img src="{{root}}{{activity_report_front_page.frontPage19-20}}" style="width: 100%; padding-left: 2%; padding-right: 2%; "/>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter3" onclick="frontPage3()">
+            Know More About
+          </button>
+        </div>
+        <div class="slide-content" style="outline: none !important;">
+          <img src="{{root}}{{activity_report_front_page.frontPage20-21}}" style="width: 100%; padding-left: 2%; padding-right: 2%; "/>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter4" onclick="frontPage4()">
+            Know More About
+          </button>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="activity_report" style="width: 90%; margin-left: 5%;">
+              {{#each activity_report.year17-18}}
+                <div class="slide-content" style="outline: none !important; ">
+                  <img src="{{root}}{{this}}" style="width: 100%;" alt='' id='image1'/>
+                </div>
+              {{/each}}
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="activity_report" style="width: 90%; margin-left: 5%;">
+              {{#each activity_report.year18-19}}
+                <div class="slide-content" style="outline: none !important; ">
+                  <img src="{{root}}{{this}}" style="width: 100%;" alt='' id='image2'/>
+                </div>
+              {{/each}}
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="activity_report" style="width: 90%; margin-left: 5%;">
+              {{#each activity_report.year19-20}}
+                <div class="slide-content" style="outline: none !important; ">
+                  <img src="{{root}}{{this}}" style="width: 100%;" alt='' id='image3'/>
+                </div>
+              {{/each}}
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="activity_report" style="width: 90%; margin-left: 5%;">
+              {{#each activity_report.year20-21}}
+                <div class="slide-content" style="outline: none !important; ">
+                  <img src="{{root}}{{this}}" style="width: 100%;" alt='' id='image4'/>
+                  <script type="text/javascript" language="JavaScript">
+                    coverPage('{{root}}{{this}}');
+                 </script>
+                </div>
+              {{/each}}
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<style type="text/css">
+  .modal-backdrop {
+      background-color: Black;
+      opacity: 0.8 !important;
+  }
+</style>

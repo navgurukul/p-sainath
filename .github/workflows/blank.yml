@@ -15,4 +15,4 @@ jobs:
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
           INPUT_SCHEMA: ./schema.json
-          INPUT_JSONS: /src/data/alumni.json,/src/data/articles.json,/src/data/classes_en.json,/src/data/classes_hi.json,/src/data/codestars.json,/src/data/donate-text.json,/src/data/donate.json,/src/data/faqs.json,/src/data/looking_for.json,/src/data/main_carousel.json,/src/data/partner_intro_text.json,/src/data/testimonials.json,/src/data/supportBy.json,/src/data/team.json,/src/data/video_carousel.json,/src/data/videos.json,/src/data/volunteer.json
+          INPUT_JSONS: /src/data/alumni.json,/src/data/articles.json,/src/data/classes_en.json,/src/data/classes_hi.json,/src/data/codestars.json,/src/data/donate-text.json,/src/data/donate.json,/src/data/faqs.json,/src/data/looking_for.json,/src/data/main_carousel.json,/src/data/partner_intro_text.json,/src/data/testimonials.json,/src/data/supportBy.json,/src/data/activity_report.json,/src/data/team.json,/src/data/video_carousel.json,/src/data/videos.json,/src/data/volunteer.json
