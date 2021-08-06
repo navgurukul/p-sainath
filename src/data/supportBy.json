@@ -26,5 +26,9 @@
   {
     "logo_img": "assets/img/dunnhumby_logo.png",
     "link": "http://dunnhumby.com"
+  },
+  {
+    "logo_img": "assets/img/amazon.png",
+    "link": "https://www.amazon.com"
   }
 ]
