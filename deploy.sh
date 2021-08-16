@@ -17,3 +17,5 @@ git commit -a -m 'gh-pages update'
 git push origin gh-pages --force
 
 git checkout master
+
+rm -rf dist/
