@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Learn Coding &amp; get guaranteed job | NavGurukul</title>
+  <link rel="stylesheet" href="assets/css/app.css" />
+
+  <meta name="author" content="" />
+  <meta property="og:title" content="NavGurukul" />
+  <meta property="og:url" content="http://navgurukul.org" />
+  <meta property="og:image" content="http://navgurukul.org/img/sqlogo.jpg" />
+  <meta property="og:description" content="NavGurukul is a non-profit initiative to provide a meaningful alternative to the college education. We train youth from humble backgrounds for free in software programming and other aspirational opportunities."
+  />
+  <meta name="description" content="NavGurukul is a non-profit initiative to provide meaningful alternative to college education. We train youth from humble backgrounds for free in software programming and other aspirational opportunities." />
+  <link href="https://fonts.googleapis.com/css?family=Mrs+Sheppards%7CDosis:300,400,700%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800;" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="assets/img/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <link rel="stylesheet" href="/assets/css/faq.css">
+  <!-- endinject -->
+</head>
+
+<body>
+   <nav
+  id="mainNav"
+  class="navbar navbar-expand-md navbar-default fixed-top navbar-light"
+>
+  <div class="container">
+    <a class="navbar-brand" href="index.html#page-top"
+      ><img
+        src="assets/img/logo.png"
+        alt="logoNavGurukul"
+        class="logoheader"
+    /></a>
+    <div class="nav-item dropdown" style="cursor: pointer">
+      <a
+        class="nav-link dropdown-toggle text-primary"
+        id="selected_option"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      ></a>
+      <div class="dropdown-menu" aria-labelledby="dropdown09">
+        <a class="dropdown-item" id="other_option" onclick="changeLang()"></a>
+      </div>
+    </div>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarCollapse"
+      aria-controls="navbarCollapse"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto"></ul>
+      <ul class="navbar-nav nav">
+        <li class="nav-item dropdown drop-downs">
+          <a
+            class="nav-link dropdown-toggle"
+            href="about.html"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            ABOUT
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="about.html">ABOUT US</a>
+            <a class="dropdown-item" href="index.html#page-top">PARTNER </a>
+            <a
+              class="dropdown-item"
+              target="_blank"
+              href="http://medium.com/navgurukul"
+              >BLOG</a
+            >
+          </div>
+        </li>
+        <li class="nav-item">
+          <a target="_blank" class="nav-link" href="https://merakilearn.org"
+            >MERAKI
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            rel="nowfollow"
+            class="nav-link"
+            href="http://admissions.navgurukul.org"
+            target="_blank"
+            >ADMISSIONS
+          </a>
+        </li>
+        <li class="nav-item dropdown drop-downs"> <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown" role="button" data-toggle="dropdown"aria-haspopup="true" aria-expanded="false">
+            JOIN
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://www.notion.so/NG-Job-Board-cc0fc74362214e4a8d31a061ad9559ba">JOIN US</a>
+            <a class="dropdown-item" href="codeindiafellowship.html">CODE INDIA</a>
+            <a class="dropdown-item" href="volunteer.html">VOLUNTEER </a>
+            
+          
+          </div>
+        </li>
+        <li class="nav-item dropdown drop-downs">
+          <a class="nav-link dropdown-toggle" href="hire.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+            HIRE
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="hire.html">HIRE FROM NG</a>
+            <a class="dropdown-item" href="alumni.html"> OUR ALUMNI </a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a rel="nofollow" class="nav-link" href="donate.html"
+            >DONATE
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a rel="nofollow" class="nav-link" href="faq.html">FAQ </a>
+        </li>
+
+        <!--<li class="nav-item">
+          <a rel="nofollow" class="nav-link" href="codestars.html">&lt;CODE STARS&gt;
+          </a>
+	      </li>-->
+        <!-- <li class="nav-item">
+           <a target="_blank"  class="nav-link" rel="nofollow" href="https://angel.co/navgurukul-foundation/jobs">JOIN US
+        </a>
+         </li> -->
+      </ul>
+      <!-- <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+    </div>
+  </div>
+</nav>
+
+  <main role="main" class="minHeight">
+    <!-- Section Team
+    ================================================== -->
+    <section id="team" class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Alumni</h2>
+          <hr class="primary">
+        </div>
+      </div>
+    
+      <div class="row col-10 offset-1 mt-4">
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/ankita.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/ankita-gole-6570bb158/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Ankita Gole</h3>
+              <span class="post">Tester and NodeJS developer, SmallWorld Digital Services</span>
+              <p class="card-text">
+                She is from Delhi. Her father works as a shopkeeper and her mom as a maid, however, she aspire to become a Software Engineer and make her family proud.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/anurag.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/anurag-rawat-79a541168/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Anurag Rawat</h3>
+              <span class="post">Mahiti Infotech, Bangalore</span>
+              <p class="card-text">
+                He is from Uttarakhand,Dehradun. His father is a watchmen and the only earning member of his family. In order to support his family&#x27;s financial needs after completing his class 12th, he  joined Navgurkul and currently working as a python developer in Mahiti Infotech,Bengalore.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/jagan.jpg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/jagannath-swarnkar-906664170/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Jagannath Swarnkar</h3>
+              <span class="post">Appscrip, Bangaluru</span>
+              <p class="card-text">
+                Jagan is from Pilibhit, Uttar Pradesh. He completed his 12th and joined Navgurukul. He started his programming journey at Navgurukul and today he is financially supporting his family. He is working as a full stack web developer at Appscrip, Bengaluru. Currently working with Reactjs, Angularjs, and Nodejs
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/jai.jpg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/jai-dev-84a8b2157/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Jai Kishan</h3>
+              <span class="post">Mahiti Infotech, Bangalore</span>
+              <p class="card-text">
+                Jai has passed his 12th and He is from Delhi, now working as a Python developer in Mahiti Infotech, Bangalore. Interested in social welfare and intracting with new peoples.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/amar-sinha.jpg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="http://linkedin.com/in/amar-sinha-5530b1158" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Amar Sinha</h3>
+              <span class="post">Thoughtworks, Bangalore</span>
+              <p class="card-text">
+                Amar&#x27;s dad runs a small shop in Guwahati, making college an unafforable option for him. He joined NavGurukul to learn at his own terms, and is currently a full-stack developer - Javascript, Java and Python being primary language of his interest.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/diwakar-prasad.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/diwakar-prasad-a47a34150" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Diwakar Prasad</h3>
+              <span class="post">Mindtree, Bangalore</span>
+              <p class="card-text">
+                Diwakar belongs to a low-income family where his father is the only earning person and drives a car for a private company. He joined Navgurukul after finishing his schooling from a Delhi Government school in August 2017 after struggling a lot to get admission in a good college. Finally, his hard work and dedication paid off and he is now working at MindTree as a software developer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/nitin-gupta.png" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="http://linkedin.com/in/nitingupta220" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Nitin Gupta</h3>
+              <span class="post">Codeyug, Delhi</span>
+              <p class="card-text">
+                Nitin was helping out his father at their recharge shop after finishing his class 12th. Now he works for CodeYug, Delhi as a Software Developer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/annu-bharti.png" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="http://linkedin.com/in/annu-bharti-6a60bb158" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Annu Bharti</h3>
+              <span class="post">Mindtree, Bangalore</span>
+              <p class="card-text">
+                Annu hailing from Kishanganj, Bihar is working at Mindtree. Living in a village she barely had access to good education. Now she wishes to establish another Navgurukul in  her own village.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/aman-sharma.jpg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/aman-sharma-52aa38184/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Aman Sharma</h3>
+              <span class="post">Safal Solutions, Hyderabad</span>
+              <p class="card-text">
+                Aman Sharma Completed his 12th from MP(Bord). he started his journey on july 2018 and now he is working in safal solution as a PHP Developer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/kajal-ahirwal.png" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="http://linkedin.com/in/kajal-ahirwal-41042b175" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Kajal Ahirwal</h3>
+              <span class="post">Mindtree, Bangalore</span>
+              <p class="card-text">
+                Kajal an 18 year old girl, who just finished her tenth class, with less than 6 months of training at Navgurukul - is now working at Mindtree.  Based out of Delhi, her father is a rickshaw puller and mother a domestic cook in Delhi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/sunil.jpg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/sunil-parcha-58a6a2182" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Sunil</h3>
+              <span class="post">SAFAL Solutions, Hyderabad</span>
+              <p class="card-text">
+                Sunil has passed his 12th class last year. He was not able to took admission in collage because of his less marks. Then he joined Navgurukul. Now he is working as a java developer at Safal Solutions, Hyderabad
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/shivam.png" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="http://linkedin.com/in/shivam-raj-0a540b133" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Shivam Raj</h3>
+              <span class="post">GamingMonk, Delhi</span>
+              <p class="card-text">
+                Shivam (12th pass) was working as a helper at a local bakery and then at a call center. He is now working as a Software Developer at GamingMonk, Delhi.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/khushboo.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/khushboopandit/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Khushboo Pandit</h3>
+              <span class="post">FTwo, Delhi</span>
+              <p class="card-text">
+                Khushboo was the youngest girl to join NavGurukul (at 16). She is currently working as a react developer but can code full-stack. Her dad works as a cleaner in Gurgaon while she finished her schooling with the help of Neev Foundation.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/nitesh-sharma.jpg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="#" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Nitesh Sharma</h3>
+              <span class="post">Facility-in-Charge, NavGurukul</span>
+              <p class="card-text">
+                Nitesh completed BCA from Sant Singaji Institute Of Science &amp; Management. Interested in social welfare and solving problems through facilitation and ground-work.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/vishal-gaddam.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/vishal-gaddam-7a20b1178/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Vishal Gaddam</h3>
+              <span class="post">WhiteHat Jr, Mumbai</span>
+              <p class="card-text">
+                Vishal Gaddam completed his graduation in B.Sc.IT from Mumbai University. He joined NavGurukul in June 2018 and now he is  working as Curriculum Designer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/anoop-gupta.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/anoop-gupta-576536168/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Anoop Gupta</h3>
+              <span class="post">Repup, Gurgaon</span>
+              <p class="card-text">
+                Anoop Gupta completed his graduation from Kanpur University. he started his journey as a programmer from NavGurukul. He is  working in Repup(Gurgaon) as a Software Developer
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/rani-pandit.jpg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/rani-pandit-108102158/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Rani Pandit</h3>
+              <span class="post">Momspresso, Delhi NCR</span>
+              <p class="card-text">
+                Rani is currently working as a React Developer in Gurgaon. Barely 18, Rani&#x27;s father work as a mason but have always inspired her to work harder towards her aspirations
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/naresh-gautam.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/naresh-kumar-gautam-1222b7183/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Naresh Kumar Gautam</h3>
+              <span class="post">FTwo, Delhi</span>
+              <p class="card-text">
+                Naresh (10th pass) hails from Delhi and is currently working in Gurgaon. Interested in sports and Art and craft.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/savita.jpg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/savita-verma-133782167/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Savita Verma</h3>
+              <span class="post">Freelancer</span>
+              <p class="card-text">
+                From Jhunjhunu (Rajasthan), Savita is a fierce debator and a freelance content writer. Savita is quite vocal about gender related issues. Currently, she is also working on outreach at NavGurukul to onboard partners for admission of new students.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/rahulk.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/rahul7042/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Rahul Kashyap</h3>
+              <span class="post">BSD Technologies, Gurgaon</span>
+              <p class="card-text">
+                Rahul Kashyap working in Bsd Technology as a android developer and have great experience in developing mobile application.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/shivnath.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/shivnath-halder-ba40b5158/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Shivnath Halder</h3>
+              <span class="post">BSD Technologies, Gurgaon</span>
+              <p class="card-text">
+                Shivnath has start his carrier at the age of 17 and now he is working in Bsd Technology as a Software developer, moreover he worked with react.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/pratyush.png" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/pratyush-kumar-9b0927134/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Pratyush Kumar</h3>
+              <span class="post">Mindtree, Bangalore</span>
+              <p class="card-text">
+                Pratyush attended NavGurukul from November 2017 until September 2018. He is now working at MindTree Limited. He has a strong desire to work in rural education in the long-term. Pratyush likes to play cricket and mentors students at NavGurkul in his free time. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/deepa.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/deepa-sinha-06a79716a" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Deepa Kumari</h3>
+              <span class="post">Mindtree, Bangalore</span>
+              <p class="card-text">
+                Deepa has passed her 12th and she is from Guwahati, Assam, her father have a small shop and she completed her training in just 7 months. Now working as a Android developer in Mindtree, Bangalore.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/pralhad-jadhav.jpg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/pralhad-jadhav-7073b1174/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Pralhad Jadhav</h3>
+              <span class="post">Software Engineer, Dharmashala</span>
+              <p class="card-text">
+                A Navgurkul alumnus, Pralhad completed BE from Electronics &amp; Telecommunication engineering stream Graduate in 2017 from Pune Univercity. Now working with Navgurukul as Software Engineer
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/sonam-kumawat.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/sonam-kumawat-906685182/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Sonam Kumawat</h3>
+              <span class="post">NodeJS developer, E-unimart</span>
+              <p class="card-text">
+                She completed BSc from Vikram university ujjain. right now working as software developer in E-unimart hyderabad.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/komal-bhatt.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/komal-bhatt-a1779716a/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Komal Bhatt</h3>
+              <span class="post">Actyv, Bangalore</span>
+              <p class="card-text">
+                Komal has completed 12th. She doesn’t have an interest to join the college that’s why she came to NavGurukul,NavGurkul had become a good opportunity for her because She got to know about herself more and started exploring things in NavGurkul as being the part of the council and visiting places as a manthan opportunity. She is doing an internship in Actyv Company as a web developer
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/aman-jha.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/aman-jha-815532168/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Aman Jha</h3>
+              <span class="post">Python developer, Bsd technology</span>
+              <p class="card-text">
+                He belongs to a low-income family and he has completed Intermediate then joined navgurukul. Now he is working  as a python developer in Bsd technology. Aman likes to play Cricket.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/akhil.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/akhil-rawat-111545168/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Akhil Rawat</h3>
+              <span class="post">Web Developer, CodeChef</span>
+              <p class="card-text">
+                Akhil comes from Dehradun. He joined NavGurukul after completing his Intermediate Studies. Presently, he is working as a Web Developer in CodeChef.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/manoj-kumar.png" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/manoj-kumar-3b06a2148/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Manoj Kumar</h3>
+              <span class="post">Web Developer, iDream Education Pvt Ltd</span>
+              <p class="card-text">
+                Manoj graduated from Delhi University. His father works as a peon. He learnt programming at NavGurukul and now working as a Web Development &amp; Digital Marketing Manager at iDream Education Pvt Ltd. He loves to travel and meet new people.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/Aslam.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/aslam-desusa-4a9647148/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Aslam</h3>
+              <span class="post">Software Developer, Freelancer</span>
+              <p class="card-text">
+                Aslam currently works and lives in Delhi. His father works as a rickshaw driver. He is a person who is positive about every aspect of life. He is a software developer who studied from NavGurukul. He is currently a freelancer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/Ravina.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/ravina-kumari-76279616a/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Ravina</h3>
+              <span class="post">Backend Developer, Juspay</span>
+              <p class="card-text">
+                Ravina is from Mohamari, Bihar. Her father works as a farmer. It was very difficult for Ravina to continue her study after completing 12th class due to  lack of money. She chose NavGurukul and is now working as a Backend Developer in Juspay - world’s first mobile payment browser for Secure 1–click experience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/nilu.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/nilam-kumari-53379816a/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Nilam Kumari</h3>
+              <span class="post">Technical Associate, NavGurukul</span>
+              <p class="card-text">
+                Nilam belongs to Kishanganj, Bihar. She has done her graduation. Her father works as small farmer. She wants to explore working in technology. Currently she is working as a core team member with NavGurukul.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/Pooja_Saini.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/mwlite/in/pooja-saini-1910bb158" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Pooja Saini</h3>
+              <span class="post">Frontend Developer, SmallWorld Digital Services</span>
+              <p class="card-text">
+                Pooja is from Delhi. Her mother works as a tailor, after her dad&#x27;s death her mother was the only person to take care of her family. Pooja has aspiration to do something big is in her life. Currently she is working as a Frontend Developer in SmallWorld Digital Service - software-powered integrated solution that combines technology, analytics &amp; automation to enable brands to improve their own-website revenues.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/Pavan.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/mwlite/in/pavan-vishwkarma-96a81a182" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Pavan Vishwakarma</h3>
+              <span class="post"></span>
+              <p class="card-text">
+                Pavan is from MP. His dad works as a carpenter. He also start his career as a carpenter to support his dad. After his education in NavGurukul he is working as Software developer in Mobiroller- self-service mobile app platform that enables anyone to create apps without coding.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/Pratik.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/mwlite/in/pratik-deshmukh-b2a135185" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Pratik Deshmukh</h3>
+              <span class="post">Software Developer, Leap Club</span>
+              <p class="card-text">
+                Pratik comes from a family which traditionally works into farming in the tribal village of Lobhi, Bhandara district, Maharashtra. His dad works as a sugarcane farmer and mom is a housewife. He has completed class 8th and joined NavGurukul. He works in Auroville with Leap club as a Software Developer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 equal-heights mt-4">
+          <div class="alumni">
+            <div class="pic">
+              <img src="assets/img/alumni/Venu.jpeg" alt="" />
+              <ul class="social">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/venu-jibhakate-9633a3180/" class="fa fa-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="team-content introduction">
+              <h3 class="team-title">Venu Bhaktpralhad Jibhakate</h3>
+              <span class="post">ReactJs Developer, SmallWorld Digital Services</span>
+              <p class="card-text">
+                Venu has completed class 12th from Maharashtra. Her father has a small shop. She dropped out from BSc and joined NavGurukul. She felt deeply interested in Frontend Engineering because of her interest in design. Currently, woking as a ReactJs Developer in SmallWorld Digital Service - software-powered integrated solution that combines technology, analytics &amp; automation to enable brands to improve their own-website revenues.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <section class="bg-dark pt-2 mt-5 pb-2">
+      <div class="container">
+          <div class="row bg-dark">
+              <div class="col-md-4">
+                  <ul class="nav-footer">
+                      <li>
+                          <a href="index.html#page-top">Home</a>
+                      </li>
+                      <li>
+                          <a href="http://saral.navgurukul.org">&lt;SARAL&gt;</a>
+                      </li>
+                      <li>
+                          <a href="about.html">About</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-md-4">
+                  <ul class="nav-footer">
+                      <li>
+                          <a href="index.html#team">Team</a>
+                      </li>
+                      <li>
+                          <a href="donate.html">Donate Now</a>
+                      </li>
+                      <li>
+                          <a href="https://angel.co/navgurukul-foundation/jobs">Join Us</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-md-4">
+                  <ul class="nav-footer">
+                      <li>
+                          <a href="index.html#contact">Contact</a>
+                      </li>
+                      <li>
+                          <a href="index.html#toc">Theory Of Change</a>
+                      </li>
+                      <!-- <li>
+                          <a href="honours.html">Roll Of Honours</a>
+                      </li> -->
+                  </ul>
+              </div>
+              <!-- <div class="col-md-12 text-center">
+                  <span class="bottombrand wow flipInX">Start learning now at <a target="_blank" href="https://merakilearn.org/">MERAKI</a><br/>
+                  Website maintained by NavGurukul students</span>
+              </div> -->
+          </div>
+      </div>
+  </section>
+      
+
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments);
+      }), (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga");
+    ga("create", "UA-87278976-1", "auto");
+    ga("send", "pageview");
+  </script>
+
+  <!-- Facebook Pixel Code -->
+	<script>
+		  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	    n.queue=[];t=b.createElement(e);t.async=!0;
+	    t.src=v;s=b.getElementsByTagName(e)[0];
+	    s.parentNode.insertBefore(t,s)}(window, document,'script',
+		      'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '831691363937316');
+  fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+				       src="https://www.facebook.com/tr?id=831691363937316&ev=PageView&noscript=1"
+	   /></noscript>
+	<!-- End Facebook Pixel Code -->
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+  <!-- inject:js -->
+  <script src="/assets/js/alumni-min.js"></script>
+  <script src="/assets/js/common-min.js"></script>
+  <script src="/assets/js/iframe-min.js"></script>
+  <script src="/assets/js/language-min.js"></script>
+  <script src="/assets/js/randomBadge-min.js"></script>
+  <script src="/assets/js/readmore-min.js"></script>
+  <script src="/assets/js/slick-min.js"></script>
+  <script src="/assets/js/video-deck-min.js"></script>
+  <!-- endinject -->
+</body>
+
+</html>
